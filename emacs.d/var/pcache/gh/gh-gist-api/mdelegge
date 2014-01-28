@@ -1,0 +1,7 @@
+;; Object gh/gh-gist-api/mdelegge
+;; EIEIO PERSISTENT OBJECT
+(gh-cache "gh/gh-gist-api/mdelegge"
+  :file "mdelegge"
+  :entries #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8 data (("/users/mdelegge/gists" "GET" "518961b9e53cab492b8a913ae8ba7382d4306545") [object pcache-entry "pcache-entry" 1360285489.899238 nil nil]))
+  :timestamp 1362530424.244153
+  )

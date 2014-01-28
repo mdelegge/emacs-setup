@@ -1,0 +1,514 @@
+;; -*- coding: utf-8 -*-
+(("The Verge -  All Posts" nil nil (20912 55891 698165 0) feed 0 nil nil ((title nil "The Verge -  All Posts") (subtitle nil) (icon nil "http://cdn1.sbnation.com/community_logos/34086/verge-fv.png") (updated nil "2013-06-04T23:00:05Z") (id nil "http://www.theverge.com/rss/index.xml") (link ((type . "text/html") (href . "http://www.theverge.com/") (rel . "alternate"))) (entry nil (published nil "2013-06-04T23:00:05Z") (updated nil "2013-06-04T23:00:05Z") (title nil "‘The Internship’ review: welcome to Google’s island") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Internship-vaughn-wilson-1_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/8299411/internship-vaughn-wilson-1_large.jpg\" />
+
+
+
+
+
+  <p>In 1989, we saw the release of <em>The Wizard</em>, a road trip movie about video games starring child actor Fred Savage. But everybody knew that it wasn't really a movie about video games or road trips &mdash; it was a movie about selling <em>Super Mario Bros. 3</em> and other Nintendo products. Nearly 25 years later, we have <em>The Internship</em>, a buddy comedy about two old guys trying to reinvent themselves for the 21st-century economy starring Vince Vaughn and Owen Wilson. But everybody knows (or will know) that it isn't really a movie about friendship or new beginnings &mdash; it's a movie about selling Google.</p>
+
+<p>Not since <em>The Wizard</em> has a movie been so in the bag for a corporation. It&rsquo;s incredibly difficult to watch <em>The Internship</em> as simply a movie and not as...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4389244/the-internship-review\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4389244/the-internship-review"))) (id nil "http://www.theverge.com/2013/6/4/4389244/the-internship-review") (author nil (name nil "Dieter Bohn"))) (entry nil (published nil "2013-06-04T22:51:00Z") (updated nil "2013-06-04T22:51:00Z") (title nil "90 Seconds on The Verge: HTC, OMGPOP, and Obama vs. patent trolls") (content ((type . "html")) "
+  
+    <p>He was born 1988 in Richmond, Virginia and also 1983 in Rotterdam, Netherlands. At age 15 he left SBV Excelsior's youth squad and signed for Feyenoord. He attended University of Virginia from 2006-2010 starting just after he performed \"the goal of a lifetime\" in a September 2006 match against Charlton. He was hired at PCMag in 2010 and changed his squad number to 10, previously used by Dennis Bergkamp. In 2011 he joined The Verge and became club captain following the transfer of Cesc F&agrave;bregas to FC Barcelona. As of March 2013, he is the host of Top Shelf, and then one month later he contributed to Manchester United's 20th league title.</p>
+<p><b>Stories of the day:</b></p>
+<ul>
+<li><a href=\"http://www.theverge.com/2013/6/4/4393958/president-to-take-aim-at-patent-trolls-with-executive-actions\" target=\"_blank\">President Obama to take aim at patent trolls with executive actions on Tuesday</a></li>
+<li><a href=\"http://www.theverge.com/2013/6/4/4394308/htc-coo-matthew-costello-departs-company\" target=\"_blank\">H...</a></li>
+</ul>
+  
+  
+    <iframe src='http://www.theverge.com/videos/iframe?id=24469' frameborder='0' seamless='true' marginwidth='0' mozallowfullscreen='true' webkitallowfullscreen='true' name='24469-chorus-video-iframe'></iframe>
+  
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4396226/htc-omgpop-and-obama-patent-trolls-90sotv"))) (link ((type . "video/mp4") (rel . "enclosure") (href . "http://www.theverge.com/rss/redirect.mp4?url=http://ak.c.ooyala.com/puMHc1Yzq8QuMW7sgLoietOc3aaMreBX/DOcJ-FxaFrRg4gtDEwOjFpaDowODE7jj"))) (id nil "http://www.theverge.com/2013/6/4/4396226/htc-omgpop-and-obama-patent-trolls-90sotv") (author nil (name nil "Ross Miller"))) (entry nil (published nil "2013-06-04T22:12:02Z") (updated nil "2013-06-04T22:12:02Z") (title nil "Adobe reveals the tech and tricks behind Project Mighty and Napoleon") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Theverge1_1020_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8317251/theverge1_1020_large.jpg\" />
+
+
+
+
+
+  <p>Adobe has always been a software company, but last month <a href=\"http://www.theverge.com/2013/5/6/4305712/adobe-announces-first-hardware-the-project-mighty-smart-stylus\">it revealed it was tinkering with something new</a>: hardware. Its first efforts are Project Mighty, a smart stylus <a href=\"http://www.theverge.com/2013/5/6/4305300/adobe-announces-creative-suite-update-and-rebranding-focus-on-cloud\">with Creative Cloud integration</a>, and Project Napoleon, a smart ruler that can create a variety of different shapes. The company is calling the tools \"experiments\" &mdash; not products &mdash; but it's clear that Adobe has put a lot of thought into them both. We've just gotten a chance to play around with their early prototypes to get a better sense of how they work.</p>
+<p></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4395924/adobe-project-mighty-napoleon-impressions-video-demo\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4395924/adobe-project-mighty-napoleon-impressions-video-demo"))) (link ((type . "video/mp4") (rel . "enclosure") (href . "http://www.theverge.com/rss/redirect.mp4?url=http://ak.c.ooyala.com/4zaXM1Yzot5rxb0cWgMB48rxZNNydbnx/DOcJ-FxaFrRg4gtDEwOjFpaDowODE7jj"))) (id nil "http://www.theverge.com/2013/6/4/4395924/adobe-project-mighty-napoleon-impressions-video-demo") (author nil (name nil "Jacob Kastrenakes"))) (entry nil (published nil "2013-06-04T22:00:06Z") (updated nil "2013-06-04T22:00:06Z") (title nil "NASA launching rocket tonight on self-destruction mission to study the early universe") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Ciber-image_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/8317151/CIBER-image_large.jpg\" />
+
+
+
+
+
+  <p>NASA is <a target=\"_blank\" href=\"http://www.nasa.gov/centers/wallops/news/ciberla.html\">launching a rocket high into Earth's atmosphere</a> tonight between 11 PM and midnight Eastern time, in an effort to capture images from the universe's dawn. The agency will be broadcasting the launch live on <a target=\"_blank\" href=\"http://www.ustream.tv/channel/nasa-wallops\" style=\"background-color: #ffffff; text-decoration: underline;\">Ustream</a> from Wallops, Virginia, and the launch site will be open to the public. But the mission, known as the <a target=\"_blank\" href=\"http://www.nasa.gov/mission_pages/sounding-rockets/missions/CIBER-4.html\">Cosmic Infrared Background ExpeRIment Four (CIBER)-4)</a>, won't be returning to Earth when it's done, unlike three previous flights of this same experiment.</p>
+<p></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4395680/nasa-launching-ciber-infrared-rocket-for-early-universe-pics\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4395680/nasa-launching-ciber-infrared-rocket-for-early-universe-pics"))) (id nil "http://www.theverge.com/2013/6/4/4395680/nasa-launching-ciber-infrared-rocket-for-early-universe-pics") (author nil (name nil "Carl Franzen"))) (entry nil (published nil "2013-06-04T21:21:16Z") (updated nil "2013-06-04T21:21:16Z") (title nil "Samsung wins US import ban on AT&T iPhone 4 and 3G iPads in ongoing patent dispute") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Google__iphone_ipad_large_verge_medium_landscape_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8318103/Google__iPhone_iPad_large_verge_medium_landscape_large.jpg\" />
+
+
+
+
+
+  <p>The ITC has banned Apple from importing some models of iPhone and iPad because they infringe on a Samsung patent. In a cease and desist order issued today, the International Trade Commission ordered Apple to stop importing AT&amp;T models of the iPhone 4, the 3GS and 3G, the iPad 3G, and the iPad 2 3G into the US. According to Samsung, Apple used a cellular data patent in developing older versions of its iPhone and iPad; newer models do not use technology covered in its claim. While the ITC did not agree that Apple had violated several other patents in Samsung's complaint, it said that Apple had not provided a strong defense against claims that it infringed on the '348 patent.</p>
+<p>Apple, for its part, has claimed that Samsung had <a href=\"http://www.theverge.com/2011/10/31/2522418/apple-brings-proven-defense-strategy-to-its-u-s-case-against-samsung\">agreed to...</a></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4396430/samsung-wins-import-ban-on-at-t-iphone-4-and-3g-ipads\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4396430/samsung-wins-import-ban-on-at-t-iphone-4-and-3g-ipads"))) (id nil "http://www.theverge.com/2013/6/4/4396430/samsung-wins-import-ban-on-at-t-iphone-4-and-3g-ipads") (author nil (name nil "Adi Robertson"))) (entry nil (published nil "2013-06-04T21:10:05Z") (updated nil "2013-06-04T21:10:05Z") (title nil "'Shadow of the Eternals' horror game Kickstarter 'temporarily' cancelled") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Ac59c10ddfb5092eb521185478c384e7_large_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8317927/ac59c10ddfb5092eb521185478c384e7_large_large.jpg\" />
+
+
+
+
+
+  <p><i>Shadow of the Eternals</i>, a <a href=\"http://www.theverge.com/2013/5/3/4298414/shadow-of-the-eternals-eternal-darkness-spiritual-successor-trailer-wii-u-pc\">crowdfunded spiritual sequel</a> to GameCube classic <i>Eternal Darkness: Sanity's Requiem</i>, was meant to be a fresh start for a group of developers from struggling studio Silicon Knights. But in a strange development, the team is suspending its fundraising campaign 14 days and over a million dollars short of its goal, saying that new \"opportunities\" have changed the situation. \"Since we announced this Kickstarter campaign we have seen more support from our community than we had ever hoped for,\" <a target=\"_blank\" href=\"http://www.kickstarter.com/projects/617502838/shadow-of-the-eternals/posts/500534\">writes Precursor Games head Paul Caporicci</a>.</p>
+<p>\"Along with this support has come a host of a new exciting opportunities that will make the game better than we envisioned. As a result, we have chosen to temporarily take down the <i>S...</i></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4396278/shadow-of-the-eternals-horror-game-kickstarter-temporarily-cancelled\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4396278/shadow-of-the-eternals-horror-game-kickstarter-temporarily-cancelled"))) (id nil "http://www.theverge.com/2013/6/4/4396278/shadow-of-the-eternals-horror-game-kickstarter-temporarily-cancelled") (author nil (name nil "Adi Robertson"))) (entry nil (published nil "2013-06-04T20:49:22Z") (updated nil "2013-06-04T20:49:22Z") (title nil "Apple releases OS X 10.8.4 with fix for out-of-order iMessages") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Mlverge_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/8317935/MLVERGE_large.jpg\" />
+
+
+
+
+
+  <p>Apple just released its latest update to OS X, version 10.8.4. It's a relatively small revision that primarily focuses on minor bug fixes, but there is one promising change for iMessage users. Apple says that it's now fixed an annoying issue that would display your iMessage conversations out of order. After installing the update and checking our messages, we're still seeing some chats that aren't displayed properly, but presumably Apple's resolution will ensure that your future messages won't get thrown out of whack. The update also alleviates many of the pains of searching with Messages, which used to cause system hangups and crazy amounts of processor usage</p>
+<p>Aside from iMessage, 10.8.4 addresses quirks with Exchange compatibility in...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4396302/mac-osx-10-8-4-released-fixes-out-of-order-imessages\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4396302/mac-osx-10-8-4-released-fixes-out-of-order-imessages"))) (id nil "http://www.theverge.com/2013/6/4/4396302/mac-osx-10-8-4-released-fixes-out-of-order-imessages") (author nil (name nil "Chris Welch"))) (entry nil (published nil "2013-06-04T20:01:15Z") (updated nil "2013-06-04T20:01:15Z") (title nil "Bose unveils noise-cancelling earbuds and its smallest Bluetooth speaker yet (hands-on)") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Dsc00204verge_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/8317215/DSC00204VERGE_large.jpg\" />
+
+
+
+
+
+  <p>Bose today rolled out its first ever noise-cancelling earbuds, the QuietComfort 20s, along with its latest portable Bluetooth speaker, the SoundLink Mini. In typical fashion, the company heralded both products as revolutionary and the result of extensive research and development. \"New headphones and Bluetooth speakers are being introduced almost every week it seems now,\" said Brian Maguire. \"But we submit that none of them can do what we're about to show you today,\" he went on, claiming that QuietComfort 20 and SoundLink Mini each deliver \"mobile audio like never before.\" But does the hyperbole pan out? We had a chance to try out both products, and our impressions are below.</p>
+
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4395834/bose-quietcomfort-20-soundlink-mini-hands-on-impressions-photos\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4395834/bose-quietcomfort-20-soundlink-mini-hands-on-impressions-photos"))) (id nil "http://www.theverge.com/2013/6/4/4395834/bose-quietcomfort-20-soundlink-mini-hands-on-impressions-photos") (author nil (name nil "Chris Welch"))) (entry nil (published nil "2013-06-04T19:40:56Z") (updated nil "2013-06-04T19:40:56Z") (title nil "How a cardboard box saves babies' lives in Finland") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"388686_240231366044372_1109791763_n_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8317197/388686_240231366044372_1109791763_n_large.jpg\" />
+
+
+
+
+
+  <p>In Finland, nearly every newborn is sent home with a free, <a href=\"http://www.bbc.co.uk/news/magazine-22751415\" target=\"_blank\">government-issued cardboard box</a>. The idea might seem a bit strange, but in Finland it's helped dramatically decrease infant mortality rates and perpetuate the idea that children there each start on the same, equal footing, according to a report from the <i>BBC</i>. And what's inside each of these boxes is just as important as the box itself.</p>
+<p></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4395742/finland-kela-maternity-box-baby\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4395742/finland-kela-maternity-box-baby"))) (id nil "http://www.theverge.com/2013/6/4/4395742/finland-kela-maternity-box-baby") (author nil (name nil "Nathan Olivarez-Giles"))) (entry nil (published nil "2013-06-04T19:31:40Z") (updated nil "2013-06-04T19:31:40Z") (title nil "Most detailed map of Antarctica's surface in over 10 years released") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Antarctica-bedmap2-topography_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/8317263/antarctica-bedmap2-topography_large.png\" />
+
+
+
+
+
+  <p>The ends of the Earth are getting their close-up. NASA today released a new, <a href=\"http://www.nasa.gov/topics/earth/features/antarctic-map.html\" target=\"_blank\">updated map</a> of the topography &mdash; that is, the surface structure &mdash; of Antarctica. The new topographical map of Earth's southernmost continent is based on an older map from 10 years ago called Bedmap. But the new version, Bedmap2, contains literally millions more details about the frozen landscape than its predecessor, as NASA showed off today on its website, with slider graphics comparing the two. Bedmap2 was created from data collected by multiple sources over the course of several years, including <a target=\"_blank\" href=\"http://www.nasa.gov/mission_pages/icebridge/index.html\">NASA's Operation IceBridge</a>, a specially outfitted observation plane that the agency flies over cold, hard-to-reach regions. The entire project was led by the...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/4/4395824/antarctica-bedmap2-released-by-nasa-and-british-survey\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/4/4395824/antarctica-bedmap2-released-by-nasa-and-british-survey"))) (id nil "http://www.theverge.com/2013/6/4/4395824/antarctica-bedmap2-released-by-nasa-and-british-survey") (author nil (name nil "Carl Franzen"))))) ("White House defends NSA phone surveillance following leaked Verizon order" "<img alt=\"5091124443_5554c31756_b_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8325929/5091124443_5554c31756_b_large.jpg\" />
+<p>The White House has moved quickly to defend the collection of phone records by the US National Security Agency (NSA). In a <a target=\"_blank\" href=\"http://news.yahoo.com/white-house-defends-collecting-phone-records-105535514.html\">statement shared with the <i>AP</i></a>, a senior White House official said the handing over of call records is \"a critical tool in protecting the nation from terrorist threats.\" The response comes after a recent report alleged Verizon is being forced to submit \"telephony metadata\" to the NSA on a daily basis for all calls originating in the US.</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4401654/white-house-nsa-verizon-us-call-records\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4401654/white-house-nsa-verizon-us-call-records" (20912 30076) obsolete 1 nil nil ((published nil "2013-06-06T11:41:48Z") (updated nil "2013-06-06T11:41:48Z") (title nil "White House defends NSA phone surveillance following leaked Verizon order") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"5091124443_5554c31756_b_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8325929/5091124443_5554c31756_b_large.jpg\" />
+
+
+
+
+
+  <p>The White House has moved quickly to defend the collection of phone records by the US National Security Agency (NSA). In a <a target=\"_blank\" href=\"http://news.yahoo.com/white-house-defends-collecting-phone-records-105535514.html\">statement shared with the <i>AP</i></a>, a senior White House official said the handing over of call records is \"a critical tool in protecting the nation from terrorist threats.\" The response comes after a recent report alleged Verizon is being forced to submit \"telephony metadata\" to the NSA on a daily basis for all calls originating in the US.</p>
+
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4401654/white-house-nsa-verizon-us-call-records\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4401654/white-house-nsa-verizon-us-call-records"))) (id nil "http://www.theverge.com/2013/6/6/4401654/white-house-nsa-verizon-us-call-records") (author nil (name nil "Matt Brian")))) ("Twitter for Windows Phone updated with image filters and Vine playback support" "<img alt=\"Twitterwp81_640_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8328807/twitterwp81_640_large.jpg\" />
+<p>Twitter released a <a href=\"http://www.theverge.com/2013/2/26/4032814/twitter-for-windows-phone-update-hands-on\">major update for its Windows Phone client</a> in February, but it lacked the new image filters that had been recently introduced to iOS and Android. Twitter is updating its Windows Phone app today to add these filters in alongside some additional improvements. The updated app now includes Lens app integration, meaning you can Tweet pictures directly from the Windows Phone camera, and Twitter is officially supporting Vine playback directly within tweets.</p>
+<p>Other improvements include a refresh lists on-demand option, and the ability to save tweeted photos to the Photos app on Windows Phone. The updated camera support includes 8 filters in total, with an updated UI for the tweet composition window. All together, it puts the...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402626/twitter-for-windows-phone-image-filters-vine-playback\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402626/twitter-for-windows-phone-image-filters-vine-playback" (20912 47684) obsolete 1 nil nil ((published nil "2013-06-06T16:35:16Z") (updated nil "2013-06-06T16:35:16Z") (title nil "Twitter for Windows Phone updated with image filters and Vine playback support") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Twitterwp81_640_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8328807/twitterwp81_640_large.jpg\" />
+
+
+
+
+
+  <p>Twitter released a <a href=\"http://www.theverge.com/2013/2/26/4032814/twitter-for-windows-phone-update-hands-on\">major update for its Windows Phone client</a> in February, but it lacked the new image filters that had been recently introduced to iOS and Android. Twitter is updating its Windows Phone app today to add these filters in alongside some additional improvements. The updated app now includes Lens app integration, meaning you can Tweet pictures directly from the Windows Phone camera, and Twitter is officially supporting Vine playback directly within tweets.</p>
+<p>Other improvements include a refresh lists on-demand option, and the ability to save tweeted photos to the Photos app on Windows Phone. The updated camera support includes 8 filters in total, with an updated UI for the tweet composition window. All together, it puts the...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402626/twitter-for-windows-phone-image-filters-vine-playback\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4402626/twitter-for-windows-phone-image-filters-vine-playback"))) (id nil "http://www.theverge.com/2013/6/6/4402626/twitter-for-windows-phone-image-filters-vine-playback") (author nil (name nil "Tom Warren")))) ("Sean Parker responds to his wedding critics: 'everything we did was an homage to nature'" "<img alt=\"Parker_wedding_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8329195/parker_wedding_large.png\" />
+<p>Sean Parker came under <a href=\"http://www.theverge.com/2013/6/5/4397930/sean-parker-fined-2-5-million-for-big-sur-wedding\">heavy criticism Tuesday</a> when government documents revealed that his lavish wedding had resulted in a $2.5 million fine for ignoring regulations. The California Coastal Commission report, first reported by Alexis Madrigal at <i>The Atlantic</i>, detailed how Parker had failed to obtain permits before installing \"fake ruins\" and making extensive changes to the park which is in an environmentally protected area of redwood forestry.</p>
+<p>Today, Parker has written an <a href=\"http://www.theatlantic.com/technology/archive/13/06/sean-parker-responds-to-redwoods-wedding-criticism-and-his-defense-is-actually-pretty-convincing/276553/\" target=\"_blank\">extensive response</a> to Madrigal, saying that \"everything we did was an homage to nature, to the natural redwood environment which I call \"God's cathedral.\" The land which he chose for the wedding, he says, was not \"undisturbed\" in any way, and that much of it was...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402758/sean-parker-responds-to-his-wedding-critics-everything-we-did-was-an\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402758/sean-parker-responds-to-his-wedding-critics-everything-we-did-was-an" (20912 51270) old 7 nil nil ((published nil "2013-06-06T17:35:02Z") (updated nil "2013-06-06T17:35:02Z") (title nil "Sean Parker responds to his wedding critics: 'everything we did was an homage to nature'") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Parker_wedding_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8329195/parker_wedding_large.png\" />
+
+
+
+
+
+  <p>Sean Parker came under <a href=\"http://www.theverge.com/2013/6/5/4397930/sean-parker-fined-2-5-million-for-big-sur-wedding\">heavy criticism Tuesday</a> when government documents revealed that his lavish wedding had resulted in a $2.5 million fine for ignoring regulations. The California Coastal Commission report, first reported by Alexis Madrigal at <i>The Atlantic</i>, detailed how Parker had failed to obtain permits before installing \"fake ruins\" and making extensive changes to the park which is in an environmentally protected area of redwood forestry.</p>
+<p>Today, Parker has written an <a href=\"http://www.theatlantic.com/technology/archive/13/06/sean-parker-responds-to-redwoods-wedding-criticism-and-his-defense-is-actually-pretty-convincing/276553/\" target=\"_blank\">extensive response</a> to Madrigal, saying that \"everything we did was an homage to nature, to the natural redwood environment which I call \"God's cathedral.\" The land which he chose for the wedding, he says, was not \"undisturbed\" in any way, and that much of it was...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402758/sean-parker-responds-to-his-wedding-critics-everything-we-did-was-an\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4402758/sean-parker-responds-to-his-wedding-critics-everything-we-did-was-an"))) (id nil "http://www.theverge.com/2013/6/6/4402758/sean-parker-responds-to-his-wedding-critics-everything-we-did-was-an") (author nil (name nil "Laura June")))) ("Kiefer Sutherland will play Snake in 'Metal Gear Solid 5'" "<img alt=\"Screen_shot_2013-03-27_at_4\" src=\"http://cdn2.sbnation.com/entry_photo_images/8329217/Screen_shot_2013-03-27_at_4.30.04_PM_large.png\" />
+<p>Since 1998, Snake, the hero of the Metal Gear Solid videogame series, has been voiced by one man &mdash; David Hayter. But that changes in <i>Metal Gear Solid 5: The Phantom Pain</i> as Kiefer Sutherland, star of the hit TV show <i>24</i>, is taking over one of the most iconic roles in gaming.</p>
+<p><a href=\"http://www.polygon.com/2013/6/6/4402766/metal-gear-solid-5-snake-big-boss-voice-actor-revealed\" target=\"_blank\">Konami announced on Thrusday</a> that Sutherland will handle both voice acting and facial capture duties for Snake, who will be 49 years old in the upcoming title. Hayter leaving the role that he's defined for more than a decade wasn't a total surprise. Konami and the actor announced the change back in April, but it wasn't Hayter's desicion. As <a href=\"http://www.polygon.com/2013/4/1/4172048/david-hayter-metal-gear-solid-5\" target=\"_blank\"><i>Polygon</i> has reported</a>, the actor said in April, \"if it were my choice, I would do this role forever.\"</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402834/kiefer-sutherland-snake-metal-gear-solid-5\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402834/kiefer-sutherland-snake-metal-gear-solid-5" (20912 51169) old 8 nil nil ((published nil "2013-06-06T17:33:21Z") (updated nil "2013-06-06T17:33:21Z") (title nil "Kiefer Sutherland will play Snake in 'Metal Gear Solid 5'") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Screen_shot_2013-03-27_at_4\" src=\"http://cdn2.sbnation.com/entry_photo_images/8329217/Screen_shot_2013-03-27_at_4.30.04_PM_large.png\" />
+
+
+
+
+
+  <p>Since 1998, Snake, the hero of the Metal Gear Solid videogame series, has been voiced by one man &mdash; David Hayter. But that changes in <i>Metal Gear Solid 5: The Phantom Pain</i> as Kiefer Sutherland, star of the hit TV show <i>24</i>, is taking over one of the most iconic roles in gaming.</p>
+<p><a href=\"http://www.polygon.com/2013/6/6/4402766/metal-gear-solid-5-snake-big-boss-voice-actor-revealed\" target=\"_blank\">Konami announced on Thrusday</a> that Sutherland will handle both voice acting and facial capture duties for Snake, who will be 49 years old in the upcoming title. Hayter leaving the role that he's defined for more than a decade wasn't a total surprise. Konami and the actor announced the change back in April, but it wasn't Hayter's desicion. As <a href=\"http://www.polygon.com/2013/4/1/4172048/david-hayter-metal-gear-solid-5\" target=\"_blank\"><i>Polygon</i> has reported</a>, the actor said in April, \"if it were my choice, I would do this role forever.\"</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402834/kiefer-sutherland-snake-metal-gear-solid-5\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4402834/kiefer-sutherland-snake-metal-gear-solid-5"))) (id nil "http://www.theverge.com/2013/6/6/4402834/kiefer-sutherland-snake-metal-gear-solid-5") (author nil (name nil "Nathan Olivarez-Giles")))) ("'Kingdom Rush Frontiers' expands on one of the most addictive iOS games of last year" "<img alt=\"Screen_shot_2013-06-06_at_1\" src=\"http://cdn3.sbnation.com/entry_photo_images/8329223/Screen_Shot_2013-06-06_at_1.19.44_PM_large.png\" />
+<p><i>Kingdom Rush</i> remains <a href=\"http://www.theverge.com/2012/12/25/3793476/best-apps-new-ipad\">one of the best examples</a> of a game perfectly suited to Apple's iOS platform &mdash; it's an attractive tower defense game well-suited for quick sessions while on the go, but addictive enough to make you want to spend hours on it. Now, Ironhide Game Studio has released its sequel, <i>Kingdom Rush Frontiers, </i>for both the iPhone ($2.99) and iPad ($4.99). While the gameplay looks quite similar to its predecessor, <i>Frontiers</i> has been beefed up with a variety of new tools at your disposal, including eight new towers, nine total legendary heroes, new boss fights, and \"over 18\" total tower abilities. The bad guys got an upgrade, too &mdash; there's a total of 40 different enemies trying to get past your hopefully clever defenses. We...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402772/kingdom-rush-frontiers-now-available\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402772/kingdom-rush-frontiers-now-available" (20912 50912) old 10 nil nil ((published nil "2013-06-06T17:29:04Z") (updated nil "2013-06-06T17:29:04Z") (title nil "'Kingdom Rush Frontiers' expands on one of the most addictive iOS games of last year") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Screen_shot_2013-06-06_at_1\" src=\"http://cdn3.sbnation.com/entry_photo_images/8329223/Screen_Shot_2013-06-06_at_1.19.44_PM_large.png\" />
+
+
+
+
+
+  <p><i>Kingdom Rush</i> remains <a href=\"http://www.theverge.com/2012/12/25/3793476/best-apps-new-ipad\">one of the best examples</a> of a game perfectly suited to Apple's iOS platform &mdash; it's an attractive tower defense game well-suited for quick sessions while on the go, but addictive enough to make you want to spend hours on it. Now, Ironhide Game Studio has released its sequel, <i>Kingdom Rush Frontiers, </i>for both the iPhone ($2.99) and iPad ($4.99). While the gameplay looks quite similar to its predecessor, <i>Frontiers</i> has been beefed up with a variety of new tools at your disposal, including eight new towers, nine total legendary heroes, new boss fights, and \"over 18\" total tower abilities. The bad guys got an upgrade, too &mdash; there's a total of 40 different enemies trying to get past your hopefully clever defenses. We...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402772/kingdom-rush-frontiers-now-available\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4402772/kingdom-rush-frontiers-now-available"))) (id nil "http://www.theverge.com/2013/6/6/4402772/kingdom-rush-frontiers-now-available") (author nil (name nil "Nathan Ingraham")))) ("Citizen Eco-Drive Proximity review: a different kind of smartwatch" "<img alt=\"Watch1-hero_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8328381/watch1-hero_large.jpg\" />
+<p>Technology has become high fashion, or at least is trying desperately to do so. The gee-whiz factor of gadgets has worn off, and more and more we're now just trying to integrate them into our regular lives, and make them not only more powerful, but more attractive. Whether it's the Jawbone Up or Google Glass, companies are trying to find ways to make gadgets as stylish as they are powerful.</p>
+<p>But \"stylish\" may be harder for Jawbone and HP to achieve than we thought. That's why I was curious to check out Citizen's $495 Eco-Drive Proximity watch; Citizen has a long history of making beautiful, stylish watches, and now the company's trying to inject some 21st-century computing into the equation. Unlike <a href=\"http://www.theverge.com/2013/1/28/3924904/pebble-smartwatch-review\">the Pebble</a>, which is essentially the...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402344/citizen-eco-drive-proximity-review-a-different-kind-of-smartwatch\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402344/citizen-eco-drive-proximity-review-a-different-kind-of-smartwatch" (20912 49174) obsolete 9 nil nil ((published nil "2013-06-06T17:00:06Z") (updated nil "2013-06-06T17:00:06Z") (title nil "Citizen Eco-Drive Proximity review: a different kind of smartwatch") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Watch1-hero_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8328381/watch1-hero_large.jpg\" />
+
+
+
+
+
+  <p>Technology has become high fashion, or at least is trying desperately to do so. The gee-whiz factor of gadgets has worn off, and more and more we're now just trying to integrate them into our regular lives, and make them not only more powerful, but more attractive. Whether it's the Jawbone Up or Google Glass, companies are trying to find ways to make gadgets as stylish as they are powerful.</p>
+
+<p>But \"stylish\" may be harder for Jawbone and HP to achieve than we thought. That's why I was curious to check out Citizen's $495 Eco-Drive Proximity watch; Citizen has a long history of making beautiful, stylish watches, and now the company's trying to inject some 21st-century computing into the equation. Unlike <a href=\"http://www.theverge.com/2013/1/28/3924904/pebble-smartwatch-review\">the Pebble</a>, which is essentially the...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402344/citizen-eco-drive-proximity-review-a-different-kind-of-smartwatch\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4402344/citizen-eco-drive-proximity-review-a-different-kind-of-smartwatch"))) (id nil "http://www.theverge.com/2013/6/6/4402344/citizen-eco-drive-proximity-review-a-different-kind-of-smartwatch") (author nil (name nil "David Pierce")))) ("E3 2013 preview: what to expect from the biggest gaming event of the year" "<img alt=\"Nintendo-e3-2011-shigeru-miyamoto-ms-pulling-mad-rm-verge-1000_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8328475/Nintendo-E3-2011-shigeru-miyamoto-ms-pulling-mad-rm-verge-1000_large.jpg\" />
+<p>This year's edition of the Electronic Entertainment Expo &mdash; better known as E3 &mdash; is important for several reasons. In a world where the need for dedicated game consoles seems to be diminishing, both Sony and Microsoft will be laser-focused on showing you why you need to buy a PlayStation 4 and Xbox One. The two consoles <a href=\"http://www.theverge.com/2013/5/21/4352908/xbox-one-vs-playstation-4-living-room-hub-or-streaming-cloud\">appear to be headed in different directions</a> in terms of strategy: whereas Microsoft wants the One to become the focal point of your living room, Sony envisions a cloud-powered future with a heavy focus on games. While it will be some time before we know if either strategy is viable, with two big press conferences on Monday, we'll at least have more details on the two companies' plans for this holiday season and the...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402140/e3-2013-preview\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402140/e3-2013-preview" (20912 52170) old 4 nil nil ((published nil "2013-06-06T17:50:02Z") (updated nil "2013-06-06T17:50:02Z") (title nil "E3 2013 preview: what to expect from the biggest gaming event of the year") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Nintendo-e3-2011-shigeru-miyamoto-ms-pulling-mad-rm-verge-1000_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8328475/Nintendo-E3-2011-shigeru-miyamoto-ms-pulling-mad-rm-verge-1000_large.jpg\" />
+
+
+
+
+
+  <p>This year's edition of the Electronic Entertainment Expo &mdash; better known as E3 &mdash; is important for several reasons. In a world where the need for dedicated game consoles seems to be diminishing, both Sony and Microsoft will be laser-focused on showing you why you need to buy a PlayStation 4 and Xbox One. The two consoles <a href=\"http://www.theverge.com/2013/5/21/4352908/xbox-one-vs-playstation-4-living-room-hub-or-streaming-cloud\">appear to be headed in different directions</a> in terms of strategy: whereas Microsoft wants the One to become the focal point of your living room, Sony envisions a cloud-powered future with a heavy focus on games. While it will be some time before we know if either strategy is viable, with two big press conferences on Monday, we'll at least have more details on the two companies' plans for this holiday season and the...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402140/e3-2013-preview\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (href . "http://www.theverge.com/2013/6/6/4402140/e3-2013-preview") (rel . "alternate"))) (id nil "http://www.theverge.com/2013/6/6/4402140/e3-2013-preview") (author nil (name nil "Andrew Webster")))) ("Apple could offer iPhone trade-ins for the first time ever, says report" "<img alt=\"Vrg_4118_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8329551/VRG_4118_large.jpg\" />
+<p>Apple could offer customers an option to trade in their current iPhone for credit towards the purchase of a new model in an effort to boost sales, according to a <a target=\"_blank\" href=\"https://twitter.com/BloombergTV/status/342702398877360128\">report from <i>Bloomberg</i></a>. This would be the first time that Apple has offered a trade-in option on the iPhone.</p>
+<p>Apple has been rumored to offer a lower-cost version of the iPhone for some time, but new models aren't expected to arrive until later this year. The company's big WWDC developer event is scheduled for next Monday, but Apple is only expected to show off a redesigned version of its iOS operating system at that time, and not announce new iPhone hardware.</p>
+<p><i>Developing...</i></p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4403012/apple-offer-iphone-trade-ins-for-the-first-time\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4403012/apple-offer-iphone-trade-ins-for-the-first-time" (20912 52908) old 3 nil nil ((published nil "2013-06-06T18:02:20Z") (updated nil "2013-06-06T18:02:20Z") (title nil "Apple could offer iPhone trade-ins for the first time ever, says report") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Vrg_4118_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8329551/VRG_4118_large.jpg\" />
+
+
+
+
+
+  <p>Apple could offer customers an option to trade in their current iPhone for credit towards the purchase of a new model in an effort to boost sales, according to a <a target=\"_blank\" href=\"https://twitter.com/BloombergTV/status/342702398877360128\">report from <i>Bloomberg</i></a>. This would be the first time that Apple has offered a trade-in option on the iPhone.</p>
+<p>Apple has been rumored to offer a lower-cost version of the iPhone for some time, but new models aren't expected to arrive until later this year. The company's big WWDC developer event is scheduled for next Monday, but Apple is only expected to show off a redesigned version of its iOS operating system at that time, and not announce new iPhone hardware.</p>
+<p><i>Developing...</i></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4403012/apple-offer-iphone-trade-ins-for-the-first-time\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (href . "http://www.theverge.com/2013/6/6/4403012/apple-offer-iphone-trade-ins-for-the-first-time") (rel . "alternate"))) (id nil "http://www.theverge.com/2013/6/6/4403012/apple-offer-iphone-trade-ins-for-the-first-time") (author nil (name nil "Dan Seifert")))) ("Epic announces Oculus Rift support for Unreal Engine 4" "<img alt=\"Unreal_large_jpg\" src=\"http://cdn0.sbnation.com/entry_photo_images/8329617/unreal_large_JPG.jpg\" />
+<p>Epic Games has officially announced support for the Oculus Rift on the Unreal Engine 4. In a release today, the company announced the members of its UE4 Integrated Partners Program, a group of companies whose technology will be tightly integrated with the latest engine. Among Autodesk, Intel, Nvidia, and other big names, you'll find Oculus VR, whose virtual reality headset has captured the imagination of many gamers and developers. As <a href=\"http://www.engadget.com/2013/06/06/unreal-engine-4-oculus-rift/\" target=\"_blank\"><i>Engadget</i> points out</a>, Epic has said before that it was working on support for the Oculus Rift. But this announcement makes it clear that Epic will be working with Oculus to make Unreal Engine 4 work as smoothly as possible on the Rift, and that there will be an ongoing relationship between the two.</p>
+<p>Epic...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402978/epic-announces-oculus-rift-partnership-program-for-unreal-engine-4\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402978/epic-announces-oculus-rift-partnership-program-for-unreal-engine-4" (20912 54180) old 2 nil nil ((published nil "2013-06-06T18:23:32Z") (updated nil "2013-06-06T18:23:32Z") (title nil "Epic announces Oculus Rift support for Unreal Engine 4") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Unreal_large_jpg\" src=\"http://cdn0.sbnation.com/entry_photo_images/8329617/unreal_large_JPG.jpg\" />
+
+
+
+
+
+  <p>Epic Games has officially announced support for the Oculus Rift on the Unreal Engine 4. In a release today, the company announced the members of its UE4 Integrated Partners Program, a group of companies whose technology will be tightly integrated with the latest engine. Among Autodesk, Intel, Nvidia, and other big names, you'll find Oculus VR, whose virtual reality headset has captured the imagination of many gamers and developers. As <a href=\"http://www.engadget.com/2013/06/06/unreal-engine-4-oculus-rift/\" target=\"_blank\"><i>Engadget</i> points out</a>, Epic has said before that it was working on support for the Oculus Rift. But this announcement makes it clear that Epic will be working with Oculus to make Unreal Engine 4 work as smoothly as possible on the Rift, and that there will be an ongoing relationship between the two.</p>
+<p>Epic...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402978/epic-announces-oculus-rift-partnership-program-for-unreal-engine-4\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4402978/epic-announces-oculus-rift-partnership-program-for-unreal-engine-4"))) (id nil "http://www.theverge.com/2013/6/6/4402978/epic-announces-oculus-rift-partnership-program-for-unreal-engine-4") (author nil (name nil "Adi Robertson")))) ("Jerry Seinfeld's Comedians in Cars Getting Coffee web series returns on June 13th" "<img alt=\"Sss_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/8329633/sss_large.jpg\" />
+<p>Last summer, Jerry Seinfeld's <i>Comedians in Cars Getting Coffee</i> web series was met with critical acclaim and was one of the best things to watch on the web at the time. The simple premise of two comedians driving around in classic cars and chatting over coffee in diners combined with the artful directing and cinematography left many hoping that Seinfeld would continue the series after the initial 10 episodes (including a much-loved reunion of Seinfeld and Michael Richards) were over. Crackle, which partnered with Seinfeld for the original run, made those dreams come true on Thursday, as it revealed that new episodes would be available at <a target=\"_blank\" href=\"http://www.comediansincarsgettingcoffee.com\">www.comediansincarsgettingcoffee.com</a> starting on June 13th at 12:00PM ET. New episodes will be posted...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402752/jerry-seinfelds-comedians-in-cars-getting-coffee-returns-june-13th\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402752/jerry-seinfelds-comedians-in-cars-getting-coffee-returns-june-13th" (20912 51813) old 6 nil nil ((published nil "2013-06-06T17:44:05Z") (updated nil "2013-06-06T17:44:05Z") (title nil "Jerry Seinfeld's Comedians in Cars Getting Coffee web series returns on June 13th") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Sss_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/8329633/sss_large.jpg\" />
+
+
+
+
+
+  <p>Last summer, Jerry Seinfeld's <i>Comedians in Cars Getting Coffee</i> web series was met with critical acclaim and was one of the best things to watch on the web at the time. The simple premise of two comedians driving around in classic cars and chatting over coffee in diners combined with the artful directing and cinematography left many hoping that Seinfeld would continue the series after the initial 10 episodes (including a much-loved reunion of Seinfeld and Michael Richards) were over. Crackle, which partnered with Seinfeld for the original run, made those dreams come true on Thursday, as it revealed that new episodes would be available at <a target=\"_blank\" href=\"http://www.comediansincarsgettingcoffee.com\">www.comediansincarsgettingcoffee.com</a> starting on June 13th at 12:00PM ET. New episodes will be posted...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402752/jerry-seinfelds-comedians-in-cars-getting-coffee-returns-june-13th\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4402752/jerry-seinfelds-comedians-in-cars-getting-coffee-returns-june-13th"))) (id nil "http://www.theverge.com/2013/6/6/4402752/jerry-seinfelds-comedians-in-cars-getting-coffee-returns-june-13th") (author nil (name nil "Dan Seifert")))) ("All the news from Sony at E3 2013" "<img alt=\"Lb_0623_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8328777/LB_0623_large.jpg\" />
+<p>After its <a href=\"http://www.theverge.com/2013/2/20/4009410/sony-playstation-4-ps4-announcement\">lengthy PS4 announcement</a>, Sony still has yet to officially unveil its latest generation of gaming hardware. The company is expect to make a big reveal at E3 this year, including many first- and third-party titles, as well as the console itself.</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402552/sony-at-e3-2013-playstation-4\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402552/sony-at-e3-2013-playstation-4" (20912 51814) old 5 nil nil ((published nil "2013-06-06T17:44:06Z") (updated nil "2013-06-06T17:44:06Z") (title nil "All the news from Sony at E3 2013") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Lb_0623_large\" src=\"http://cdn1.sbnation.com/entry_photo_images/8328777/LB_0623_large.jpg\" />
+
+
+
+
+
+  <p>After its <a href=\"http://www.theverge.com/2013/2/20/4009410/sony-playstation-4-ps4-announcement\">lengthy PS4 announcement</a>, Sony still has yet to officially unveil its latest generation of gaming hardware. The company is expect to make a big reveal at E3 this year, including many first- and third-party titles, as well as the console itself.</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402552/sony-at-e3-2013-playstation-4\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (href . "http://www.theverge.com/2013/6/6/4402552/sony-at-e3-2013-playstation-4") (rel . "alternate"))) (id nil "http://www.theverge.com/2013/6/6/4402552/sony-at-e3-2013-playstation-4") (author nil (name nil "Evan Rodgers")))) ("All the news from Microsoft at E3 2013" "<img alt=\"Xbox-one-t-heverge17_1020_verge_super_wide_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8328559/xbox-one-t-heverge17_1020_verge_super_wide_large.jpg\" />
+<p>Microsoft is poised to announce a slew of details about its Xbox One game console at E3 2013, as well as host of new IP, third-party titles, and the media features that the company hopes will make it the center of your living room lifestyle.</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4402570/microsoft-at-e3-xbox-one\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4402570/microsoft-at-e3-xbox-one" (20912 51111) old 9 nil nil ((published nil "2013-06-06T17:32:23Z") (updated nil "2013-06-06T17:32:23Z") (title nil "All the news from Microsoft at E3 2013") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Xbox-one-t-heverge17_1020_verge_super_wide_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8328559/xbox-one-t-heverge17_1020_verge_super_wide_large.jpg\" />
+
+
+
+
+
+  <p>Microsoft is poised to announce a slew of details about its Xbox One game console at E3 2013, as well as host of new IP, third-party titles, and the media features that the company hopes will make it the center of your living room lifestyle.</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4402570/microsoft-at-e3-xbox-one\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (href . "http://www.theverge.com/2013/6/6/4402570/microsoft-at-e3-xbox-one") (rel . "alternate"))) (id nil "http://www.theverge.com/2013/6/6/4402570/microsoft-at-e3-xbox-one") (author nil (name nil "Evan Rodgers")))) ("CC: Stand-Up app for iOS opens Comedy Central's vaults with over 6,000 videos" "<img alt=\"Dsc00279verge_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8329851/DSC00279VERGE_large.jpg\" />
+<p><i>The Daily Show</i>, <i>Colbert Report</i>, and<i> South Park</i> have made Comedy Central a household name, but one of the network's fundamental goals remains giving exposure to up and coming stand-up comedians. In that vein, it's recently released <a target=\"_blank\" href=\"http://www.comedycentral.com/stand-up/video-channel\">CC: Stand-Up for iOS</a>, an app that lets viewers watch countless hours of performances from emerging acts in addition to established stars like Louis CK and Daniel Tosh. Optimized for both iPhone and iPad (oddly there's not yet an Android version to speak of) the app immediately starts playing content the first time you open it &mdash; leading with a warning that some comedy may be uncensored.</p>
+<p>CC: Stand-Up is divided into three main sections: a \"Channel\" portal continuously streams stand-up without interruption....</p>
+<p>
+<a href=\"http://www.theverge.com/2013/6/6/4403020/cc-stand-up-ios-app-opens-comedy-central-vaults-over-6000-videos\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/6/6/4403020/cc-stand-up-ios-app-opens-comedy-central-vaults-over-6000-videos" (20912 55774) old 1 nil nil ((published nil "2013-06-06T18:50:06Z") (updated nil "2013-06-06T18:50:06Z") (title nil "CC: Stand-Up app for iOS opens Comedy Central's vaults with over 6,000 videos") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Dsc00279verge_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/8329851/DSC00279VERGE_large.jpg\" />
+
+
+
+
+
+  <p><i>The Daily Show</i>, <i>Colbert Report</i>, and<i> South Park</i> have made Comedy Central a household name, but one of the network's fundamental goals remains giving exposure to up and coming stand-up comedians. In that vein, it's recently released <a target=\"_blank\" href=\"http://www.comedycentral.com/stand-up/video-channel\">CC: Stand-Up for iOS</a>, an app that lets viewers watch countless hours of performances from emerging acts in addition to established stars like Louis CK and Daniel Tosh. Optimized for both iPhone and iPad (oddly there's not yet an Android version to speak of) the app immediately starts playing content the first time you open it &mdash; leading with a warning that some comedy may be uncensored.</p>
+<p>CC: Stand-Up is divided into three main sections: a \"Channel\" portal continuously streams stand-up without interruption....</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/6/6/4403020/cc-stand-up-ios-app-opens-comedy-central-vaults-over-6000-videos\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/6/6/4403020/cc-stand-up-ios-app-opens-comedy-central-vaults-over-6000-videos"))) (id nil "http://www.theverge.com/2013/6/6/4403020/cc-stand-up-ios-app-opens-comedy-central-vaults-over-6000-videos") (author nil (name nil "Chris Welch")))))

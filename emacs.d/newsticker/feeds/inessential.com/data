@@ -1,0 +1,894 @@
+;; -*- coding: utf-8 -*-
+(("inessential.com" "Brent Simmons’s weblog." "http://inessential.com/" (20831 21600 122459 0) feed 0 nil nil ((title nil "inessential.com") (link nil "http://inessential.com/") (description nil "Brent Simmons’s weblog.") (item nil (title nil "Debug Roundtable on iCloud Core Data Sync") (link nil "http://www.imore.com/debug-12-icloud-core-data-sync") (description nil "<p>I appeared on the <a href=\"http://www.imore.com/debug-12-icloud-core-data-sync\">Debug podcast</a> along with <a href=\"http://blackpixel.com\">Daniel Pasco</a> and <a href=\"http://carpeaqua.com\">Justin Williams</a>.</p>") (pubDate nil "Fri, 05 Apr 2013 10:14:07 -0700") (guid nil "http://inessential.com/2013/04/05/debug_roundtable_on_icloud_core_data_syn") (dc:date nil "2013-04-05T10:14:07-07:00")) (item nil (title nil "Will Apple Be Whitelisted for CalDAV?") (link nil "http://inessential.com/2013/04/04/will_apple_be_whitelisted_for_caldav_") (description nil "<p>The <a href=\"http://www.chromium.org/blink\">Blink fork of WebKit</a> has me wondering about Apple’s and Google’s tactics.</p>
+
+<p>Specifically, I think back to Google’s <a href=\"http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html\">recent spring cleaning</a>, where it said that the CalDAV API will be available for whitelisted developers only.</p>
+
+<p>I wonder if Apple will be on that whitelist.</p>") (pubDate nil "Thu, 04 Apr 2013 16:53:43 -0700") (guid nil "http://inessential.com/2013/04/04/will_apple_be_whitelisted_for_caldav_") (dc:date nil "2013-04-04T16:53:43-07:00")) (item nil (title nil "Tom’s iCloud State of the Union") (link nil "http://www.atomicbird.com/blog/icloud-sotu") (description nil "<p><a href=\"http://www.atomicbird.com/blog/icloud-sotu\">atomicbird</a>:</p>
+
+<blockquote><p>Users hear about how great iCloud is and how apps can use it to sync their own data. They quite reasonably wonder why your app isn’t using it. Syncing data is a great idea, Apple gives you iCloud, why aren’t you using it, dammit? But if you did use it, the app would be so unreliable that users would (again, quite reasonably) complain that it was a <em>steaming pile of shit</em>.</p></blockquote>") (pubDate nil "Wed, 03 Apr 2013 15:02:27 -0700") (guid nil "http://inessential.com/2013/04/03/toms_icloud_state_of_the_union") (dc:date nil "2013-04-03T15:02:27-07:00")) (item nil (title nil "Regressing") (link nil "https://medium.com/future-tech-future-market/7b1a7ddb6ffe") (description nil "<p>Ryan Holiday writes in <a href=\"https://medium.com/future-tech-future-market/7b1a7ddb6ffe\">Our Regressive Web</a>:</p>
+
+<blockquote><p>Google Alerts, Delicious and RSS were designed in blogging’s early days as innovations to help readers reduce this noise—to help improve their reading experience. But now those gains are disappearing. I feel that the tech press has allowed this to happen.</p></blockquote>
+
+<p>I had not realized that <a href=\"http://venturebeat.com/2013/03/21/google-alerts-broken-useless-and-slowed-to-a-trickle/\">Google Alerts was having problems</a>. But it doesn’t surprise me.</p>
+
+<p>I wonder if it will go away on the same day as Feedburner, or whether the two will succumb in separate clean-outs.</p>") (pubDate nil "Tue, 02 Apr 2013 17:24:02 -0700") (guid nil "http://inessential.com/2013/04/02/regressing") (dc:date nil "2013-04-02T17:24:02-07:00")) (item nil (title nil "Identical Cousins 13") (link nil "http://identicalcousins.net/2013/04/02/identical_cousins_13") (description nil "<p>On <a href=\"http://identicalcousins.net/2013/04/02/identical_cousins_13\">Identical Cousins 13</a> we talk about Google Reader, iCloud, Microsoft, Dave Morin, and Summly and other things. It’s a grab bag.</p>
+
+<p>It’s also our best audio quality. We’re getting the hang of this.</p>") (pubDate nil "Tue, 02 Apr 2013 11:38:20 -0700") (guid nil "http://inessential.com/2013/04/02/identical_cousins_13") (dc:date nil "2013-04-02T11:38:20-07:00")) (item nil (title nil "A Clarification Regarding Web Services and Control") (link nil "http://inessential.com/2013/03/28/a_clarification_regarding_web_services") (description nil "<p>Responding to <a href=\"http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy\">yesterday’s post</a>, a number of people pointed out to me that it sounded weird if one minute I suggest checking out Azure <a href=\"http://www.windowsazure.com/ios\">Mobile Services</a> and the next minute tell developers they should take control of their app’s web services.</p>
+
+<p>I meant no contradiction, but I could have explained better.</p>
+
+<p>When creating web services, you should consider high-level systems, low-level systems, and everything in between, and figure out what makes sense for you.</p>
+
+<p>Here are some — not necessarily all — of the things to consider when choosing:</p>
+
+<ul>
+<li><p>Does it support iOS, Android, and browser-based apps? (Knowing that you may — may — want to move beyond just iOS.)</p></li>
+<li><p>Can you create a social component?</p></li>
+<li><p>Can you add additional services — push notifications, feed-polling, sending email, whatever — to the system?</p></li>
+<li><p>Can you get aggregate data and learn how people use your app?</p></li>
+<li><p>Perhaps most importantly: is it possible to migrate to something else (even if takes some work)?</p></li>
+</ul>
+
+
+<p>The answer is yes to all of these for Mobile Services. (While the answer is no to all of them for iCloud syncing.)</p>
+
+<p>The answer is also yes if you want to work at a low level — it’s yes if you get a virtual server on <a href=\"http://www.linode.com\">Linode</a> and run Ruby on Rails and MySQL.</p>
+
+<p>And it’s also yes if you work at a medium level and deploy apps using services like <a href=\"http://www.heroku.com\">Heroku</a>, <a href=\"https://www.engineyard.com\">Engine Yard</a>, <a href=\"http://aws.amazon.com\">Amazon</a>, and <a href=\"https://developers.google.com/appengine/\">Google App Engine</a>.</p>
+
+<p>At some point you have to outsource some things, right? You’re not going to build your own server machine that runs your own operating system in a data center you constructed with hammers and saws that you made.</p>
+
+<p>So you choose what makes sense. And if it can be a high-level system, that’s cool — it will probably save you time and be easier to maintain. But you might have good reasons to choose something medium or low level, and that’s cool too.</p>
+
+<p>The key is this: <em>you need control of the data</em>.</p>
+
+<p>iCloud Core Data syncing is, once again, completely opaque and outside your control. It fits <em>none</em> of the criteria listed above.</p>") (pubDate nil "Thu, 28 Mar 2013 10:33:59 -0700") (guid nil "http://inessential.com/2013/03/28/a_clarification_regarding_web_services") (dc:date nil "2013-03-28T10:33:59-07:00")) (item nil (title nil "Why Developers Shouldn’t Use iCloud Syncing, Even If It Worked") (link nil "http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy") (description nil "<p>Yesterday the Verge posted <a href=\"http://www.theverge.com/2013/3/26/4148628/why-doesnt-icloud-just-work\">Apple’s broken promise: why doesn’t iCloud ‘just work’?</a></p>
+
+<p>It’s not the first article on the topic — <a href=\"http://storify.com/Jury/the-trials-of-icloud\">bits</a> <a href=\"http://www.jumsoft.com/2013/01/response-to-sync-issues/\">and</a> <a href=\"http://createlivelove.com/246\">pieces</a> of this issue have come up before. But The Verge did an excellent job putting it all together. Good reporting.</p>
+
+<p>Here’s the thing: if you’re a developer, you shouldn’t use iCloud syncing anyway. I’ll explain.</p>
+
+<h4>Android and the web</h4>
+
+<p>You may think you’ll never want an Android or browser-based version of your app. But are you sure? Really, really sure?</p>
+
+<p>You hope your app will be a hit. (If not, then quit writing it and choose something else.) If it’s a hit on iOS, it could be a hit on Android too — and you can bet that customers will ask for a web app version.</p>
+
+<p>You don’t want to limit the success of your app just because you didn’t want to write your own server.</p>
+
+<p>And even if you’re sure that you’ll never want an Android or web version, is it possible you’d want a Mac version that isn’t sold on the App Store? (Only App Store builds are allowed to do iCloud syncing.)</p>
+
+<h4>Social software</h4>
+
+<p>We’ve been living in a social world for years. But iCloud syncing is not social: it’s per-user syncing.</p>
+
+<p>If you write your own server, you can write the social bits, so your users can share recipes, weather forecasts (look, Mom, it’s going to be sunny on Thursday!), favorite articles, or whatever-it-is your app does.</p>
+
+<p>People <em>expect</em> social.</p>
+
+<h4>Additional services</h4>
+
+<p>If you’re writing an RSS reader, you can’t ask iCloud to download feeds.</p>
+
+<p>iCloud can’t poll Twitter to see if your follower count has gone up or down. iCloud can’t <a href=\"http://forecast.io/\">generate weather forecasts</a>. iCloud can’t <a href=\"http://www.sailwx.info/\">track ships</a>.</p>
+
+<p>There are all kinds of services that make sense on the server side. You could do some of them on a client, but at the expense of timeliness and battery life. If it’s a good idea, and you don’t do it on a server, your competition just has to write a server that does it, and your app is finished.</p>
+
+<h4>Learning how people use your app</h4>
+
+<p>You shouldn’t look at private data.</p>
+
+<p>With Glassboard we made the decision — there was no debate — to encrypt messages in the database, so that we couldn’t see private data.</p>
+
+<p>But we could still look at aggregate data. It was interesting to know how many boards were created each day, how often people used invitation codes, and so on.</p>
+
+<p>There’s no substitute for learning about how people use your app. You can <em>guess</em> how people use your app. You can — and should — get all the feedback you can via email, Twitter, and App Store reviews.</p>
+
+<p>But seeing actual data makes a real difference, because it helps you figure out where your resources need to go.</p>
+
+<h4>Costs</h4>
+
+<p>It used to be expensive to develop, run, and maintain your own server. You’d buy a machine or a few machines, get them installed in a data center, figure out how Apache works, install MySQL, and write a ton of scripts. Perl or PHP scripts, most likely. (Ugh.)</p>
+
+<p>You’d use Subversion (if you were lucky) or cvs. You’d write your own testing system from scratch. You’d write a bash script that copied the files up to the server.</p>
+
+<p>And you’d spend a bunch of money.</p>
+
+<p><em>Everything</em> has gotten easier and cheaper. These days you’d run services on <a href=\"http://aws.amazon.com\">Amazon</a>, <a href=\"http://www.windowsazure.com/en-us/\">Azure</a>, <a href=\"https://www.engineyard.com\">Engine Yard</a>, or <a href=\"http://www.heroku.com\">Heroku</a>. Or get a virtual server on <a href=\"http://www.linode.com\">Linode</a>. You’d choose from one of the many excellent systems like <a href=\"http://rubyonrails.org\">Ruby on Rails</a>, <a href=\"http://www.sinatrarb.com\">Sinatra</a>, <a href=\"http://nodejs.org\">Node.js</a>, and <a href=\"https://www.djangoproject.com\">Django</a>. You’d deploy via <a href=\"http://git-scm.com\">git</a> or <a href=\"http://mercurial.selenic.com\">Mercurial</a>.</p>
+
+<p>If you can learn Cocoa, you can learn this stuff. (And so much of it is wonderful — you’ll <em>enjoy</em> learning it.)</p>
+
+<h4>Control</h4>
+
+<p>Tim Wood, CTO of The Omni Group, tweeted the very wise words: <a href=\"https://twitter.com/tjw/status/289230416064425984\">Own the Wheel</a>.</p>
+
+<p>Here’s the thing: half the mobile revolution is about designing and building apps for smartphones and tablets.</p>
+
+<p>The other half is about writing the web services that power those apps.</p>
+
+<p>How comfortable are you with outsourcing half your app to another company? The answer should be: not at all comfortable.</p>
+
+<p>Do it yourself.</p>") (pubDate nil "Wed, 27 Mar 2013 12:37:28 -0700") (guid nil "http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy") (dc:date nil "2013-03-27T12:37:28-07:00")) (item nil (title nil "The Small Town Volunteer Fire Department") (link nil "http://adventuresinnewfield.blogspot.com/2013/03/aah-joys-oops-downers-of-living-in.html") (description nil "<p>My <a href=\"http://adventuresinnewfield.blogspot.com/2013/03/aah-joys-oops-downers-of-living-in.html\">Mom has the scoop</a> on goings-on in Newfield, a small town in south Jersey where my family comes from, where my Mom lives, where my grandfather was chief of the volunteer fire department.</p>
+
+<p>The city council wanted — for stupid reasons — to shut down the fire department, which had been serving the town for more than 100 years. The council voted to shut it down before changing its mind. Narrowly.</p>
+
+<p>Mom writes:</p>
+
+<blockquote><p>All I can think about is that this mess marks the passing of the two important groups - those responsible for the original Borough bargain of lower taxes thru volunteerism and the Great Generation that Ever Was.  Political/social decision making has passed into the hands of the baby boomers and we are not prioritizing the welfare of the town, state, nation, world above our own petty egos. This is not the legacy past generations wanted us to embrace.</p></blockquote>") (pubDate nil "Sun, 24 Mar 2013 14:30:06 -0700") (guid nil "http://inessential.com/2013/03/24/the_small_town_volunteer_fire_department") (dc:date nil "2013-03-24T14:30:06-07:00")) (item nil (title nil "NetNewsWire News from Black Pixel") (link nil "http://blackpixel.com/blog/2013/03/the-return-of-netnewswire.html") (description nil "<p>Black Pixel writes, in <a href=\"http://blackpixel.com/blog/2013/03/the-return-of-netnewswire.html\">The Return of NetNewsWire</a>, that future versions will have syncing, despite the end of Google Reader.</p>
+
+<p>Other points:</p>
+
+<ul>
+<li><p>They’ve been working on new versions, including modern designs and new features.</p></li>
+<li><p>Sync has been delayed because they were trying to get iCloud Core Data sync working, and it’s <a href=\"http://storify.com/Jury/the-trials-of-icloud\">just too buggy</a>.</p></li>
+</ul>") (pubDate nil "Wed, 20 Mar 2013 14:48:11 -0700") (guid nil "http://inessential.com/2013/03/20/netnewswire_news_from_black_pixel") (dc:date nil "2013-03-20T14:48:11-07:00")) (item nil (title nil "Resolve App") (link nil "https://itunes.apple.com/us/app/resolve-app/id609722766?mt=8") (description nil "<p>I just bought <a href=\"https://itunes.apple.com/us/app/resolve-app/id609722766?mt=8\">Resolve App</a> by Dragon Forged Software. It’s an iPhone client for <a href=\"https://lighthouseapp.com/\">Lighthouse</a>, which I use.</p>") (pubDate nil "Wed, 20 Mar 2013 11:23:49 -0700") (guid nil "http://inessential.com/2013/03/20/resolve_app") (dc:date nil "2013-03-20T11:23:49-07:00")) (item nil (title nil "My Favorite Way to Screw Up a Feed") (link nil "http://inessential.com/2013/03/18/my_favorite_way_to_screw_up_a_feed") (description nil "<p>Since Brian worked on the server side, his list of <a href=\"http://inessential.com/2013/03/18/brians_stupid_feed_tricks\">Stupid Feed Tricks</a> didn’t include my very favorite feed screw-up.</p>
+
+<p>A lot of hotels and similar offer wi-fi. When you open a page in your browser, it redirects you to their login page.</p>
+
+<p>Those systems don’t differentiate between an http request made by a feed reader and an http request made by a browser. (Nor should they.)</p>
+
+<p>But what happens is that you launch your reader and it gets a redirect for every single feed, to some kind of URL like <code>http://dumbhotel.com/register.aspx</code>.</p>
+
+<p>Normally that would be fine. It’s just a redirect, and once you have actually logged in you can do a refresh in your reader and all’s well.</p>
+
+<p>But!</p>
+
+<p>No!</p>
+
+<p>A bunch of these dumb systems redirect using a <em>permanent</em> redirect: they use <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html\">301 instead of 302</a>.</p>
+
+<p>When a feed reader gets a permanent redirect, it’s supposed to take that to mean: “Hey, the feed moved. It’s over here now. Save the new URL and use the new one from now on.”</p>
+
+<p>And if you don’t do that in your reader, and your feed reader is popular enough, smart people who quite rightly care about proper behavior will call you out. You <em>have</em> to do that.</p>
+
+<p>So you write your feed reader to do the right thing — and then one of your customers goes to a dumb hotel, opens their laptop, and their subscription list is wiped out. Every feed URL is replaced with <code>http://dumbhotel.com/register.aspx</code>. And now they can’t get their news, and they don’t know how to get it back.</p>") (pubDate nil "Mon, 18 Mar 2013 17:56:35 -0700") (guid nil "http://inessential.com/2013/03/18/my_favorite_way_to_screw_up_a_feed") (dc:date nil "2013-03-18T17:56:35-07:00")) (item nil (title nil "Brian’s Stupid Feed Tricks") (link nil "http://inessential.com/2013/03/18/brians_stupid_feed_tricks") (description nil "<p>At NewsGator and Sepia Labs I worked with <a href=\"https://twitter.com/brianreischl\">Brian Reischl</a>, one of the server-side guys. Among other things, he worked on NewsGator’s RSS content service, which reads n million feeds once an hour.</p>
+
+<p>(I don’t know if I can say what n is. It surprised me when I heard it. The system is still running, by the way.)</p>
+
+<p>Brian is intimately acquainted with the different ways feeds can be screwed up. So he posted <a href=\"https://docs.google.com/document/d/1cvq67iQpk2C7ufOsefsfKnGCXeUIv46NQHbnHkm8PtU/edit?usp=sharing\">Stupid Feed Tricks</a> on Google Docs.</p>
+
+<p>I quote the entire thing below for people like me who don’t have Google accounts. The below is all by Brian:</p>
+
+<h4>Stupid HTTP Tricks</h4>
+
+<ol>
+<li>When the feed is gone/errored, publisher may still return a 200 OK but send an HTML page instead.</li>
+<li>Using permanent redirects for temporary errors. In one instance, all the Microsoft blogs had a temporary system error. All the feeds did a permanent redirect to the same system error page, and we updated all 40,000 feeds to point to that one URL. Whoops.</li>
+<li>Using very slow or overloaded servers. It might take 60 seconds just to connect and send the request, another 60 seconds to first response byte, and so on. This can bog down your content retrieval.</li>
+<li>Very slow responses, or responses that never actually complete (ie, you hang trying to read data essentially forever)</li>
+<li>Infinitely long responses. eg, feed server has an error and prints an error message in a infinite loop until something stops it. Hopefully it’s stopped by a check in your system, rather than consuming all the memory on your server.</li>
+<li>Sending back things that are not XML (eg, videos). It can help to check Content-Type and Content-Length headers, but sometimes they misidentify RSS as something else (eg, text/plain).</li>
+<li>Returning an HTML page containing HTML/Javascript redirects instead of using HTTP redirects.</li>
+<li>Infinite redirect loops.</li>
+<li>Long (but non-infinite) chains of redirects.</li>
+<li>Responding with 304 Not Modified if you send any If-None-Match/If-Modified-Since header, even if the feed has changed.</li>
+<li>Throttling your IP address. Some don’t tell you they’re throttling. Some provide Retry-After headers, but the HTTP status code can vary. eg, Twitter used to use their cutesy “420 Enhance Your Calm” response, then switched to “500 Internal Server Error”. Some use “503 Unavailable”. You’re mostly covered if you look for Retry-After headers in every non-success response..</li>
+<li>Redirecting (perhaps permanently) to a URL that’s already in your system. So now you either have a duplicate feed, or you have to update clients somehow. Note this can sometimes be legitimate, eg consolidating multiple feeds into one.</li>
+</ol>
+
+
+<h4>Stupid XML Tricks</h4>
+
+<ol>
+<li>Any sort of XML well-formedness error you can think of. Missing closing tags, mismatched tags, bad escaping, not quoting attributes, missing root elements.</li>
+<li>Including unescaped HTML content inside a tag - which sort of works, except that most HTML isn’t XML-compliant.</li>
+<li>Putting in characters that are illegal in XML documents (eg, some non-printable characters that should be escaped, but aren’t)</li>
+<li>Declaring the document as ISO-8859-1 encoding, but actually using UTF-8, with some Arabic characters in it.</li>
+</ol>
+
+
+<h4>Stupid RSS/Atom Tricks</h4>
+
+<ol>
+<li>Missing any element you can think of.</li>
+<li>Adding custom elements without namespaces.</li>
+<li>Using common extension elements without defining the namespaces (eg, using the common “mrss” namespace prefix for MediaRSS elements, without actually specifying that namespace anywhere)</li>
+<li>Not providing a GUID.</li>
+<li>Providing the same GUID for every post in the feed (eg, using the feed URL as the GUID)</li>
+<li>Providing the same GUID for every post, but changing each time you request the feed (eg, using the current date/time)</li>
+<li>Using a different GUID for each post, changing each time you request the feed (eg, generating an actual GUID each time the feed is requested)</li>
+<li>Not giving a PubDate</li>
+<li>Changing the PubDate on every retrieval.</li>
+<li>Changing the PubDate when a post is edited, rather than using a lastUpdated tag.</li>
+<li>Putting a tiny number of posts in the feed (sometimes just one). These types then usually publish 10 articles in the space of two minutes, and wonder why you’re missing 9 of them.</li>
+<li>Putting only one post in the feed, with a GUID that never changes. When there are new posts, just the title and description change. (I believe this was a bunch of Japanese newspaper sites.)</li>
+<li>Updating post content without changing the lastUpdated date (or not having one)</li>
+<li>Updating post metadata (eg, enclosures, MediaRSS extensions, etc) with or without changing the lastUpdated date.</li>
+<li>Treating their feed as append-only, so over time the feed grows without bound. eg, each request might pull back 10,000 posts covering the entire 8 year history of the feed.</li>
+<li>Specifying dates in whatever their language’s “Date.ToString()” spits out. eg, “Tuesday, March 31st, Year Of Our Lord Two Thousand And Twelve, 4:59 PM”</li>
+<li>Not specifying timezones for dates (very common. It’s easy to just assume UTC, but note that can yield pubdates in the future).</li>
+<li>Specifying dates that are far in the past or future (anything up to thousands of years)</li>
+<li>Having the Link element point to another site. This is actually pretty common (eg, DaringFireball). This can be a problem depending on how you’re identifying individual posts, or if you’re trying to detect duplicates across feeds.</li>
+</ol>
+
+
+<h4>Other Stupid Tricks</h4>
+
+<ol>
+<li>Updating posts very frequently. Newspapers are very fond of this. In 4 hours they might change a post 12 times, by the end it might have nothing in common with the original article (completely different title, completely different body). Sometimes combined with not using lastUpdated, or just not changing lastUpdate.</li>
+<li>Publishing updated posts as new posts, so you have 12 versions of the same post in the feed.</li>
+<li>Occasionally giving you an two-week-old version of the feed for one or two requests. It looked like one server in a cluster had cached an old version and wasn’t updating it. (This was the New York Times back in ~2009. They might’ve fixed it by now.)</li>
+<li>Adding posts very quickly. This is very common with feeds like the StockTwits stream, Twitter feeds (when that was allowed), the “all news” feeds from news organizations, etc. If you only check the feed every 60 minutes, you could easily miss something.</li>
+<li>Changing content literally every time you get the feed. eg, a feed that returns the current time in all the timezones, or the current weather for 20 different cities.</li>
+<li>Putting out private data without requiring authorization of any sort. eg, a feed of all your GMail. This isn’t a problem until you provide search or other feed discoverability, and then people’s private data starts showing up. Then they get very angry.</li>
+<li>Some places will publish a feed and then get angry that you use it, especially if you have ads in your reader. (name redacted before I get sued) got <em>very</em> bent out of shape over that back in ~2007.</li>
+<li>Providing feeds, but then also using robots.txt to say you can’t crawl it. So now do you violate the robots.txt, or not let your users subscribe to feeds because the publisher is a dipshit?</li>
+<li>Providing valid, but limited interest feeds. eg, search feeds (couches for sale in Portland on Craigslist!). Also lots of custom things like combinations from Yahoo Pipes (or whatever equivalent people come up with), bookmark/favorite feeds, etc. Can lead to lots of duplicate (or near duplicate) posts, and lots of feed retrievals that very few people care about.</li>
+<li>Publishers will routinely have 2-4 copies of the exact same feed. eg, one sourced from their site, and another republished through FeedBurner. Note: FeedBurner includes extension elements that tell you what the source feed and post were.</li>
+<li>Including malicious Javascript or HTML inside of the content in hopes of hacking your system. There was a test suite for this, unfortunately I don’t have the URL handy just now.</li>
+</ol>
+
+
+<h4>Random Notes</h4>
+
+<ol>
+<li>You should think hard about canonicalization of URLs. Some parts of the URL can be case-sensitive (path and query) other parts can’t (protocol, host and post). Users (and webmasters) will absolutely use different upper/lower casing in different places.</li>
+<li>If you build a database index on FeedUrl, consider that 99% of them start with “http://”, which makes for a shitty index. Consider separating the protocol into its own column, and then indexing on the remainder of the URL. Alternatively, you could index on a hashed value of the URL. Theoretically you could have collisions, but in practice there are not that many feeds.</li>
+</ol>") (pubDate nil "Mon, 18 Mar 2013 14:25:00 -0700") (guid nil "http://inessential.com/2013/03/18/brians_stupid_feed_tricks") (dc:date nil "2013-03-18T14:25:00-07:00")) (item nil (title nil "RSS-Sync Mailing List") (link nil "http://inessential.com/2013/03/17/rss-sync_mailing_list") (description nil "<p>I created a new mailing list for people who want to <a href=\"http://lists.ranchero.com/listinfo.cgi/rss-sync-ranchero.com\">talk about the technical side of RSS syncing</a>.</p>
+
+<p>Ideally there would be a single standard for RSS syncing, and clients could choose among systems. But I don’t insist on that — at least not yet. I think it’s ambitious enough just to get some working sync systems up and running.</p>") (pubDate nil "Sun, 17 Mar 2013 12:35:15 -0700") (guid nil "http://inessential.com/2013/03/17/rss-sync_mailing_list") (dc:date nil "2013-03-17T12:35:15-07:00")) (item nil (title nil "What Else Google Is Shutting Down") (link nil "http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html") (description nil "<p>While the demise of Google Reader got all the attention, there are some other things going away in <a href=\"http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html\">A second spring of cleaning</a>. It’s worth reading.</p>
+
+<p>One of the interesting ones: the CalDAV API will be removed for all but whitelisted developers. <a href=\"http://en.wikipedia.org/wiki/CalDAV\">CalDAV</a> builds on WebDAV and is an open standard. Instead you’d have to use the <a href=\"https://developers.google.com/google-apps/calendar/\">Google Calendar API</a>.</p>
+
+<p>I wouldn’t have noticed this except that I was out with two calendar developers last night: John Chaffee of <a href=\"http://www.busymac.com/busycal/\">BusyCal</a> and Michael Simmons of <a href=\"http://flexibits.com\">Flexibits</a>. I suspect they’ve got some coding to do.</p>
+
+<p>Google certainly has the right to shut things down — and I think they’re right to do so, also. The company’s been all over the place and should continue to work on focus.</p>
+
+<p>But I don’t like when they turn off existing support for an open standard like CalDAV in favor of a Google-only API. Sure, they can — it’s within their rights, obviously. But I don’t like it.</p>") (pubDate nil "Fri, 15 Mar 2013 15:25:08 -0700") (guid nil "http://inessential.com/2013/03/15/what_else_google_is_shutting_down") (dc:date nil "2013-03-15T15:25:08-07:00")) (item nil (title nil "Dave’s Notes for New RSS Readers") (link nil "http://threads2.scripting.com/2013/march/theIdealRssReader") (description nil "<p><a href=\"http://threads2.scripting.com/2013/march/theIdealRssReader\">Dave Winer</a>:</p>
+
+<blockquote><p>The main thing we <a href=\"http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html\">learned</a> is that subscription needs to be centralized to make the process as simple as possible for the user. That’s one of the main reasons Twitter was such an effective competitor.</p></blockquote>") (pubDate nil "Fri, 15 Mar 2013 14:04:14 -0700") (guid nil "http://inessential.com/2013/03/15/daves_notes_for_new_rss_readers") (dc:date nil "2013-03-15T14:04:14-07:00")) (item nil (title nil "Google Reader API Documentation") (link nil "http://inessential.com/2013/03/14/google_reader_api_documentation") (description nil "<p>There isn’t really any such thing as Google Reader API documentation.</p>
+
+<p>But I do have a PDF document that Nick Bradbury wrote up when we were switching FeedDemon and NetNewsWire from NewsGator syncing to Google Reader.</p>
+
+<p>It’s from 2009. Parts of it are surely out-of-date (authentication, for sure), and it was written with the expectation that the reader is familiar with NewsGator syncing.</p>
+
+<p>Nevertheless, in the spirit of Marco’s <a href=\"http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader\">baby steps toward replacing Google Reader</a>, I present it (with Nick’s permission) in case it’s useful to anyone:</p>
+
+<p><a href=\"http://ranchero.com/downloads/GoogleReaderAPI-2009.pdf\">GoogleReaderAPI-2009.pdf</a></p>") (pubDate nil "Thu, 14 Mar 2013 16:04:58 -0700") (guid nil "http://inessential.com/2013/03/14/google_reader_api_documentation") (dc:date nil "2013-03-14T16:04:58-07:00")) (item nil (title nil "RSS Readers Other than Google Reader Are Under-Reported in Your Logs") (link nil "http://inessential.com/2013/03/14/rss_readers_other_than_google_reader_are") (description nil "<p>Here’s something website owners should realize:</p>
+
+<p>You might look at your logs and find that Google Reader reports 100,000 subscribers. (For instance.)</p>
+
+<p>And then you look and find that clients apps X, Y, and Z don’t seem to hit your feed all that often.</p>
+
+<p>The easy conclusion is that Google Reader has thousands more users than X, Y, and Z. But that wouldn’t necessarily be correct.</p>
+
+<h4>Here’s Why</h4>
+
+<p>If X uses Google Reader for syncing, then X doesn’t read your feed directly. It gets it from Google Reader, and that person is reported to you under the Google Reader subscription count.</p>
+
+<p>So it’s possible that half — or whatever — of those Google Reader subscribers are using X. (Or Y or Z.)</p>
+
+<p>Or not. Or more than half.</p>
+
+<p>You just have no way of knowing. But it’s a safe bet that more people are using client apps than your logs report.</p>") (pubDate nil "Thu, 14 Mar 2013 15:50:44 -0700") (guid nil "http://inessential.com/2013/03/14/rss_readers_other_than_google_reader_are") (dc:date nil "2013-03-14T15:50:44-07:00")) (item nil (title nil "Why I love RSS and You Do Too") (link nil "http://inessential.com/2013/03/14/why_i_love_rss_and_you_do_too") (description nil "<p>Even if you don’t use an RSS reader, you still use RSS.</p>
+
+<p>If you subscribe to any podcasts, you use RSS. Flipboard and Twitter are RSS readers, even if it’s not obvious and they do other things besides.</p>
+
+<p>Lots of apps on the various app stores use RSS in at least some way. They just don’t tell you — because why should they?</p>
+
+<p>RSS is used for mundane things too, like <a href=\"http://sparkle.andymatuschak.org\">Mac app updates</a> (for non-App-Store apps) and Xcode documentation.</p>
+
+<p>And those people you follow on Twitter who post interesting links? They often get those links from their RSS reader.</p>
+
+<p>One way or another, directly or indirectly, you use RSS. Without RSS all we’d have is pictures of cats and breakfast.</p>
+
+<h4>Boring</h4>
+
+<p>RSS is plumbing. It’s used all over the place but you don’t notice it. Which is cool.</p>
+
+<p>But here’s why it’s great plumbing:</p>
+
+<ul>
+<li><p>There are many millions of feeds, from the smallest blog to the many feeds at the New York Times. Just about everything that gets published on the web is available via RSS. (Outside of Twitter and Facebook.)</p></li>
+<li><p>There are no user caps. No company can tell your favorite app how many users it can have. (Twitter does this.)</p></li>
+<li><p>Nobody can tell you how to display an article from an RSS feed. (Twitter does this with tweets.)</p></li>
+<li><p>The formats are stable. Code I wrote five years ago to parse feeds would work today and will work in five years. (The formats are simple, too.) Other services have APIs that change and break existing apps.</p></li>
+<li><p>RSS can’t be shut down. Any number of companies can go out of business, but nobody can stop anybody from publishing and reading RSS feeds.</p></li>
+<li><p>Nobody can force ads on you. A given RSS reader could add ads, but you can switch — because another RSS reader can read the same feeds. A given publisher could put ads in their own feeds, but you can unsubscribe. There is no company that can force ads on everyone, as Twitter and Facebook are working on for their systems.</p></li>
+<li><p>Nobody can force you to be tracked. If you’re not using a syncing system, then nobody knows what you subscribe to and what you read.</p></li>
+<li><p>You don’t need to register anywhere to write an RSS app. (You do need to register to write Facebook and Twitter apps.)</p></li>
+<li><p>In the general case there are no security issues with feed reading. (Unless you’re using a sync service or reading authenticated feeds.)</p></li>
+</ul>
+
+
+<p>This is elegance. It derives from the design of the internet and the web and its many open standards — designed so that no entity can control it, so that it survives stupidity and greed when it appears.</p>
+
+<p>Lots of things work like this. Not just RSS.</p>
+
+<h4>Capitalism</h4>
+
+<p>A naive reading of the above makes it sound like RSS is anti-business. That’s not true at all. (I did well with my RSS business.)</p>
+
+<p>Instead, it’s anti-monopolist. By design it creates a level playing field. Anybody can write RSS apps, and anybody can use RSS however they want to.</p>
+
+<p>This means that competition and innovation are permitted to thrive.</p>
+
+<p>But it’s not a guarantee. In the past several years it seems to have slowed way down.</p>
+
+<h4>Prague 1948 Forever</h4>
+
+<p>When Eastern Europe opened up, following the fall of the Berlin Wall and the collapse of the Soviet Union, Prague looked like it had been sealed up in a bubble since 1948.</p>
+
+<p>Google Reader isn’t communist Russia, obviously, duh — but it’s a similar pattern. There was one gigantic player and a bunch of satellites, and RSS readers more-or-less looked like it was still 2006.</p>
+
+<p>Not that there wasn’t any innovation — there was some — but it’s been pretty quiet, especially compared to the several years before 2006.</p>
+
+<p>RSS the format has remained as useful and cool as ever, but RSS readers haven’t done so well.</p>
+
+<p>My hope — my expectation, even — is that a few things will turn this around:</p>
+
+<ul>
+<li><p>The end of Google Reader takes away that one dominant player. The market for RSS readers is no longer frozen — and it will interest more developers than it has in recent years.</p></li>
+<li><p>Over-reach by Twitter and its diminishing user experience makes people interested in other ways of finding good stuff to read.</p></li>
+<li><p>The lower costs of server-side development and deployment brings creating RSS services within reach of smaller companies.</p></li>
+</ul>
+
+
+<p>The challenge — as ever, with everything — is to make useful and delightful apps that people love.</p>
+
+<p>But now, if I’m right, we’ll have more people working on that challenge.</p>
+
+<p>In the meantime, the loss of Google Reader syncing is going to be tough. That’s a big hurdle. <a href=\"http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader\">Marco proposes some baby steps</a>. I don’t like Google Reader’s (undocumented) API, but I like the pragmatic approach.</p>
+
+<h4>Well</h4>
+
+<p>At any rate — these are interesting times! I know that’s a curse, but I take it as a blessing, because it’s way more fun that way.</p>") (pubDate nil "Thu, 14 Mar 2013 14:56:59 -0700") (guid nil "http://inessential.com/2013/03/14/why_i_love_rss_and_you_do_too") (dc:date nil "2013-03-14T14:56:59-07:00")) (item nil (title nil "FeedDemon") (link nil "http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html") (description nil "<p>My friend and former co-worker Nick Bradbury writes of <a href=\"http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html\">The End of FeedDemon</a>:</p>
+
+<blockquote><p>That was the nail in the coffin for me. I hate to say goodbye to FeedDemon after a decade of working on it, but it’s time to say goodbye. When Google Reader shuts down on July 1, FeedDemon will also disappear.</p></blockquote>
+
+<p>Before Nick and I were co-workers, we were both indie developers working on RSS readers. (Check out this <a href=\"http://www.economist.com/node/2476892\">Economist article from 2004</a> that mentions us both.) We weren’t competitors, since FeedDemon ran on Windows and NetNewsWire ran on Macs.</p>
+
+<p>NetNewsWire shipped first — but FeedDemon shipped features faster than I did, and I shamelessly stole some good bits. Which Nick didn’t mind. (He encouraged me, even.) We became friends, and later became co-workers.</p>
+
+<p>It makes me sad to read of the end of FeedDemon. It mattered to me. But, more than that, I’m sad for my friend.</p>") (pubDate nil "Wed, 13 Mar 2013 20:03:20 -0700") (guid nil "http://inessential.com/2013/03/13/feeddemon") (dc:date nil "2013-03-13T20:03:20-07:00")) (item nil (title nil "Daniel Jalkut on NetNewsWire and RSS Syncing") (link nil "http://bitsplitting.org/2013/03/13/netnewswire-cloud/") (description nil "<p><a href=\"http://bitsplitting.org/2013/03/13/netnewswire-cloud/\">NetNewsWire Cloud</a>:</p>
+
+<blockquote><p>By implementing a suitable syncing API for RSS, <em>and implementing a reasonably useful web interface</em>, Black Pixel could establish NetNewsWire Cloud as the de facto replacement for Google Reader. Charging a reasonable fee for this service would likely inoculate it from the risk of sudden termination, and it would doubly serve to provide the very service that NetNewsWire needs to thrive on the desktop and on iOS.</p></blockquote>") (pubDate nil "Wed, 13 Mar 2013 17:50:47 -0700") (guid nil "http://inessential.com/2013/03/13/daniel_jalkut_netnewswire_and_rss_syncin") (dc:date nil "2013-03-13T17:50:47-07:00")))) ("Debug Roundtable on iCloud Core Data Sync" "<p>I appeared on the <a href=\"http://www.imore.com/debug-12-icloud-core-data-sync\">Debug podcast</a> along with <a href=\"http://blackpixel.com\">Daniel Pasco</a> and <a href=\"http://carpeaqua.com\">Justin Williams</a>.</p>" "http://www.imore.com/debug-12-icloud-core-data-sync" (20831 1631) new 1 nil nil ((title nil "Debug Roundtable on iCloud Core Data Sync") (link nil "http://www.imore.com/debug-12-icloud-core-data-sync") (description nil "<p>I appeared on the <a href=\"http://www.imore.com/debug-12-icloud-core-data-sync\">Debug podcast</a> along with <a href=\"http://blackpixel.com\">Daniel Pasco</a> and <a href=\"http://carpeaqua.com\">Justin Williams</a>.</p>") (pubDate nil "Fri, 05 Apr 2013 10:14:07 -0700") (guid nil "http://inessential.com/2013/04/05/debug_roundtable_on_icloud_core_data_syn") (dc:date nil "2013-04-05T10:14:07-07:00"))) ("Will Apple Be Whitelisted for CalDAV?" "<p>The <a href=\"http://www.chromium.org/blink\">Blink fork of WebKit</a> has me wondering about Apple’s and Google’s tactics.</p>
+<p>Specifically, I think back to Google’s <a href=\"http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html\">recent spring cleaning</a>, where it said that the CalDAV API will be available for whitelisted developers only.</p>
+<p>I wonder if Apple will be on that whitelist.</p>" "http://inessential.com/2013/04/04/will_apple_be_whitelisted_for_caldav_" (20830 4743) new 2 nil nil ((title nil "Will Apple Be Whitelisted for CalDAV?") (link nil "http://inessential.com/2013/04/04/will_apple_be_whitelisted_for_caldav_") (description nil "<p>The <a href=\"http://www.chromium.org/blink\">Blink fork of WebKit</a> has me wondering about Apple’s and Google’s tactics.</p>
+
+<p>Specifically, I think back to Google’s <a href=\"http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html\">recent spring cleaning</a>, where it said that the CalDAV API will be available for whitelisted developers only.</p>
+
+<p>I wonder if Apple will be on that whitelist.</p>") (pubDate nil "Thu, 04 Apr 2013 16:53:43 -0700") (guid nil "http://inessential.com/2013/04/04/will_apple_be_whitelisted_for_caldav_") (dc:date nil "2013-04-04T16:53:43-07:00"))) ("Tom’s iCloud State of the Union" "<p><a href=\"http://www.atomicbird.com/blog/icloud-sotu\">atomicbird</a>:</p>
+<blockquote><p>Users hear about how great iCloud is and how apps can use it to sync their own data. They quite reasonably wonder why your app isn’t using it. Syncing data is a great idea, Apple gives you iCloud, why aren’t you using it, dammit? But if you did use it, the app would be so unreliable that users would (again, quite reasonably) complain that it was a <em>steaming pile of shit</em>.</p></blockquote>" "http://www.atomicbird.com/blog/icloud-sotu" (20828 42739) new 3 nil nil ((title nil "Tom’s iCloud State of the Union") (link nil "http://www.atomicbird.com/blog/icloud-sotu") (description nil "<p><a href=\"http://www.atomicbird.com/blog/icloud-sotu\">atomicbird</a>:</p>
+
+<blockquote><p>Users hear about how great iCloud is and how apps can use it to sync their own data. They quite reasonably wonder why your app isn’t using it. Syncing data is a great idea, Apple gives you iCloud, why aren’t you using it, dammit? But if you did use it, the app would be so unreliable that users would (again, quite reasonably) complain that it was a <em>steaming pile of shit</em>.</p></blockquote>") (pubDate nil "Wed, 03 Apr 2013 15:02:27 -0700") (guid nil "http://inessential.com/2013/04/03/toms_icloud_state_of_the_union") (dc:date nil "2013-04-03T15:02:27-07:00"))) ("Regressing" "<p>Ryan Holiday writes in <a href=\"https://medium.com/future-tech-future-market/7b1a7ddb6ffe\">Our Regressive Web</a>:</p>
+<blockquote><p>Google Alerts, Delicious and RSS were designed in blogging’s early days as innovations to help readers reduce this noise—to help improve their reading experience. But now those gains are disappearing. I feel that the tech press has allowed this to happen.</p></blockquote>
+<p>I had not realized that <a href=\"http://venturebeat.com/2013/03/21/google-alerts-broken-useless-and-slowed-to-a-trickle/\">Google Alerts was having problems</a>. But it doesn’t surprise me.</p>
+<p>I wonder if it will go away on the same day as Feedburner, or whether the two will succumb in separate clean-outs.</p>" "https://medium.com/future-tech-future-market/7b1a7ddb6ffe" (20827 30370) new 4 nil nil ((title nil "Regressing") (link nil "https://medium.com/future-tech-future-market/7b1a7ddb6ffe") (description nil "<p>Ryan Holiday writes in <a href=\"https://medium.com/future-tech-future-market/7b1a7ddb6ffe\">Our Regressive Web</a>:</p>
+
+<blockquote><p>Google Alerts, Delicious and RSS were designed in blogging’s early days as innovations to help readers reduce this noise—to help improve their reading experience. But now those gains are disappearing. I feel that the tech press has allowed this to happen.</p></blockquote>
+
+<p>I had not realized that <a href=\"http://venturebeat.com/2013/03/21/google-alerts-broken-useless-and-slowed-to-a-trickle/\">Google Alerts was having problems</a>. But it doesn’t surprise me.</p>
+
+<p>I wonder if it will go away on the same day as Feedburner, or whether the two will succumb in separate clean-outs.</p>") (pubDate nil "Tue, 02 Apr 2013 17:24:02 -0700") (guid nil "http://inessential.com/2013/04/02/regressing") (dc:date nil "2013-04-02T17:24:02-07:00"))) ("Identical Cousins 13" "<p>On <a href=\"http://identicalcousins.net/2013/04/02/identical_cousins_13\">Identical Cousins 13</a> we talk about Google Reader, iCloud, Microsoft, Dave Morin, and Summly and other things. It’s a grab bag.</p>
+<p>It’s also our best audio quality. We’re getting the hang of this.</p>" "http://identicalcousins.net/2013/04/02/identical_cousins_13" (20827 9628) new 5 nil nil ((title nil "Identical Cousins 13") (link nil "http://identicalcousins.net/2013/04/02/identical_cousins_13") (description nil "<p>On <a href=\"http://identicalcousins.net/2013/04/02/identical_cousins_13\">Identical Cousins 13</a> we talk about Google Reader, iCloud, Microsoft, Dave Morin, and Summly and other things. It’s a grab bag.</p>
+
+<p>It’s also our best audio quality. We’re getting the hang of this.</p>") (pubDate nil "Tue, 02 Apr 2013 11:38:20 -0700") (guid nil "http://inessential.com/2013/04/02/identical_cousins_13") (dc:date nil "2013-04-02T11:38:20-07:00"))) ("A Clarification Regarding Web Services and Control" "<p>Responding to <a href=\"http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy\">yesterday’s post</a>, a number of people pointed out to me that it sounded weird if one minute I suggest checking out Azure <a href=\"http://www.windowsazure.com/ios\">Mobile Services</a> and the next minute tell developers they should take control of their app’s web services.</p>
+<p>I meant no contradiction, but I could have explained better.</p>
+<p>When creating web services, you should consider high-level systems, low-level systems, and everything in between, and figure out what makes sense for you.</p>
+<p>Here are some — not necessarily all — of the things to consider when choosing:</p>
+<ul>
+<li><p>Does it support iOS, Android, and browser-based apps? (Knowing that you may — may — want to move beyond just iOS.)</p></li>
+<li><p>Can you create a social component?</p></li>
+<li><p>Can you add additional services — push notifications, feed-polling, sending email, whatever — to the system?</p></li>
+<li><p>Can you get aggregate data and learn how people use your app?</p></li>
+<li><p>Perhaps most importantly: is it possible to migrate to something else (even if takes some work)?</p></li>
+</ul>
+<p>The answer is yes to all of these for Mobile Services. (While the answer is no to all of them for iCloud syncing.)</p>
+<p>The answer is also yes if you want to work at a low level — it’s yes if you get a virtual server on <a href=\"http://www.linode.com\">Linode</a> and run Ruby on Rails and MySQL.</p>
+<p>And it’s also yes if you work at a medium level and deploy apps using services like <a href=\"http://www.heroku.com\">Heroku</a>, <a href=\"https://www.engineyard.com\">Engine Yard</a>, <a href=\"http://aws.amazon.com\">Amazon</a>, and <a href=\"https://developers.google.com/appengine/\">Google App Engine</a>.</p>
+<p>At some point you have to outsource some things, right? You’re not going to build your own server machine that runs your own operating system in a data center you constructed with hammers and saws that you made.</p>
+<p>So you choose what makes sense. And if it can be a high-level system, that’s cool — it will probably save you time and be easier to maintain. But you might have good reasons to choose something medium or low level, and that’s cool too.</p>
+<p>The key is this: <em>you need control of the data</em>.</p>
+<p>iCloud Core Data syncing is, once again, completely opaque and outside your control. It fits <em>none</em> of the criteria listed above.</p>" "http://inessential.com/2013/03/28/a_clarification_regarding_web_services" (20820 32519) new 6 nil nil ((title nil "A Clarification Regarding Web Services and Control") (link nil "http://inessential.com/2013/03/28/a_clarification_regarding_web_services") (description nil "<p>Responding to <a href=\"http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy\">yesterday’s post</a>, a number of people pointed out to me that it sounded weird if one minute I suggest checking out Azure <a href=\"http://www.windowsazure.com/ios\">Mobile Services</a> and the next minute tell developers they should take control of their app’s web services.</p>
+
+<p>I meant no contradiction, but I could have explained better.</p>
+
+<p>When creating web services, you should consider high-level systems, low-level systems, and everything in between, and figure out what makes sense for you.</p>
+
+<p>Here are some — not necessarily all — of the things to consider when choosing:</p>
+
+<ul>
+<li><p>Does it support iOS, Android, and browser-based apps? (Knowing that you may — may — want to move beyond just iOS.)</p></li>
+<li><p>Can you create a social component?</p></li>
+<li><p>Can you add additional services — push notifications, feed-polling, sending email, whatever — to the system?</p></li>
+<li><p>Can you get aggregate data and learn how people use your app?</p></li>
+<li><p>Perhaps most importantly: is it possible to migrate to something else (even if takes some work)?</p></li>
+</ul>
+
+
+<p>The answer is yes to all of these for Mobile Services. (While the answer is no to all of them for iCloud syncing.)</p>
+
+<p>The answer is also yes if you want to work at a low level — it’s yes if you get a virtual server on <a href=\"http://www.linode.com\">Linode</a> and run Ruby on Rails and MySQL.</p>
+
+<p>And it’s also yes if you work at a medium level and deploy apps using services like <a href=\"http://www.heroku.com\">Heroku</a>, <a href=\"https://www.engineyard.com\">Engine Yard</a>, <a href=\"http://aws.amazon.com\">Amazon</a>, and <a href=\"https://developers.google.com/appengine/\">Google App Engine</a>.</p>
+
+<p>At some point you have to outsource some things, right? You’re not going to build your own server machine that runs your own operating system in a data center you constructed with hammers and saws that you made.</p>
+
+<p>So you choose what makes sense. And if it can be a high-level system, that’s cool — it will probably save you time and be easier to maintain. But you might have good reasons to choose something medium or low level, and that’s cool too.</p>
+
+<p>The key is this: <em>you need control of the data</em>.</p>
+
+<p>iCloud Core Data syncing is, once again, completely opaque and outside your control. It fits <em>none</em> of the criteria listed above.</p>") (pubDate nil "Thu, 28 Mar 2013 10:33:59 -0700") (guid nil "http://inessential.com/2013/03/28/a_clarification_regarding_web_services") (dc:date nil "2013-03-28T10:33:59-07:00"))) ("Why Developers Shouldn’t Use iCloud Syncing, Even If It Worked" "<p>Yesterday the Verge posted <a href=\"http://www.theverge.com/2013/3/26/4148628/why-doesnt-icloud-just-work\">Apple’s broken promise: why doesn’t iCloud ‘just work’?</a></p>
+<p>It’s not the first article on the topic — <a href=\"http://storify.com/Jury/the-trials-of-icloud\">bits</a> <a href=\"http://www.jumsoft.com/2013/01/response-to-sync-issues/\">and</a> <a href=\"http://createlivelove.com/246\">pieces</a> of this issue have come up before. But The Verge did an excellent job putting it all together. Good reporting.</p>
+<p>Here’s the thing: if you’re a developer, you shouldn’t use iCloud syncing anyway. I’ll explain.</p>
+<h4>Android and the web</h4>
+<p>You may think you’ll never want an Android or browser-based version of your app. But are you sure? Really, really sure?</p>
+<p>You hope your app will be a hit. (If not, then quit writing it and choose something else.) If it’s a hit on iOS, it could be a hit on Android too — and you can bet that customers will ask for a web app version.</p>
+<p>You don’t want to limit the success of your app just because you didn’t want to write your own server.</p>
+<p>And even if you’re sure that you’ll never want an Android or web version, is it possible you’d want a Mac version that isn’t sold on the App Store? (Only App Store builds are allowed to do iCloud syncing.)</p>
+<h4>Social software</h4>
+<p>We’ve been living in a social world for years. But iCloud syncing is not social: it’s per-user syncing.</p>
+<p>If you write your own server, you can write the social bits, so your users can share recipes, weather forecasts (look, Mom, it’s going to be sunny on Thursday!), favorite articles, or whatever-it-is your app does.</p>
+<p>People <em>expect</em> social.</p>
+<h4>Additional services</h4>
+<p>If you’re writing an RSS reader, you can’t ask iCloud to download feeds.</p>
+<p>iCloud can’t poll Twitter to see if your follower count has gone up or down. iCloud can’t <a href=\"http://forecast.io/\">generate weather forecasts</a>. iCloud can’t <a href=\"http://www.sailwx.info/\">track ships</a>.</p>
+<p>There are all kinds of services that make sense on the server side. You could do some of them on a client, but at the expense of timeliness and battery life. If it’s a good idea, and you don’t do it on a server, your competition just has to write a server that does it, and your app is finished.</p>
+<h4>Learning how people use your app</h4>
+<p>You shouldn’t look at private data.</p>
+<p>With Glassboard we made the decision — there was no debate — to encrypt messages in the database, so that we couldn’t see private data.</p>
+<p>But we could still look at aggregate data. It was interesting to know how many boards were created each day, how often people used invitation codes, and so on.</p>
+<p>There’s no substitute for learning about how people use your app. You can <em>guess</em> how people use your app. You can — and should — get all the feedback you can via email, Twitter, and App Store reviews.</p>
+<p>But seeing actual data makes a real difference, because it helps you figure out where your resources need to go.</p>
+<h4>Costs</h4>
+<p>It used to be expensive to develop, run, and maintain your own server. You’d buy a machine or a few machines, get them installed in a data center, figure out how Apache works, install MySQL, and write a ton of scripts. Perl or PHP scripts, most likely. (Ugh.)</p>
+<p>You’d use Subversion (if you were lucky) or cvs. You’d write your own testing system from scratch. You’d write a bash script that copied the files up to the server.</p>
+<p>And you’d spend a bunch of money.</p>
+<p><em>Everything</em> has gotten easier and cheaper. These days you’d run services on <a href=\"http://aws.amazon.com\">Amazon</a>, <a href=\"http://www.windowsazure.com/en-us/\">Azure</a>, <a href=\"https://www.engineyard.com\">Engine Yard</a>, or <a href=\"http://www.heroku.com\">Heroku</a>. Or get a virtual server on <a href=\"http://www.linode.com\">Linode</a>. You’d choose from one of the many excellent systems like <a href=\"http://rubyonrails.org\">Ruby on Rails</a>, <a href=\"http://www.sinatrarb.com\">Sinatra</a>, <a href=\"http://nodejs.org\">Node.js</a>, and <a href=\"https://www.djangoproject.com\">Django</a>. You’d deploy via <a href=\"http://git-scm.com\">git</a> or <a href=\"http://mercurial.selenic.com\">Mercurial</a>.</p>
+<p>If you can learn Cocoa, you can learn this stuff. (And so much of it is wonderful — you’ll <em>enjoy</em> learning it.)</p>
+<h4>Control</h4>
+<p>Tim Wood, CTO of The Omni Group, tweeted the very wise words: <a href=\"https://twitter.com/tjw/status/289230416064425984\">Own the Wheel</a>.</p>
+<p>Here’s the thing: half the mobile revolution is about designing and building apps for smartphones and tablets.</p>
+<p>The other half is about writing the web services that power those apps.</p>
+<p>How comfortable are you with outsourcing half your app to another company? The answer should be: not at all comfortable.</p>
+<p>Do it yourself.</p>" "http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy" (20819 19064) new 7 nil nil ((title nil "Why Developers Shouldn’t Use iCloud Syncing, Even If It Worked") (link nil "http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy") (description nil "<p>Yesterday the Verge posted <a href=\"http://www.theverge.com/2013/3/26/4148628/why-doesnt-icloud-just-work\">Apple’s broken promise: why doesn’t iCloud ‘just work’?</a></p>
+
+<p>It’s not the first article on the topic — <a href=\"http://storify.com/Jury/the-trials-of-icloud\">bits</a> <a href=\"http://www.jumsoft.com/2013/01/response-to-sync-issues/\">and</a> <a href=\"http://createlivelove.com/246\">pieces</a> of this issue have come up before. But The Verge did an excellent job putting it all together. Good reporting.</p>
+
+<p>Here’s the thing: if you’re a developer, you shouldn’t use iCloud syncing anyway. I’ll explain.</p>
+
+<h4>Android and the web</h4>
+
+<p>You may think you’ll never want an Android or browser-based version of your app. But are you sure? Really, really sure?</p>
+
+<p>You hope your app will be a hit. (If not, then quit writing it and choose something else.) If it’s a hit on iOS, it could be a hit on Android too — and you can bet that customers will ask for a web app version.</p>
+
+<p>You don’t want to limit the success of your app just because you didn’t want to write your own server.</p>
+
+<p>And even if you’re sure that you’ll never want an Android or web version, is it possible you’d want a Mac version that isn’t sold on the App Store? (Only App Store builds are allowed to do iCloud syncing.)</p>
+
+<h4>Social software</h4>
+
+<p>We’ve been living in a social world for years. But iCloud syncing is not social: it’s per-user syncing.</p>
+
+<p>If you write your own server, you can write the social bits, so your users can share recipes, weather forecasts (look, Mom, it’s going to be sunny on Thursday!), favorite articles, or whatever-it-is your app does.</p>
+
+<p>People <em>expect</em> social.</p>
+
+<h4>Additional services</h4>
+
+<p>If you’re writing an RSS reader, you can’t ask iCloud to download feeds.</p>
+
+<p>iCloud can’t poll Twitter to see if your follower count has gone up or down. iCloud can’t <a href=\"http://forecast.io/\">generate weather forecasts</a>. iCloud can’t <a href=\"http://www.sailwx.info/\">track ships</a>.</p>
+
+<p>There are all kinds of services that make sense on the server side. You could do some of them on a client, but at the expense of timeliness and battery life. If it’s a good idea, and you don’t do it on a server, your competition just has to write a server that does it, and your app is finished.</p>
+
+<h4>Learning how people use your app</h4>
+
+<p>You shouldn’t look at private data.</p>
+
+<p>With Glassboard we made the decision — there was no debate — to encrypt messages in the database, so that we couldn’t see private data.</p>
+
+<p>But we could still look at aggregate data. It was interesting to know how many boards were created each day, how often people used invitation codes, and so on.</p>
+
+<p>There’s no substitute for learning about how people use your app. You can <em>guess</em> how people use your app. You can — and should — get all the feedback you can via email, Twitter, and App Store reviews.</p>
+
+<p>But seeing actual data makes a real difference, because it helps you figure out where your resources need to go.</p>
+
+<h4>Costs</h4>
+
+<p>It used to be expensive to develop, run, and maintain your own server. You’d buy a machine or a few machines, get them installed in a data center, figure out how Apache works, install MySQL, and write a ton of scripts. Perl or PHP scripts, most likely. (Ugh.)</p>
+
+<p>You’d use Subversion (if you were lucky) or cvs. You’d write your own testing system from scratch. You’d write a bash script that copied the files up to the server.</p>
+
+<p>And you’d spend a bunch of money.</p>
+
+<p><em>Everything</em> has gotten easier and cheaper. These days you’d run services on <a href=\"http://aws.amazon.com\">Amazon</a>, <a href=\"http://www.windowsazure.com/en-us/\">Azure</a>, <a href=\"https://www.engineyard.com\">Engine Yard</a>, or <a href=\"http://www.heroku.com\">Heroku</a>. Or get a virtual server on <a href=\"http://www.linode.com\">Linode</a>. You’d choose from one of the many excellent systems like <a href=\"http://rubyonrails.org\">Ruby on Rails</a>, <a href=\"http://www.sinatrarb.com\">Sinatra</a>, <a href=\"http://nodejs.org\">Node.js</a>, and <a href=\"https://www.djangoproject.com\">Django</a>. You’d deploy via <a href=\"http://git-scm.com\">git</a> or <a href=\"http://mercurial.selenic.com\">Mercurial</a>.</p>
+
+<p>If you can learn Cocoa, you can learn this stuff. (And so much of it is wonderful — you’ll <em>enjoy</em> learning it.)</p>
+
+<h4>Control</h4>
+
+<p>Tim Wood, CTO of The Omni Group, tweeted the very wise words: <a href=\"https://twitter.com/tjw/status/289230416064425984\">Own the Wheel</a>.</p>
+
+<p>Here’s the thing: half the mobile revolution is about designing and building apps for smartphones and tablets.</p>
+
+<p>The other half is about writing the web services that power those apps.</p>
+
+<p>How comfortable are you with outsourcing half your app to another company? The answer should be: not at all comfortable.</p>
+
+<p>Do it yourself.</p>") (pubDate nil "Wed, 27 Mar 2013 12:37:28 -0700") (guid nil "http://inessential.com/2013/03/27/why_developers_shouldnt_use_icloud_sy") (dc:date nil "2013-03-27T12:37:28-07:00"))) ("The Small Town Volunteer Fire Department" "<p>My <a href=\"http://adventuresinnewfield.blogspot.com/2013/03/aah-joys-oops-downers-of-living-in.html\">Mom has the scoop</a> on goings-on in Newfield, a small town in south Jersey where my family comes from, where my Mom lives, where my grandfather was chief of the volunteer fire department.</p>
+<p>The city council wanted — for stupid reasons — to shut down the fire department, which had been serving the town for more than 100 years. The council voted to shut it down before changing its mind. Narrowly.</p>
+<p>Mom writes:</p>
+<blockquote><p>All I can think about is that this mess marks the passing of the two important groups - those responsible for the original Borough bargain of lower taxes thru volunteerism and the Great Generation that Ever Was.  Political/social decision making has passed into the hands of the baby boomers and we are not prioritizing the welfare of the town, state, nation, world above our own petty egos. This is not the legacy past generations wanted us to embrace.</p></blockquote>" "http://adventuresinnewfield.blogspot.com/2013/03/aah-joys-oops-downers-of-living-in.html" (20815 28766) new 8 nil nil ((title nil "The Small Town Volunteer Fire Department") (link nil "http://adventuresinnewfield.blogspot.com/2013/03/aah-joys-oops-downers-of-living-in.html") (description nil "<p>My <a href=\"http://adventuresinnewfield.blogspot.com/2013/03/aah-joys-oops-downers-of-living-in.html\">Mom has the scoop</a> on goings-on in Newfield, a small town in south Jersey where my family comes from, where my Mom lives, where my grandfather was chief of the volunteer fire department.</p>
+
+<p>The city council wanted — for stupid reasons — to shut down the fire department, which had been serving the town for more than 100 years. The council voted to shut it down before changing its mind. Narrowly.</p>
+
+<p>Mom writes:</p>
+
+<blockquote><p>All I can think about is that this mess marks the passing of the two important groups - those responsible for the original Borough bargain of lower taxes thru volunteerism and the Great Generation that Ever Was.  Political/social decision making has passed into the hands of the baby boomers and we are not prioritizing the welfare of the town, state, nation, world above our own petty egos. This is not the legacy past generations wanted us to embrace.</p></blockquote>") (pubDate nil "Sun, 24 Mar 2013 14:30:06 -0700") (guid nil "http://inessential.com/2013/03/24/the_small_town_volunteer_fire_department") (dc:date nil "2013-03-24T14:30:06-07:00"))) ("NetNewsWire News from Black Pixel" "<p>Black Pixel writes, in <a href=\"http://blackpixel.com/blog/2013/03/the-return-of-netnewswire.html\">The Return of NetNewsWire</a>, that future versions will have syncing, despite the end of Google Reader.</p>
+<p>Other points:</p>
+<ul>
+<li><p>They’ve been working on new versions, including modern designs and new features.</p></li>
+<li><p>Sync has been delayed because they were trying to get iCloud Core Data sync working, and it’s <a href=\"http://storify.com/Jury/the-trials-of-icloud\">just too buggy</a>.</p></li>
+</ul>" "http://blackpixel.com/blog/2013/03/the-return-of-netnewswire.html" (20810 11931) new 9 nil nil ((title nil "NetNewsWire News from Black Pixel") (link nil "http://blackpixel.com/blog/2013/03/the-return-of-netnewswire.html") (description nil "<p>Black Pixel writes, in <a href=\"http://blackpixel.com/blog/2013/03/the-return-of-netnewswire.html\">The Return of NetNewsWire</a>, that future versions will have syncing, despite the end of Google Reader.</p>
+
+<p>Other points:</p>
+
+<ul>
+<li><p>They’ve been working on new versions, including modern designs and new features.</p></li>
+<li><p>Sync has been delayed because they were trying to get iCloud Core Data sync working, and it’s <a href=\"http://storify.com/Jury/the-trials-of-icloud\">just too buggy</a>.</p></li>
+</ul>") (pubDate nil "Wed, 20 Mar 2013 14:48:11 -0700") (guid nil "http://inessential.com/2013/03/20/netnewswire_news_from_black_pixel") (dc:date nil "2013-03-20T14:48:11-07:00"))) ("Resolve App" "<p>I just bought <a href=\"https://itunes.apple.com/us/app/resolve-app/id609722766?mt=8\">Resolve App</a> by Dragon Forged Software. It’s an iPhone client for <a href=\"https://lighthouseapp.com/\">Lighthouse</a>, which I use.</p>" "https://itunes.apple.com/us/app/resolve-app/id609722766?mt=8" (20809 65205) new 10 nil nil ((title nil "Resolve App") (link nil "https://itunes.apple.com/us/app/resolve-app/id609722766?mt=8") (description nil "<p>I just bought <a href=\"https://itunes.apple.com/us/app/resolve-app/id609722766?mt=8\">Resolve App</a> by Dragon Forged Software. It’s an iPhone client for <a href=\"https://lighthouseapp.com/\">Lighthouse</a>, which I use.</p>") (pubDate nil "Wed, 20 Mar 2013 11:23:49 -0700") (guid nil "http://inessential.com/2013/03/20/resolve_app") (dc:date nil "2013-03-20T11:23:49-07:00"))) ("My Favorite Way to Screw Up a Feed" "<p>Since Brian worked on the server side, his list of <a href=\"http://inessential.com/2013/03/18/brians_stupid_feed_tricks\">Stupid Feed Tricks</a> didn’t include my very favorite feed screw-up.</p>
+<p>A lot of hotels and similar offer wi-fi. When you open a page in your browser, it redirects you to their login page.</p>
+<p>Those systems don’t differentiate between an http request made by a feed reader and an http request made by a browser. (Nor should they.)</p>
+<p>But what happens is that you launch your reader and it gets a redirect for every single feed, to some kind of URL like <code>http://dumbhotel.com/register.aspx</code>.</p>
+<p>Normally that would be fine. It’s just a redirect, and once you have actually logged in you can do a refresh in your reader and all’s well.</p>
+<p>But!</p>
+<p>No!</p>
+<p>A bunch of these dumb systems redirect using a <em>permanent</em> redirect: they use <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html\">301 instead of 302</a>.</p>
+<p>When a feed reader gets a permanent redirect, it’s supposed to take that to mean: “Hey, the feed moved. It’s over here now. Save the new URL and use the new one from now on.”</p>
+<p>And if you don’t do that in your reader, and your feed reader is popular enough, smart people who quite rightly care about proper behavior will call you out. You <em>have</em> to do that.</p>
+<p>So you write your feed reader to do the right thing — and then one of your customers goes to a dumb hotel, opens their laptop, and their subscription list is wiped out. Every feed URL is replaced with <code>http://dumbhotel.com/register.aspx</code>. And now they can’t get their news, and they don’t know how to get it back.</p>" "http://inessential.com/2013/03/18/my_favorite_way_to_screw_up_a_feed" (20807 47043) new 11 nil nil ((title nil "My Favorite Way to Screw Up a Feed") (link nil "http://inessential.com/2013/03/18/my_favorite_way_to_screw_up_a_feed") (description nil "<p>Since Brian worked on the server side, his list of <a href=\"http://inessential.com/2013/03/18/brians_stupid_feed_tricks\">Stupid Feed Tricks</a> didn’t include my very favorite feed screw-up.</p>
+
+<p>A lot of hotels and similar offer wi-fi. When you open a page in your browser, it redirects you to their login page.</p>
+
+<p>Those systems don’t differentiate between an http request made by a feed reader and an http request made by a browser. (Nor should they.)</p>
+
+<p>But what happens is that you launch your reader and it gets a redirect for every single feed, to some kind of URL like <code>http://dumbhotel.com/register.aspx</code>.</p>
+
+<p>Normally that would be fine. It’s just a redirect, and once you have actually logged in you can do a refresh in your reader and all’s well.</p>
+
+<p>But!</p>
+
+<p>No!</p>
+
+<p>A bunch of these dumb systems redirect using a <em>permanent</em> redirect: they use <a href=\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html\">301 instead of 302</a>.</p>
+
+<p>When a feed reader gets a permanent redirect, it’s supposed to take that to mean: “Hey, the feed moved. It’s over here now. Save the new URL and use the new one from now on.”</p>
+
+<p>And if you don’t do that in your reader, and your feed reader is popular enough, smart people who quite rightly care about proper behavior will call you out. You <em>have</em> to do that.</p>
+
+<p>So you write your feed reader to do the right thing — and then one of your customers goes to a dumb hotel, opens their laptop, and their subscription list is wiped out. Every feed URL is replaced with <code>http://dumbhotel.com/register.aspx</code>. And now they can’t get their news, and they don’t know how to get it back.</p>") (pubDate nil "Mon, 18 Mar 2013 17:56:35 -0700") (guid nil "http://inessential.com/2013/03/18/my_favorite_way_to_screw_up_a_feed") (dc:date nil "2013-03-18T17:56:35-07:00"))) ("Brian’s Stupid Feed Tricks" "<p>At NewsGator and Sepia Labs I worked with <a href=\"https://twitter.com/brianreischl\">Brian Reischl</a>, one of the server-side guys. Among other things, he worked on NewsGator’s RSS content service, which reads n million feeds once an hour.</p>
+<p>(I don’t know if I can say what n is. It surprised me when I heard it. The system is still running, by the way.)</p>
+<p>Brian is intimately acquainted with the different ways feeds can be screwed up. So he posted <a href=\"https://docs.google.com/document/d/1cvq67iQpk2C7ufOsefsfKnGCXeUIv46NQHbnHkm8PtU/edit?usp=sharing\">Stupid Feed Tricks</a> on Google Docs.</p>
+<p>I quote the entire thing below for people like me who don’t have Google accounts. The below is all by Brian:</p>
+<h4>Stupid HTTP Tricks</h4>
+<ol>
+<li>When the feed is gone/errored, publisher may still return a 200 OK but send an HTML page instead.</li>
+<li>Using permanent redirects for temporary errors. In one instance, all the Microsoft blogs had a temporary system error. All the feeds did a permanent redirect to the same system error page, and we updated all 40,000 feeds to point to that one URL. Whoops.</li>
+<li>Using very slow or overloaded servers. It might take 60 seconds just to connect and send the request, another 60 seconds to first response byte, and so on. This can bog down your content retrieval.</li>
+<li>Very slow responses, or responses that never actually complete (ie, you hang trying to read data essentially forever)</li>
+<li>Infinitely long responses. eg, feed server has an error and prints an error message in a infinite loop until something stops it. Hopefully it’s stopped by a check in your system, rather than consuming all the memory on your server.</li>
+<li>Sending back things that are not XML (eg, videos). It can help to check Content-Type and Content-Length headers, but sometimes they misidentify RSS as something else (eg, text/plain).</li>
+<li>Returning an HTML page containing HTML/Javascript redirects instead of using HTTP redirects.</li>
+<li>Infinite redirect loops.</li>
+<li>Long (but non-infinite) chains of redirects.</li>
+<li>Responding with 304 Not Modified if you send any If-None-Match/If-Modified-Since header, even if the feed has changed.</li>
+<li>Throttling your IP address. Some don’t tell you they’re throttling. Some provide Retry-After headers, but the HTTP status code can vary. eg, Twitter used to use their cutesy “420 Enhance Your Calm” response, then switched to “500 Internal Server Error”. Some use “503 Unavailable”. You’re mostly covered if you look for Retry-After headers in every non-success response..</li>
+<li>Redirecting (perhaps permanently) to a URL that’s already in your system. So now you either have a duplicate feed, or you have to update clients somehow. Note this can sometimes be legitimate, eg consolidating multiple feeds into one.</li>
+</ol>
+<h4>Stupid XML Tricks</h4>
+<ol>
+<li>Any sort of XML well-formedness error you can think of. Missing closing tags, mismatched tags, bad escaping, not quoting attributes, missing root elements.</li>
+<li>Including unescaped HTML content inside a tag - which sort of works, except that most HTML isn’t XML-compliant.</li>
+<li>Putting in characters that are illegal in XML documents (eg, some non-printable characters that should be escaped, but aren’t)</li>
+<li>Declaring the document as ISO-8859-1 encoding, but actually using UTF-8, with some Arabic characters in it.</li>
+</ol>
+<h4>Stupid RSS/Atom Tricks</h4>
+<ol>
+<li>Missing any element you can think of.</li>
+<li>Adding custom elements without namespaces.</li>
+<li>Using common extension elements without defining the namespaces (eg, using the common “mrss” namespace prefix for MediaRSS elements, without actually specifying that namespace anywhere)</li>
+<li>Not providing a GUID.</li>
+<li>Providing the same GUID for every post in the feed (eg, using the feed URL as the GUID)</li>
+<li>Providing the same GUID for every post, but changing each time you request the feed (eg, using the current date/time)</li>
+<li>Using a different GUID for each post, changing each time you request the feed (eg, generating an actual GUID each time the feed is requested)</li>
+<li>Not giving a PubDate</li>
+<li>Changing the PubDate on every retrieval.</li>
+<li>Changing the PubDate when a post is edited, rather than using a lastUpdated tag.</li>
+<li>Putting a tiny number of posts in the feed (sometimes just one). These types then usually publish 10 articles in the space of two minutes, and wonder why you’re missing 9 of them.</li>
+<li>Putting only one post in the feed, with a GUID that never changes. When there are new posts, just the title and description change. (I believe this was a bunch of Japanese newspaper sites.)</li>
+<li>Updating post content without changing the lastUpdated date (or not having one)</li>
+<li>Updating post metadata (eg, enclosures, MediaRSS extensions, etc) with or without changing the lastUpdated date.</li>
+<li>Treating their feed as append-only, so over time the feed grows without bound. eg, each request might pull back 10,000 posts covering the entire 8 year history of the feed.</li>
+<li>Specifying dates in whatever their language’s “Date.ToString()” spits out. eg, “Tuesday, March 31st, Year Of Our Lord Two Thousand And Twelve, 4:59 PM”</li>
+<li>Not specifying timezones for dates (very common. It’s easy to just assume UTC, but note that can yield pubdates in the future).</li>
+<li>Specifying dates that are far in the past or future (anything up to thousands of years)</li>
+<li>Having the Link element point to another site. This is actually pretty common (eg, DaringFireball). This can be a problem depending on how you’re identifying individual posts, or if you’re trying to detect duplicates across feeds.</li>
+</ol>
+<h4>Other Stupid Tricks</h4>
+<ol>
+<li>Updating posts very frequently. Newspapers are very fond of this. In 4 hours they might change a post 12 times, by the end it might have nothing in common with the original article (completely different title, completely different body). Sometimes combined with not using lastUpdated, or just not changing lastUpdate.</li>
+<li>Publishing updated posts as new posts, so you have 12 versions of the same post in the feed.</li>
+<li>Occasionally giving you an two-week-old version of the feed for one or two requests. It looked like one server in a cluster had cached an old version and wasn’t updating it. (This was the New York Times back in ~2009. They might’ve fixed it by now.)</li>
+<li>Adding posts very quickly. This is very common with feeds like the StockTwits stream, Twitter feeds (when that was allowed), the “all news” feeds from news organizations, etc. If you only check the feed every 60 minutes, you could easily miss something.</li>
+<li>Changing content literally every time you get the feed. eg, a feed that returns the current time in all the timezones, or the current weather for 20 different cities.</li>
+<li>Putting out private data without requiring authorization of any sort. eg, a feed of all your GMail. This isn’t a problem until you provide search or other feed discoverability, and then people’s private data starts showing up. Then they get very angry.</li>
+<li>Some places will publish a feed and then get angry that you use it, especially if you have ads in your reader. (name redacted before I get sued) got <em>very</em> bent out of shape over that back in ~2007.</li>
+<li>Providing feeds, but then also using robots.txt to say you can’t crawl it. So now do you violate the robots.txt, or not let your users subscribe to feeds because the publisher is a dipshit?</li>
+<li>Providing valid, but limited interest feeds. eg, search feeds (couches for sale in Portland on Craigslist!). Also lots of custom things like combinations from Yahoo Pipes (or whatever equivalent people come up with), bookmark/favorite feeds, etc. Can lead to lots of duplicate (or near duplicate) posts, and lots of feed retrievals that very few people care about.</li>
+<li>Publishers will routinely have 2-4 copies of the exact same feed. eg, one sourced from their site, and another republished through FeedBurner. Note: FeedBurner includes extension elements that tell you what the source feed and post were.</li>
+<li>Including malicious Javascript or HTML inside of the content in hopes of hacking your system. There was a test suite for this, unfortunately I don’t have the URL handy just now.</li>
+</ol>
+<h4>Random Notes</h4>
+<ol>
+<li>You should think hard about canonicalization of URLs. Some parts of the URL can be case-sensitive (path and query) other parts can’t (protocol, host and post). Users (and webmasters) will absolutely use different upper/lower casing in different places.</li>
+<li>If you build a database index on FeedUrl, consider that 99% of them start with “http://”, which makes for a shitty index. Consider separating the protocol into its own column, and then indexing on the remainder of the URL. Alternatively, you could index on a hashed value of the URL. Theoretically you could have collisions, but in practice there are not that many feeds.</li>
+</ol>" "http://inessential.com/2013/03/18/brians_stupid_feed_tricks" (20807 34348) new 12 nil nil ((title nil "Brian’s Stupid Feed Tricks") (link nil "http://inessential.com/2013/03/18/brians_stupid_feed_tricks") (description nil "<p>At NewsGator and Sepia Labs I worked with <a href=\"https://twitter.com/brianreischl\">Brian Reischl</a>, one of the server-side guys. Among other things, he worked on NewsGator’s RSS content service, which reads n million feeds once an hour.</p>
+
+<p>(I don’t know if I can say what n is. It surprised me when I heard it. The system is still running, by the way.)</p>
+
+<p>Brian is intimately acquainted with the different ways feeds can be screwed up. So he posted <a href=\"https://docs.google.com/document/d/1cvq67iQpk2C7ufOsefsfKnGCXeUIv46NQHbnHkm8PtU/edit?usp=sharing\">Stupid Feed Tricks</a> on Google Docs.</p>
+
+<p>I quote the entire thing below for people like me who don’t have Google accounts. The below is all by Brian:</p>
+
+<h4>Stupid HTTP Tricks</h4>
+
+<ol>
+<li>When the feed is gone/errored, publisher may still return a 200 OK but send an HTML page instead.</li>
+<li>Using permanent redirects for temporary errors. In one instance, all the Microsoft blogs had a temporary system error. All the feeds did a permanent redirect to the same system error page, and we updated all 40,000 feeds to point to that one URL. Whoops.</li>
+<li>Using very slow or overloaded servers. It might take 60 seconds just to connect and send the request, another 60 seconds to first response byte, and so on. This can bog down your content retrieval.</li>
+<li>Very slow responses, or responses that never actually complete (ie, you hang trying to read data essentially forever)</li>
+<li>Infinitely long responses. eg, feed server has an error and prints an error message in a infinite loop until something stops it. Hopefully it’s stopped by a check in your system, rather than consuming all the memory on your server.</li>
+<li>Sending back things that are not XML (eg, videos). It can help to check Content-Type and Content-Length headers, but sometimes they misidentify RSS as something else (eg, text/plain).</li>
+<li>Returning an HTML page containing HTML/Javascript redirects instead of using HTTP redirects.</li>
+<li>Infinite redirect loops.</li>
+<li>Long (but non-infinite) chains of redirects.</li>
+<li>Responding with 304 Not Modified if you send any If-None-Match/If-Modified-Since header, even if the feed has changed.</li>
+<li>Throttling your IP address. Some don’t tell you they’re throttling. Some provide Retry-After headers, but the HTTP status code can vary. eg, Twitter used to use their cutesy “420 Enhance Your Calm” response, then switched to “500 Internal Server Error”. Some use “503 Unavailable”. You’re mostly covered if you look for Retry-After headers in every non-success response..</li>
+<li>Redirecting (perhaps permanently) to a URL that’s already in your system. So now you either have a duplicate feed, or you have to update clients somehow. Note this can sometimes be legitimate, eg consolidating multiple feeds into one.</li>
+</ol>
+
+
+<h4>Stupid XML Tricks</h4>
+
+<ol>
+<li>Any sort of XML well-formedness error you can think of. Missing closing tags, mismatched tags, bad escaping, not quoting attributes, missing root elements.</li>
+<li>Including unescaped HTML content inside a tag - which sort of works, except that most HTML isn’t XML-compliant.</li>
+<li>Putting in characters that are illegal in XML documents (eg, some non-printable characters that should be escaped, but aren’t)</li>
+<li>Declaring the document as ISO-8859-1 encoding, but actually using UTF-8, with some Arabic characters in it.</li>
+</ol>
+
+
+<h4>Stupid RSS/Atom Tricks</h4>
+
+<ol>
+<li>Missing any element you can think of.</li>
+<li>Adding custom elements without namespaces.</li>
+<li>Using common extension elements without defining the namespaces (eg, using the common “mrss” namespace prefix for MediaRSS elements, without actually specifying that namespace anywhere)</li>
+<li>Not providing a GUID.</li>
+<li>Providing the same GUID for every post in the feed (eg, using the feed URL as the GUID)</li>
+<li>Providing the same GUID for every post, but changing each time you request the feed (eg, using the current date/time)</li>
+<li>Using a different GUID for each post, changing each time you request the feed (eg, generating an actual GUID each time the feed is requested)</li>
+<li>Not giving a PubDate</li>
+<li>Changing the PubDate on every retrieval.</li>
+<li>Changing the PubDate when a post is edited, rather than using a lastUpdated tag.</li>
+<li>Putting a tiny number of posts in the feed (sometimes just one). These types then usually publish 10 articles in the space of two minutes, and wonder why you’re missing 9 of them.</li>
+<li>Putting only one post in the feed, with a GUID that never changes. When there are new posts, just the title and description change. (I believe this was a bunch of Japanese newspaper sites.)</li>
+<li>Updating post content without changing the lastUpdated date (or not having one)</li>
+<li>Updating post metadata (eg, enclosures, MediaRSS extensions, etc) with or without changing the lastUpdated date.</li>
+<li>Treating their feed as append-only, so over time the feed grows without bound. eg, each request might pull back 10,000 posts covering the entire 8 year history of the feed.</li>
+<li>Specifying dates in whatever their language’s “Date.ToString()” spits out. eg, “Tuesday, March 31st, Year Of Our Lord Two Thousand And Twelve, 4:59 PM”</li>
+<li>Not specifying timezones for dates (very common. It’s easy to just assume UTC, but note that can yield pubdates in the future).</li>
+<li>Specifying dates that are far in the past or future (anything up to thousands of years)</li>
+<li>Having the Link element point to another site. This is actually pretty common (eg, DaringFireball). This can be a problem depending on how you’re identifying individual posts, or if you’re trying to detect duplicates across feeds.</li>
+</ol>
+
+
+<h4>Other Stupid Tricks</h4>
+
+<ol>
+<li>Updating posts very frequently. Newspapers are very fond of this. In 4 hours they might change a post 12 times, by the end it might have nothing in common with the original article (completely different title, completely different body). Sometimes combined with not using lastUpdated, or just not changing lastUpdate.</li>
+<li>Publishing updated posts as new posts, so you have 12 versions of the same post in the feed.</li>
+<li>Occasionally giving you an two-week-old version of the feed for one or two requests. It looked like one server in a cluster had cached an old version and wasn’t updating it. (This was the New York Times back in ~2009. They might’ve fixed it by now.)</li>
+<li>Adding posts very quickly. This is very common with feeds like the StockTwits stream, Twitter feeds (when that was allowed), the “all news” feeds from news organizations, etc. If you only check the feed every 60 minutes, you could easily miss something.</li>
+<li>Changing content literally every time you get the feed. eg, a feed that returns the current time in all the timezones, or the current weather for 20 different cities.</li>
+<li>Putting out private data without requiring authorization of any sort. eg, a feed of all your GMail. This isn’t a problem until you provide search or other feed discoverability, and then people’s private data starts showing up. Then they get very angry.</li>
+<li>Some places will publish a feed and then get angry that you use it, especially if you have ads in your reader. (name redacted before I get sued) got <em>very</em> bent out of shape over that back in ~2007.</li>
+<li>Providing feeds, but then also using robots.txt to say you can’t crawl it. So now do you violate the robots.txt, or not let your users subscribe to feeds because the publisher is a dipshit?</li>
+<li>Providing valid, but limited interest feeds. eg, search feeds (couches for sale in Portland on Craigslist!). Also lots of custom things like combinations from Yahoo Pipes (or whatever equivalent people come up with), bookmark/favorite feeds, etc. Can lead to lots of duplicate (or near duplicate) posts, and lots of feed retrievals that very few people care about.</li>
+<li>Publishers will routinely have 2-4 copies of the exact same feed. eg, one sourced from their site, and another republished through FeedBurner. Note: FeedBurner includes extension elements that tell you what the source feed and post were.</li>
+<li>Including malicious Javascript or HTML inside of the content in hopes of hacking your system. There was a test suite for this, unfortunately I don’t have the URL handy just now.</li>
+</ol>
+
+
+<h4>Random Notes</h4>
+
+<ol>
+<li>You should think hard about canonicalization of URLs. Some parts of the URL can be case-sensitive (path and query) other parts can’t (protocol, host and post). Users (and webmasters) will absolutely use different upper/lower casing in different places.</li>
+<li>If you build a database index on FeedUrl, consider that 99% of them start with “http://”, which makes for a shitty index. Consider separating the protocol into its own column, and then indexing on the remainder of the URL. Alternatively, you could index on a hashed value of the URL. Theoretically you could have collisions, but in practice there are not that many feeds.</li>
+</ol>") (pubDate nil "Mon, 18 Mar 2013 14:25:00 -0700") (guid nil "http://inessential.com/2013/03/18/brians_stupid_feed_tricks") (dc:date nil "2013-03-18T14:25:00-07:00"))) ("RSS-Sync Mailing List" "<p>I created a new mailing list for people who want to <a href=\"http://lists.ranchero.com/listinfo.cgi/rss-sync-ranchero.com\">talk about the technical side of RSS syncing</a>.</p>
+<p>Ideally there would be a single standard for RSS syncing, and clients could choose among systems. But I don’t insist on that — at least not yet. I think it’s ambitious enough just to get some working sync systems up and running.</p>" "http://inessential.com/2013/03/17/rss-sync_mailing_list" (20806 6899) new 13 nil nil ((title nil "RSS-Sync Mailing List") (link nil "http://inessential.com/2013/03/17/rss-sync_mailing_list") (description nil "<p>I created a new mailing list for people who want to <a href=\"http://lists.ranchero.com/listinfo.cgi/rss-sync-ranchero.com\">talk about the technical side of RSS syncing</a>.</p>
+
+<p>Ideally there would be a single standard for RSS syncing, and clients could choose among systems. But I don’t insist on that — at least not yet. I think it’s ambitious enough just to get some working sync systems up and running.</p>") (pubDate nil "Sun, 17 Mar 2013 12:35:15 -0700") (guid nil "http://inessential.com/2013/03/17/rss-sync_mailing_list") (dc:date nil "2013-03-17T12:35:15-07:00"))) ("What Else Google Is Shutting Down" "<p>While the demise of Google Reader got all the attention, there are some other things going away in <a href=\"http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html\">A second spring of cleaning</a>. It’s worth reading.</p>
+<p>One of the interesting ones: the CalDAV API will be removed for all but whitelisted developers. <a href=\"http://en.wikipedia.org/wiki/CalDAV\">CalDAV</a> builds on WebDAV and is an open standard. Instead you’d have to use the <a href=\"https://developers.google.com/google-apps/calendar/\">Google Calendar API</a>.</p>
+<p>I wouldn’t have noticed this except that I was out with two calendar developers last night: John Chaffee of <a href=\"http://www.busymac.com/busycal/\">BusyCal</a> and Michael Simmons of <a href=\"http://flexibits.com\">Flexibits</a>. I suspect they’ve got some coding to do.</p>
+<p>Google certainly has the right to shut things down — and I think they’re right to do so, also. The company’s been all over the place and should continue to work on focus.</p>
+<p>But I don’t like when they turn off existing support for an open standard like CalDAV in favor of a Google-only API. Sure, they can — it’s within their rights, obviously. But I don’t like it.</p>" "http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html" (20803 40900) new 14 nil nil ((title nil "What Else Google Is Shutting Down") (link nil "http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html") (description nil "<p>While the demise of Google Reader got all the attention, there are some other things going away in <a href=\"http://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html\">A second spring of cleaning</a>. It’s worth reading.</p>
+
+<p>One of the interesting ones: the CalDAV API will be removed for all but whitelisted developers. <a href=\"http://en.wikipedia.org/wiki/CalDAV\">CalDAV</a> builds on WebDAV and is an open standard. Instead you’d have to use the <a href=\"https://developers.google.com/google-apps/calendar/\">Google Calendar API</a>.</p>
+
+<p>I wouldn’t have noticed this except that I was out with two calendar developers last night: John Chaffee of <a href=\"http://www.busymac.com/busycal/\">BusyCal</a> and Michael Simmons of <a href=\"http://flexibits.com\">Flexibits</a>. I suspect they’ve got some coding to do.</p>
+
+<p>Google certainly has the right to shut things down — and I think they’re right to do so, also. The company’s been all over the place and should continue to work on focus.</p>
+
+<p>But I don’t like when they turn off existing support for an open standard like CalDAV in favor of a Google-only API. Sure, they can — it’s within their rights, obviously. But I don’t like it.</p>") (pubDate nil "Fri, 15 Mar 2013 15:25:08 -0700") (guid nil "http://inessential.com/2013/03/15/what_else_google_is_shutting_down") (dc:date nil "2013-03-15T15:25:08-07:00"))) ("Dave’s Notes for New RSS Readers" "<p><a href=\"http://threads2.scripting.com/2013/march/theIdealRssReader\">Dave Winer</a>:</p>
+<blockquote><p>The main thing we <a href=\"http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html\">learned</a> is that subscription needs to be centralized to make the process as simple as possible for the user. That’s one of the main reasons Twitter was such an effective competitor.</p></blockquote>" "http://threads2.scripting.com/2013/march/theIdealRssReader" (20803 36046) new 15 nil nil ((title nil "Dave’s Notes for New RSS Readers") (link nil "http://threads2.scripting.com/2013/march/theIdealRssReader") (description nil "<p><a href=\"http://threads2.scripting.com/2013/march/theIdealRssReader\">Dave Winer</a>:</p>
+
+<blockquote><p>The main thing we <a href=\"http://scripting.com/stories/2010/09/18/rebootingRssTwoKeyPoints.html\">learned</a> is that subscription needs to be centralized to make the process as simple as possible for the user. That’s one of the main reasons Twitter was such an effective competitor.</p></blockquote>") (pubDate nil "Fri, 15 Mar 2013 14:04:14 -0700") (guid nil "http://inessential.com/2013/03/15/daves_notes_for_new_rss_readers") (dc:date nil "2013-03-15T14:04:14-07:00"))) ("Google Reader API Documentation" "<p>There isn’t really any such thing as Google Reader API documentation.</p>
+<p>But I do have a PDF document that Nick Bradbury wrote up when we were switching FeedDemon and NetNewsWire from NewsGator syncing to Google Reader.</p>
+<p>It’s from 2009. Parts of it are surely out-of-date (authentication, for sure), and it was written with the expectation that the reader is familiar with NewsGator syncing.</p>
+<p>Nevertheless, in the spirit of Marco’s <a href=\"http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader\">baby steps toward replacing Google Reader</a>, I present it (with Nick’s permission) in case it’s useful to anyone:</p>
+<p><a href=\"http://ranchero.com/downloads/GoogleReaderAPI-2009.pdf\">GoogleReaderAPI-2009.pdf</a></p>" "http://inessential.com/2013/03/14/google_reader_api_documentation" (20802 22426) new 16 nil nil ((title nil "Google Reader API Documentation") (link nil "http://inessential.com/2013/03/14/google_reader_api_documentation") (description nil "<p>There isn’t really any such thing as Google Reader API documentation.</p>
+
+<p>But I do have a PDF document that Nick Bradbury wrote up when we were switching FeedDemon and NetNewsWire from NewsGator syncing to Google Reader.</p>
+
+<p>It’s from 2009. Parts of it are surely out-of-date (authentication, for sure), and it was written with the expectation that the reader is familiar with NewsGator syncing.</p>
+
+<p>Nevertheless, in the spirit of Marco’s <a href=\"http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader\">baby steps toward replacing Google Reader</a>, I present it (with Nick’s permission) in case it’s useful to anyone:</p>
+
+<p><a href=\"http://ranchero.com/downloads/GoogleReaderAPI-2009.pdf\">GoogleReaderAPI-2009.pdf</a></p>") (pubDate nil "Thu, 14 Mar 2013 16:04:58 -0700") (guid nil "http://inessential.com/2013/03/14/google_reader_api_documentation") (dc:date nil "2013-03-14T16:04:58-07:00"))) ("RSS Readers Other than Google Reader Are Under-Reported in Your Logs" "<p>Here’s something website owners should realize:</p>
+<p>You might look at your logs and find that Google Reader reports 100,000 subscribers. (For instance.)</p>
+<p>And then you look and find that clients apps X, Y, and Z don’t seem to hit your feed all that often.</p>
+<p>The easy conclusion is that Google Reader has thousands more users than X, Y, and Z. But that wouldn’t necessarily be correct.</p>
+<h4>Here’s Why</h4>
+<p>If X uses Google Reader for syncing, then X doesn’t read your feed directly. It gets it from Google Reader, and that person is reported to you under the Google Reader subscription count.</p>
+<p>So it’s possible that half — or whatever — of those Google Reader subscribers are using X. (Or Y or Z.)</p>
+<p>Or not. Or more than half.</p>
+<p>You just have no way of knowing. But it’s a safe bet that more people are using client apps than your logs report.</p>" "http://inessential.com/2013/03/14/rss_readers_other_than_google_reader_are" (20802 21572) new 17 nil nil ((title nil "RSS Readers Other than Google Reader Are Under-Reported in Your Logs") (link nil "http://inessential.com/2013/03/14/rss_readers_other_than_google_reader_are") (description nil "<p>Here’s something website owners should realize:</p>
+
+<p>You might look at your logs and find that Google Reader reports 100,000 subscribers. (For instance.)</p>
+
+<p>And then you look and find that clients apps X, Y, and Z don’t seem to hit your feed all that often.</p>
+
+<p>The easy conclusion is that Google Reader has thousands more users than X, Y, and Z. But that wouldn’t necessarily be correct.</p>
+
+<h4>Here’s Why</h4>
+
+<p>If X uses Google Reader for syncing, then X doesn’t read your feed directly. It gets it from Google Reader, and that person is reported to you under the Google Reader subscription count.</p>
+
+<p>So it’s possible that half — or whatever — of those Google Reader subscribers are using X. (Or Y or Z.)</p>
+
+<p>Or not. Or more than half.</p>
+
+<p>You just have no way of knowing. But it’s a safe bet that more people are using client apps than your logs report.</p>") (pubDate nil "Thu, 14 Mar 2013 15:50:44 -0700") (guid nil "http://inessential.com/2013/03/14/rss_readers_other_than_google_reader_are") (dc:date nil "2013-03-14T15:50:44-07:00"))) ("Why I love RSS and You Do Too" "<p>Even if you don’t use an RSS reader, you still use RSS.</p>
+<p>If you subscribe to any podcasts, you use RSS. Flipboard and Twitter are RSS readers, even if it’s not obvious and they do other things besides.</p>
+<p>Lots of apps on the various app stores use RSS in at least some way. They just don’t tell you — because why should they?</p>
+<p>RSS is used for mundane things too, like <a href=\"http://sparkle.andymatuschak.org\">Mac app updates</a> (for non-App-Store apps) and Xcode documentation.</p>
+<p>And those people you follow on Twitter who post interesting links? They often get those links from their RSS reader.</p>
+<p>One way or another, directly or indirectly, you use RSS. Without RSS all we’d have is pictures of cats and breakfast.</p>
+<h4>Boring</h4>
+<p>RSS is plumbing. It’s used all over the place but you don’t notice it. Which is cool.</p>
+<p>But here’s why it’s great plumbing:</p>
+<ul>
+<li><p>There are many millions of feeds, from the smallest blog to the many feeds at the New York Times. Just about everything that gets published on the web is available via RSS. (Outside of Twitter and Facebook.)</p></li>
+<li><p>There are no user caps. No company can tell your favorite app how many users it can have. (Twitter does this.)</p></li>
+<li><p>Nobody can tell you how to display an article from an RSS feed. (Twitter does this with tweets.)</p></li>
+<li><p>The formats are stable. Code I wrote five years ago to parse feeds would work today and will work in five years. (The formats are simple, too.) Other services have APIs that change and break existing apps.</p></li>
+<li><p>RSS can’t be shut down. Any number of companies can go out of business, but nobody can stop anybody from publishing and reading RSS feeds.</p></li>
+<li><p>Nobody can force ads on you. A given RSS reader could add ads, but you can switch — because another RSS reader can read the same feeds. A given publisher could put ads in their own feeds, but you can unsubscribe. There is no company that can force ads on everyone, as Twitter and Facebook are working on for their systems.</p></li>
+<li><p>Nobody can force you to be tracked. If you’re not using a syncing system, then nobody knows what you subscribe to and what you read.</p></li>
+<li><p>You don’t need to register anywhere to write an RSS app. (You do need to register to write Facebook and Twitter apps.)</p></li>
+<li><p>In the general case there are no security issues with feed reading. (Unless you’re using a sync service or reading authenticated feeds.)</p></li>
+</ul>
+<p>This is elegance. It derives from the design of the internet and the web and its many open standards — designed so that no entity can control it, so that it survives stupidity and greed when it appears.</p>
+<p>Lots of things work like this. Not just RSS.</p>
+<h4>Capitalism</h4>
+<p>A naive reading of the above makes it sound like RSS is anti-business. That’s not true at all. (I did well with my RSS business.)</p>
+<p>Instead, it’s anti-monopolist. By design it creates a level playing field. Anybody can write RSS apps, and anybody can use RSS however they want to.</p>
+<p>This means that competition and innovation are permitted to thrive.</p>
+<p>But it’s not a guarantee. In the past several years it seems to have slowed way down.</p>
+<h4>Prague 1948 Forever</h4>
+<p>When Eastern Europe opened up, following the fall of the Berlin Wall and the collapse of the Soviet Union, Prague looked like it had been sealed up in a bubble since 1948.</p>
+<p>Google Reader isn’t communist Russia, obviously, duh — but it’s a similar pattern. There was one gigantic player and a bunch of satellites, and RSS readers more-or-less looked like it was still 2006.</p>
+<p>Not that there wasn’t any innovation — there was some — but it’s been pretty quiet, especially compared to the several years before 2006.</p>
+<p>RSS the format has remained as useful and cool as ever, but RSS readers haven’t done so well.</p>
+<p>My hope — my expectation, even — is that a few things will turn this around:</p>
+<ul>
+<li><p>The end of Google Reader takes away that one dominant player. The market for RSS readers is no longer frozen — and it will interest more developers than it has in recent years.</p></li>
+<li><p>Over-reach by Twitter and its diminishing user experience makes people interested in other ways of finding good stuff to read.</p></li>
+<li><p>The lower costs of server-side development and deployment brings creating RSS services within reach of smaller companies.</p></li>
+</ul>
+<p>The challenge — as ever, with everything — is to make useful and delightful apps that people love.</p>
+<p>But now, if I’m right, we’ll have more people working on that challenge.</p>
+<p>In the meantime, the loss of Google Reader syncing is going to be tough. That’s a big hurdle. <a href=\"http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader\">Marco proposes some baby steps</a>. I don’t like Google Reader’s (undocumented) API, but I like the pragmatic approach.</p>
+<h4>Well</h4>
+<p>At any rate — these are interesting times! I know that’s a curse, but I take it as a blessing, because it’s way more fun that way.</p>" "http://inessential.com/2013/03/14/why_i_love_rss_and_you_do_too" (20802 18347) new 18 nil nil ((title nil "Why I love RSS and You Do Too") (link nil "http://inessential.com/2013/03/14/why_i_love_rss_and_you_do_too") (description nil "<p>Even if you don’t use an RSS reader, you still use RSS.</p>
+
+<p>If you subscribe to any podcasts, you use RSS. Flipboard and Twitter are RSS readers, even if it’s not obvious and they do other things besides.</p>
+
+<p>Lots of apps on the various app stores use RSS in at least some way. They just don’t tell you — because why should they?</p>
+
+<p>RSS is used for mundane things too, like <a href=\"http://sparkle.andymatuschak.org\">Mac app updates</a> (for non-App-Store apps) and Xcode documentation.</p>
+
+<p>And those people you follow on Twitter who post interesting links? They often get those links from their RSS reader.</p>
+
+<p>One way or another, directly or indirectly, you use RSS. Without RSS all we’d have is pictures of cats and breakfast.</p>
+
+<h4>Boring</h4>
+
+<p>RSS is plumbing. It’s used all over the place but you don’t notice it. Which is cool.</p>
+
+<p>But here’s why it’s great plumbing:</p>
+
+<ul>
+<li><p>There are many millions of feeds, from the smallest blog to the many feeds at the New York Times. Just about everything that gets published on the web is available via RSS. (Outside of Twitter and Facebook.)</p></li>
+<li><p>There are no user caps. No company can tell your favorite app how many users it can have. (Twitter does this.)</p></li>
+<li><p>Nobody can tell you how to display an article from an RSS feed. (Twitter does this with tweets.)</p></li>
+<li><p>The formats are stable. Code I wrote five years ago to parse feeds would work today and will work in five years. (The formats are simple, too.) Other services have APIs that change and break existing apps.</p></li>
+<li><p>RSS can’t be shut down. Any number of companies can go out of business, but nobody can stop anybody from publishing and reading RSS feeds.</p></li>
+<li><p>Nobody can force ads on you. A given RSS reader could add ads, but you can switch — because another RSS reader can read the same feeds. A given publisher could put ads in their own feeds, but you can unsubscribe. There is no company that can force ads on everyone, as Twitter and Facebook are working on for their systems.</p></li>
+<li><p>Nobody can force you to be tracked. If you’re not using a syncing system, then nobody knows what you subscribe to and what you read.</p></li>
+<li><p>You don’t need to register anywhere to write an RSS app. (You do need to register to write Facebook and Twitter apps.)</p></li>
+<li><p>In the general case there are no security issues with feed reading. (Unless you’re using a sync service or reading authenticated feeds.)</p></li>
+</ul>
+
+
+<p>This is elegance. It derives from the design of the internet and the web and its many open standards — designed so that no entity can control it, so that it survives stupidity and greed when it appears.</p>
+
+<p>Lots of things work like this. Not just RSS.</p>
+
+<h4>Capitalism</h4>
+
+<p>A naive reading of the above makes it sound like RSS is anti-business. That’s not true at all. (I did well with my RSS business.)</p>
+
+<p>Instead, it’s anti-monopolist. By design it creates a level playing field. Anybody can write RSS apps, and anybody can use RSS however they want to.</p>
+
+<p>This means that competition and innovation are permitted to thrive.</p>
+
+<p>But it’s not a guarantee. In the past several years it seems to have slowed way down.</p>
+
+<h4>Prague 1948 Forever</h4>
+
+<p>When Eastern Europe opened up, following the fall of the Berlin Wall and the collapse of the Soviet Union, Prague looked like it had been sealed up in a bubble since 1948.</p>
+
+<p>Google Reader isn’t communist Russia, obviously, duh — but it’s a similar pattern. There was one gigantic player and a bunch of satellites, and RSS readers more-or-less looked like it was still 2006.</p>
+
+<p>Not that there wasn’t any innovation — there was some — but it’s been pretty quiet, especially compared to the several years before 2006.</p>
+
+<p>RSS the format has remained as useful and cool as ever, but RSS readers haven’t done so well.</p>
+
+<p>My hope — my expectation, even — is that a few things will turn this around:</p>
+
+<ul>
+<li><p>The end of Google Reader takes away that one dominant player. The market for RSS readers is no longer frozen — and it will interest more developers than it has in recent years.</p></li>
+<li><p>Over-reach by Twitter and its diminishing user experience makes people interested in other ways of finding good stuff to read.</p></li>
+<li><p>The lower costs of server-side development and deployment brings creating RSS services within reach of smaller companies.</p></li>
+</ul>
+
+
+<p>The challenge — as ever, with everything — is to make useful and delightful apps that people love.</p>
+
+<p>But now, if I’m right, we’ll have more people working on that challenge.</p>
+
+<p>In the meantime, the loss of Google Reader syncing is going to be tough. That’s a big hurdle. <a href=\"http://www.marco.org/2013/03/14/baby-steps-replacing-google-reader\">Marco proposes some baby steps</a>. I don’t like Google Reader’s (undocumented) API, but I like the pragmatic approach.</p>
+
+<h4>Well</h4>
+
+<p>At any rate — these are interesting times! I know that’s a curse, but I take it as a blessing, because it’s way more fun that way.</p>") (pubDate nil "Thu, 14 Mar 2013 14:56:59 -0700") (guid nil "http://inessential.com/2013/03/14/why_i_love_rss_and_you_do_too") (dc:date nil "2013-03-14T14:56:59-07:00"))) ("FeedDemon" "<p>My friend and former co-worker Nick Bradbury writes of <a href=\"http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html\">The End of FeedDemon</a>:</p>
+<blockquote><p>That was the nail in the coffin for me. I hate to say goodbye to FeedDemon after a decade of working on it, but it’s time to say goodbye. When Google Reader shuts down on July 1, FeedDemon will also disappear.</p></blockquote>
+<p>Before Nick and I were co-workers, we were both indie developers working on RSS readers. (Check out this <a href=\"http://www.economist.com/node/2476892\">Economist article from 2004</a> that mentions us both.) We weren’t competitors, since FeedDemon ran on Windows and NetNewsWire ran on Macs.</p>
+<p>NetNewsWire shipped first — but FeedDemon shipped features faster than I did, and I shamelessly stole some good bits. Which Nick didn’t mind. (He encouraged me, even.) We became friends, and later became co-workers.</p>
+<p>It makes me sad to read of the end of FeedDemon. It mattered to me. But, more than that, I’m sad for my friend.</p>" "http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html" (20801 15864) new 19 nil nil ((title nil "FeedDemon") (link nil "http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html") (description nil "<p>My friend and former co-worker Nick Bradbury writes of <a href=\"http://nick.typepad.com/blog/2013/03/the-end-of-feeddemon.html\">The End of FeedDemon</a>:</p>
+
+<blockquote><p>That was the nail in the coffin for me. I hate to say goodbye to FeedDemon after a decade of working on it, but it’s time to say goodbye. When Google Reader shuts down on July 1, FeedDemon will also disappear.</p></blockquote>
+
+<p>Before Nick and I were co-workers, we were both indie developers working on RSS readers. (Check out this <a href=\"http://www.economist.com/node/2476892\">Economist article from 2004</a> that mentions us both.) We weren’t competitors, since FeedDemon ran on Windows and NetNewsWire ran on Macs.</p>
+
+<p>NetNewsWire shipped first — but FeedDemon shipped features faster than I did, and I shamelessly stole some good bits. Which Nick didn’t mind. (He encouraged me, even.) We became friends, and later became co-workers.</p>
+
+<p>It makes me sad to read of the end of FeedDemon. It mattered to me. But, more than that, I’m sad for my friend.</p>") (pubDate nil "Wed, 13 Mar 2013 20:03:20 -0700") (guid nil "http://inessential.com/2013/03/13/feeddemon") (dc:date nil "2013-03-13T20:03:20-07:00"))) ("Daniel Jalkut on NetNewsWire and RSS Syncing" "<p><a href=\"http://bitsplitting.org/2013/03/13/netnewswire-cloud/\">NetNewsWire Cloud</a>:</p>
+<blockquote><p>By implementing a suitable syncing API for RSS, <em>and implementing a reasonably useful web interface</em>, Black Pixel could establish NetNewsWire Cloud as the de facto replacement for Google Reader. Charging a reasonable fee for this service would likely inoculate it from the risk of sudden termination, and it would doubly serve to provide the very service that NetNewsWire needs to thrive on the desktop and on iOS.</p></blockquote>" "http://bitsplitting.org/2013/03/13/netnewswire-cloud/" (20801 7911) new 20 nil nil ((title nil "Daniel Jalkut on NetNewsWire and RSS Syncing") (link nil "http://bitsplitting.org/2013/03/13/netnewswire-cloud/") (description nil "<p><a href=\"http://bitsplitting.org/2013/03/13/netnewswire-cloud/\">NetNewsWire Cloud</a>:</p>
+
+<blockquote><p>By implementing a suitable syncing API for RSS, <em>and implementing a reasonably useful web interface</em>, Black Pixel could establish NetNewsWire Cloud as the de facto replacement for Google Reader. Charging a reasonable fee for this service would likely inoculate it from the risk of sudden termination, and it would doubly serve to provide the very service that NetNewsWire needs to thrive on the desktop and on iOS.</p></blockquote>") (pubDate nil "Wed, 13 Mar 2013 17:50:47 -0700") (guid nil "http://inessential.com/2013/03/13/daniel_jalkut_netnewswire_and_rss_syncin") (dc:date nil "2013-03-13T17:50:47-07:00"))))

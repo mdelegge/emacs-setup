@@ -1,0 +1,21 @@
+ls
+more PonyDebuggerQuickStart.txt
+ls
+open .
+ls
+cd Source/
+ls
+cd temp
+ls
+ls
+grep KEEPALIVE *
+grep CURLOPT *
+grep CURLOPT_TCP *
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb
+ruby test.rb

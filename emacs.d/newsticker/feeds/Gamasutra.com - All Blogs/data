@@ -1,0 +1,190 @@
+;; -*- coding: utf-8 -*-
+(("Gamasutra.com - All Blogs" "Gamasutra Blogs" "http://www.gamasutra.com/blogs/" (20831 21604 422063 0) feed 0 nil nil ((atom:link ((href . "http://www.gamasutra.com") (rel . "self") (type . "application/rss+xml"))) (title nil "Gamasutra.com - All Blogs") (link nil "http://www.gamasutra.com/blogs/") (description nil "Gamasutra Blogs") (lastBuildDate nil "Fri, 05 Apr 2013 06:40:30 EDT") (language nil "en-us") (webMaster nil "scarless@think-services.com (Simon Carless)") (item nil (title nil "i Touched Ron Gilbert - by Ryan Creighton
+") (link nil "http://www.gamasutra.com/blogs/RyanCreighton/20130405/189971/i_Touched_Ron_Gilbert.php") (category nil "
+Design,Indie
+") (description nil "
+What was so special about LucasArts? i owe my career to them.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RyanCreighton/20130405/189971/i_Touched_Ron_Gilbert.php") (pubDate nil "Fri, 05 Apr 2013 01:54:00 EDT")) (item nil (title nil "Design Tips When Porting Mobile to Console - by Nathan Fouts
+") (link nil "http://www.gamasutra.com/blogs/NathanFouts/20130405/189905/Design_Tips_When_Porting_Mobile_to_Console.php") (category nil "
+Design,Smartphone/Tablet
+") (description nil "
+Sloppy ports make your game look bad, and they devalue the whole marketplace. Includes 6 offending issues that are easy to fix.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/NathanFouts/20130405/189905/Design_Tips_When_Porting_Mobile_to_Console.php") (pubDate nil "Fri, 05 Apr 2013 08:31:00 EDT")) (item nil (title nil "The gamification of a career - by Andrzej Marczewski
+") (link nil "http://www.gamasutra.com/blogs/AndrzejMarczewski/20130405/189911/The_gamification_of_a_career.php") (category nil "
+Business/Marketing,Design,Serious
+") (description nil "
+A fair few of my recent posts have revolved around how we can use ideas from games / gamification to improve certain aspects of an employees journey through their career. I thought it may be time to pull it all together in a single coherent (I hope) po
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/AndrzejMarczewski/20130405/189911/The_gamification_of_a_career.php") (pubDate nil "Fri, 05 Apr 2013 04:06:00 EDT")) (item nil (title nil "Gender Gap and the Game Developer Salary Survey - by Patrick Miller
+") (link nil "http://www.gamasutra.com/blogs/PatrickMiller/20130404/189895/Gender_Gap_and_the_Game_Developer_Salary_Survey.php") (category nil "
+Business/Marketing
+") (description nil "
+Game Developer magazine editor Patrick Miller comments on the latest Game Developer Salary Survey and the gender gap in the games industry.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/PatrickMiller/20130404/189895/Gender_Gap_and_the_Game_Developer_Salary_Survey.php") (pubDate nil "Thu, 04 Apr 2013 03:19:00 EDT")) (item nil (title nil "Three Strategies for Curing Developers Block - by Ben Serviss
+") (link nil "http://www.gamasutra.com/blogs/BenServiss/20130404/189824/Three_Strategies_for_Curing_Developers_Block.php") (category nil "
+Production
+") (description nil "
+Losing interest in your project? Try these three tips to revitalize your creativity in the battle against developers block.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/BenServiss/20130404/189824/Three_Strategies_for_Curing_Developers_Block.php") (pubDate nil "Thu, 04 Apr 2013 09:05:00 EDT")) (item nil (title nil "Soapbox Rant: Public-Facing Events - by Rami Ismail
+") (link nil "http://www.gamasutra.com/blogs/RamiIsmail/20130404/189826/Soapbox_Rant_PublicFacing_Events.php") (category nil "
+Business/Marketing,Indie
+") (description nil "
+Vlambeers Rami Ismail spoke at the Game Developers Conference Indie Game Summit Soapbox sessions and explained the importance of indie developers attending public-facing events in five minutes.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RamiIsmail/20130404/189826/Soapbox_Rant_PublicFacing_Events.php") (pubDate nil "Thu, 04 Apr 2013 02:23:00 EDT")) (item nil (title nil "Emotions and Randomness - Loot Drops - by Chris Grey
+") (link nil "http://www.gamasutra.com/blogs/ChrisGrey/20130403/188569/Emotions_and_Randomness__Loot_Drops.php") (category nil "
+Design,Console/PC
+") (description nil "
+The math behind loot drops is not generally given much thought past a flat percentage drop rate, but the type of randomness used can greatly influence a player's emotional game experience. I'd like to bring a bit of light to these considerations.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/ChrisGrey/20130403/188569/Emotions_and_Randomness__Loot_Drops.php") (pubDate nil "Wed, 03 Apr 2013 06:25:00 EDT")) (item nil (title nil "XBLA Sales Analysis in Short, 2013 - by Ryan Langley
+") (link nil "http://www.gamasutra.com/blogs/RyanLangley/20130403/189778/XBLA_Sales_Analysis_in_Short_2013.php") (category nil "
+Business/Marketing,Console/PC
+") (description nil "
+A look back at the download numbers for XBLA during March 2013
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RyanLangley/20130403/189778/XBLA_Sales_Analysis_in_Short_2013.php") (pubDate nil "Wed, 03 Apr 2013 09:26:00 EDT")) (item nil (title nil "Wii-U Woes - by Josh Bycer
+") (link nil "http://www.gamasutra.com/blogs/JoshBycer/20130402/189729/WiiU_Woes.php") (category nil "
+Console/PC
+") (description nil "
+The Wii-U since launch has been struggling to find a place in the console market. With the next generation of consoles on the way, today's post examines the issues that have hurt Nintendo's latest console.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/JoshBycer/20130402/189729/WiiU_Woes.php") (pubDate nil "Tue, 02 Apr 2013 02:02:00 EDT")) (item nil (title nil "Story-telling as Problem Solving: Defender's Quest (GDC 2013 Narrative Summit) - by Lars Doucet
+") (link nil "http://www.gamasutra.com/blogs/LarsDoucet/20130402/189725/Storytelling_as_Problem_Solving_Defenders_Quest_GDC_2013_Narrative_Summit.php") (category nil) (description nil "
+Our talk at the GDC 2013 Narrative Summit. Thesis: a games story must explain its mechanics. 
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/LarsDoucet/20130402/189725/Storytelling_as_Problem_Solving_Defenders_Quest_GDC_2013_Narrative_Summit.php") (pubDate nil "Tue, 02 Apr 2013 12:17:00 EDT")) (item nil (title nil "An analysis of game balance / ramping in a video game/ Plants Vs. Zombies - by Jason Chalky
+") (link nil "http://www.gamasutra.com/blogs/JasonChalky/20130405/189979/An_analysis_of_game_balance__ramping_in_a_video_game_Plants_Vs_Zombies.php") (category nil "
+Design
+") (description nil "
+This is my analysis of game balance for the game Plants Vs. Zombies
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/JasonChalky/20130405/189979/An_analysis_of_game_balance__ramping_in_a_video_game_Plants_Vs_Zombies.php") (pubDate nil "Fri, 05 Apr 2013 05:47:00 EDT")) (item nil (title nil "Twitter Just Became a Games Platform - by Ryan Hoover
+") (link nil "http://www.gamasutra.com/blogs/RyanHoover/20130405/189975/Twitter_Just_Became_a_Games_Platform.php") (category nil "
+Smartphone/Tablet,Design
+") (description nil "
+Earlier this week Twitter announced an update to Twitter Cards, enabling mobile app developers to deep-link users to their app directly from a tweet, opening new possibilities for game creators.  That's right, Twitter just became a platform for games.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RyanHoover/20130405/189975/Twitter_Just_Became_a_Games_Platform.php") (pubDate nil "Fri, 05 Apr 2013 04:46:00 EDT")) (item nil (title nil "No GDC Pass? No Problem! - by Bradley Rose
+") (link nil "http://www.gamasutra.com/blogs/BradleyRose/20130405/189811/No_GDC_Pass_No_Problem.php") (category nil) (description nil "
+I went to Game Developers Conference 2013 dressed up as Luigi and was without a pass. I stood on the street with a sign that read \"LUIGI NEEDS GDC PASS!\" and succeeded.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/BradleyRose/20130405/189811/No_GDC_Pass_No_Problem.php") (pubDate nil "Fri, 05 Apr 2013 03:46:00 EDT")) (item nil (title nil "Necromancer Development Diary 4 - Creative Insecurity - by Daniel Bishop
+") (link nil "http://www.gamasutra.com/blogs/DanielBishop/20130405/189972/Necromancer_Development_Diary_4__Creative_Insecurity.php") (category nil "
+Design,Indie
+") (description nil "
+The fourth entry of a development diary written in Feb 2013 by Daniel Bishop as he embarked on his first video game project - Necromancer, The Fight For Life - catch up with the rest at http://www.necromancergame.com/progress/progress.html
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/DanielBishop/20130405/189972/Necromancer_Development_Diary_4__Creative_Insecurity.php") (pubDate nil "Fri, 05 Apr 2013 02:37:00 EDT")) (item nil (title nil "VGVN Touts 500k Members: Does It Really Mean Anything? - by E Zachary Knight
+") (link nil "http://www.gamasutra.com/blogs/EZacharyKnight/20130405/189970/VGVN_Touts_500k_Members_Does_It_Really_Mean_Anything.php") (category nil) (description nil "
+The Video Game Voters Network is claiming 500,000 members? But do those members really matter when their interests clash with the ESA, the parent organization of the VGVN? No they don't.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/EZacharyKnight/20130405/189970/VGVN_Touts_500k_Members_Does_It_Really_Mean_Anything.php") (pubDate nil "Fri, 05 Apr 2013 01:02:00 EDT")) (item nil (title nil "7 Essential Resources for Understanding Motivation - by Travis Ross
+") (link nil "http://www.gamasutra.com/blogs/TravisRoss/20130405/189950/7_Essential_Resources_for_Understanding_Motivation.php") (category nil "
+Design
+") (description nil "
+Motivation is an important topic for game designers and social scientists.In the following article I provide a list of seven articles and books that anyone who is interested in motivation should know about. 
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/TravisRoss/20130405/189950/7_Essential_Resources_for_Understanding_Motivation.php") (pubDate nil "Fri, 05 Apr 2013 09:16:00 EDT")) (item nil (title nil "In Honor of Roger Ebert... - by Dave Calabrese
+") (link nil "http://www.gamasutra.com/blogs/DaveCalabrese/20130404/189901/In_Honor_of_Roger_Ebert.php") (category nil "
+Business/Marketing
+") (description nil "
+In honor of Roger Ebert, I have dug out an old article I wrote for The Married Gamers regarding his 'games are not art' statements, and re-sharing it. RIP, Ebert.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/DaveCalabrese/20130404/189901/In_Honor_of_Roger_Ebert.php") (pubDate nil "Thu, 04 Apr 2013 06:15:00 EDT")) (item nil (title nil "Navigating Android: Device Market Share (March) - by Chris Harris
+") (link nil "http://www.gamasutra.com/blogs/ChrisHarris/20130404/189876/Navigating_Android_Device_Market_Share_March.php") (category nil "
+Smartphone/Tablet,Programming
+") (description nil "
+An monthly update from Nativex on device market share for Android phones/tablets.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/ChrisHarris/20130404/189876/Navigating_Android_Device_Market_Share_March.php") (pubDate nil "Thu, 04 Apr 2013 10:35:00 EDT")) (item nil (title nil "Does Kickstarter work for the console gamer? - by A W
+") (link nil "http://www.gamasutra.com/blogs/AW/20130404/189862/Does_Kickstarter_work_for_the_console_gamer.php") (category nil "
+Business/Marketing,Console/PC
+") (description nil "
+Uptick in asking consumers for money on Kickstarter in hopes of a possible console translation has me thinking...
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/AW/20130404/189862/Does_Kickstarter_work_for_the_console_gamer.php") (pubDate nil "Thu, 04 Apr 2013 09:35:00 EDT")) (item nil (title nil "Escaping Death: Why We Play Games - by Alice Rendell
+") (link nil "http://www.gamasutra.com/blogs/AliceRendell/20130404/189861/Escaping_Death_Why_We_Play_Games.php") (category nil "
+Design
+") (description nil "
+A philosophical look at some of the reasons people like to play games.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/AliceRendell/20130404/189861/Escaping_Death_Why_We_Play_Games.php") (pubDate nil "Thu, 04 Apr 2013 09:18:00 EDT")))) ("i Touched Ron Gilbert - by Ryan Creighton" "What was so special about LucasArts? i owe my career to them." "http://www.gamasutra.com/blogs/RyanCreighton/20130405/189971/i_Touched_Ron_Gilbert.php" (20830 11960) new 1 nil nil ((title nil "i Touched Ron Gilbert - by Ryan Creighton
+") (link nil "http://www.gamasutra.com/blogs/RyanCreighton/20130405/189971/i_Touched_Ron_Gilbert.php") (category nil "
+Design,Indie
+") (description nil "
+What was so special about LucasArts? i owe my career to them.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RyanCreighton/20130405/189971/i_Touched_Ron_Gilbert.php") (pubDate nil "Fri, 05 Apr 2013 01:54:00 EDT"))) ("Design Tips When Porting Mobile to Console - by Nathan Fouts" "Sloppy ports make your game look bad, and they devalue the whole marketplace. Includes 6 offending issues that are easy to fix." "http://www.gamasutra.com/blogs/NathanFouts/20130405/189905/Design_Tips_When_Porting_Mobile_to_Console.php" (20830 35780) new 2 nil nil ((title nil "Design Tips When Porting Mobile to Console - by Nathan Fouts
+") (link nil "http://www.gamasutra.com/blogs/NathanFouts/20130405/189905/Design_Tips_When_Porting_Mobile_to_Console.php") (category nil "
+Design,Smartphone/Tablet
+") (description nil "
+Sloppy ports make your game look bad, and they devalue the whole marketplace. Includes 6 offending issues that are easy to fix.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/NathanFouts/20130405/189905/Design_Tips_When_Porting_Mobile_to_Console.php") (pubDate nil "Fri, 05 Apr 2013 08:31:00 EDT"))) ("The gamification of a career - by Andrzej Marczewski" "A fair few of my recent posts have revolved around how we can use ideas from games / gamification to improve certain aspects of an employees journey through their career. I thought it may be time to pull it all together in a single coherent (I hope) po" "http://www.gamasutra.com/blogs/AndrzejMarczewski/20130405/189911/The_gamification_of_a_career.php" (20830 19880) new 3 nil nil ((title nil "The gamification of a career - by Andrzej Marczewski
+") (link nil "http://www.gamasutra.com/blogs/AndrzejMarczewski/20130405/189911/The_gamification_of_a_career.php") (category nil "
+Business/Marketing,Design,Serious
+") (description nil "
+A fair few of my recent posts have revolved around how we can use ideas from games / gamification to improve certain aspects of an employees journey through their career. I thought it may be time to pull it all together in a single coherent (I hope) po
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/AndrzejMarczewski/20130405/189911/The_gamification_of_a_career.php") (pubDate nil "Fri, 05 Apr 2013 04:06:00 EDT"))) ("Gender Gap and the Game Developer Salary Survey - by Patrick Miller" "Game Developer magazine editor Patrick Miller comments on the latest Game Developer Salary Survey and the gender gap in the games industry." "http://www.gamasutra.com/blogs/PatrickMiller/20130404/189895/Gender_Gap_and_the_Game_Developer_Salary_Survey.php" (20828 61732) new 4 nil nil ((title nil "Gender Gap and the Game Developer Salary Survey - by Patrick Miller
+") (link nil "http://www.gamasutra.com/blogs/PatrickMiller/20130404/189895/Gender_Gap_and_the_Game_Developer_Salary_Survey.php") (category nil "
+Business/Marketing
+") (description nil "
+Game Developer magazine editor Patrick Miller comments on the latest Game Developer Salary Survey and the gender gap in the games industry.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/PatrickMiller/20130404/189895/Gender_Gap_and_the_Game_Developer_Salary_Survey.php") (pubDate nil "Thu, 04 Apr 2013 03:19:00 EDT"))) ("Three Strategies for Curing Developers Block - by Ben Serviss" "Losing interest in your project? Try these three tips to revitalize your creativity in the battle against developers block." "http://www.gamasutra.com/blogs/BenServiss/20130404/189824/Three_Strategies_for_Curing_Developers_Block.php" (20829 16956) new 5 nil nil ((title nil "Three Strategies for Curing Developers Block - by Ben Serviss
+") (link nil "http://www.gamasutra.com/blogs/BenServiss/20130404/189824/Three_Strategies_for_Curing_Developers_Block.php") (category nil "
+Production
+") (description nil "
+Losing interest in your project? Try these three tips to revitalize your creativity in the battle against developers block.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/BenServiss/20130404/189824/Three_Strategies_for_Curing_Developers_Block.php") (pubDate nil "Thu, 04 Apr 2013 09:05:00 EDT"))) ("Soapbox Rant: Public-Facing Events - by Rami Ismail" "Vlambeers Rami Ismail spoke at the Game Developers Conference Indie Game Summit Soapbox sessions and explained the importance of indie developers attending public-facing events in five minutes." "http://www.gamasutra.com/blogs/RamiIsmail/20130404/189826/Soapbox_Rant_PublicFacing_Events.php" (20828 58372) new 6 nil nil ((title nil "Soapbox Rant: Public-Facing Events - by Rami Ismail
+") (link nil "http://www.gamasutra.com/blogs/RamiIsmail/20130404/189826/Soapbox_Rant_PublicFacing_Events.php") (category nil "
+Business/Marketing,Indie
+") (description nil "
+Vlambeers Rami Ismail spoke at the Game Developers Conference Indie Game Summit Soapbox sessions and explained the importance of indie developers attending public-facing events in five minutes.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RamiIsmail/20130404/189826/Soapbox_Rant_PublicFacing_Events.php") (pubDate nil "Thu, 04 Apr 2013 02:23:00 EDT"))) ("Emotions and Randomness - Loot Drops - by Chris Grey" "The math behind loot drops is not generally given much thought past a flat percentage drop rate, but the type of randomness used can greatly influence a player's emotional game experience. I'd like to bring a bit of light to these considerations." "http://www.gamasutra.com/blogs/ChrisGrey/20130403/188569/Emotions_and_Randomness__Loot_Drops.php" (20827 52028) new 7 nil nil ((title nil "Emotions and Randomness - Loot Drops - by Chris Grey
+") (link nil "http://www.gamasutra.com/blogs/ChrisGrey/20130403/188569/Emotions_and_Randomness__Loot_Drops.php") (category nil "
+Design,Console/PC
+") (description nil "
+The math behind loot drops is not generally given much thought past a flat percentage drop rate, but the type of randomness used can greatly influence a player's emotional game experience. I'd like to bring a bit of light to these considerations.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/ChrisGrey/20130403/188569/Emotions_and_Randomness__Loot_Drops.php") (pubDate nil "Wed, 03 Apr 2013 06:25:00 EDT"))) ("XBLA Sales Analysis in Short, 2013 - by Ryan Langley" "A look back at the download numbers for XBLA during March 2013" "http://www.gamasutra.com/blogs/RyanLangley/20130403/189778/XBLA_Sales_Analysis_in_Short_2013.php" (20827 62888) new 8 nil nil ((title nil "XBLA Sales Analysis in Short, 2013 - by Ryan Langley
+") (link nil "http://www.gamasutra.com/blogs/RyanLangley/20130403/189778/XBLA_Sales_Analysis_in_Short_2013.php") (category nil "
+Business/Marketing,Console/PC
+") (description nil "
+A look back at the download numbers for XBLA during March 2013
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RyanLangley/20130403/189778/XBLA_Sales_Analysis_in_Short_2013.php") (pubDate nil "Wed, 03 Apr 2013 09:26:00 EDT"))) ("Wii-U Woes - by Josh Bycer" "The Wii-U since launch has been struggling to find a place in the console market. With the next generation of consoles on the way, today's post examines the issues that have hurt Nintendo's latest console." "http://www.gamasutra.com/blogs/JoshBycer/20130402/189729/WiiU_Woes.php" (20826 15384) new 9 nil nil ((title nil "Wii-U Woes - by Josh Bycer
+") (link nil "http://www.gamasutra.com/blogs/JoshBycer/20130402/189729/WiiU_Woes.php") (category nil "
+Console/PC
+") (description nil "
+The Wii-U since launch has been struggling to find a place in the console market. With the next generation of consoles on the way, today's post examines the issues that have hurt Nintendo's latest console.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/JoshBycer/20130402/189729/WiiU_Woes.php") (pubDate nil "Tue, 02 Apr 2013 02:02:00 EDT"))) ("Story-telling as Problem Solving: Defender's Quest (GDC 2013 Narrative Summit) - by Lars Doucet" "Our talk at the GDC 2013 Narrative Summit. Thesis: a games story must explain its mechanics." "http://www.gamasutra.com/blogs/LarsDoucet/20130402/189725/Storytelling_as_Problem_Solving_Defenders_Quest_GDC_2013_Narrative_Summit.php" (20826 52284) new 10 nil nil ((title nil "Story-telling as Problem Solving: Defender's Quest (GDC 2013 Narrative Summit) - by Lars Doucet
+") (link nil "http://www.gamasutra.com/blogs/LarsDoucet/20130402/189725/Storytelling_as_Problem_Solving_Defenders_Quest_GDC_2013_Narrative_Summit.php") (category nil) (description nil "
+Our talk at the GDC 2013 Narrative Summit. Thesis: a games story must explain its mechanics. 
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/LarsDoucet/20130402/189725/Storytelling_as_Problem_Solving_Defenders_Quest_GDC_2013_Narrative_Summit.php") (pubDate nil "Tue, 02 Apr 2013 12:17:00 EDT"))) ("An analysis of game balance / ramping in a video game/ Plants Vs. Zombies - by Jason Chalky" "This is my analysis of game balance for the game Plants Vs. Zombies" "http://www.gamasutra.com/blogs/JasonChalky/20130405/189979/An_analysis_of_game_balance__ramping_in_a_video_game_Plants_Vs_Zombies.php" (20830 25940) new 11 nil nil ((title nil "An analysis of game balance / ramping in a video game/ Plants Vs. Zombies - by Jason Chalky
+") (link nil "http://www.gamasutra.com/blogs/JasonChalky/20130405/189979/An_analysis_of_game_balance__ramping_in_a_video_game_Plants_Vs_Zombies.php") (category nil "
+Design
+") (description nil "
+This is my analysis of game balance for the game Plants Vs. Zombies
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/JasonChalky/20130405/189979/An_analysis_of_game_balance__ramping_in_a_video_game_Plants_Vs_Zombies.php") (pubDate nil "Fri, 05 Apr 2013 05:47:00 EDT"))) ("Twitter Just Became a Games Platform - by Ryan Hoover" "Earlier this week Twitter announced an update to Twitter Cards, enabling mobile app developers to deep-link users to their app directly from a tweet, opening new possibilities for game creators.  That's right, Twitter just became a platform for games." "http://www.gamasutra.com/blogs/RyanHoover/20130405/189975/Twitter_Just_Became_a_Games_Platform.php" (20830 22280) new 12 nil nil ((title nil "Twitter Just Became a Games Platform - by Ryan Hoover
+") (link nil "http://www.gamasutra.com/blogs/RyanHoover/20130405/189975/Twitter_Just_Became_a_Games_Platform.php") (category nil "
+Smartphone/Tablet,Design
+") (description nil "
+Earlier this week Twitter announced an update to Twitter Cards, enabling mobile app developers to deep-link users to their app directly from a tweet, opening new possibilities for game creators.  That's right, Twitter just became a platform for games.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/RyanHoover/20130405/189975/Twitter_Just_Became_a_Games_Platform.php") (pubDate nil "Fri, 05 Apr 2013 04:46:00 EDT"))) ("No GDC Pass? No Problem! - by Bradley Rose" "I went to Game Developers Conference 2013 dressed up as Luigi and was without a pass. I stood on the street with a sign that read \"LUIGI NEEDS GDC PASS!\" and succeeded." "http://www.gamasutra.com/blogs/BradleyRose/20130405/189811/No_GDC_Pass_No_Problem.php" (20830 18680) new 13 nil nil ((title nil "No GDC Pass? No Problem! - by Bradley Rose
+") (link nil "http://www.gamasutra.com/blogs/BradleyRose/20130405/189811/No_GDC_Pass_No_Problem.php") (category nil) (description nil "
+I went to Game Developers Conference 2013 dressed up as Luigi and was without a pass. I stood on the street with a sign that read \"LUIGI NEEDS GDC PASS!\" and succeeded.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/BradleyRose/20130405/189811/No_GDC_Pass_No_Problem.php") (pubDate nil "Fri, 05 Apr 2013 03:46:00 EDT"))) ("Necromancer Development Diary 4 - Creative Insecurity - by Daniel Bishop" "The fourth entry of a development diary written in Feb 2013 by Daniel Bishop as he embarked on his first video game project - Necromancer, The Fight For Life - catch up with the rest at http://www.necromancergame.com/progress/progress.html" "http://www.gamasutra.com/blogs/DanielBishop/20130405/189972/Necromancer_Development_Diary_4__Creative_Insecurity.php" (20830 14540) new 14 nil nil ((title nil "Necromancer Development Diary 4 - Creative Insecurity - by Daniel Bishop
+") (link nil "http://www.gamasutra.com/blogs/DanielBishop/20130405/189972/Necromancer_Development_Diary_4__Creative_Insecurity.php") (category nil "
+Design,Indie
+") (description nil "
+The fourth entry of a development diary written in Feb 2013 by Daniel Bishop as he embarked on his first video game project - Necromancer, The Fight For Life - catch up with the rest at http://www.necromancergame.com/progress/progress.html
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/DanielBishop/20130405/189972/Necromancer_Development_Diary_4__Creative_Insecurity.php") (pubDate nil "Fri, 05 Apr 2013 02:37:00 EDT"))) ("VGVN Touts 500k Members: Does It Really Mean Anything? - by E Zachary Knight" "The Video Game Voters Network is claiming 500,000 members? But do those members really matter when their interests clash with the ESA, the parent organization of the VGVN? No they don't." "http://www.gamasutra.com/blogs/EZacharyKnight/20130405/189970/VGVN_Touts_500k_Members_Does_It_Really_Mean_Anything.php" (20830 8840) new 15 nil nil ((title nil "VGVN Touts 500k Members: Does It Really Mean Anything? - by E Zachary Knight
+") (link nil "http://www.gamasutra.com/blogs/EZacharyKnight/20130405/189970/VGVN_Touts_500k_Members_Does_It_Really_Mean_Anything.php") (category nil) (description nil "
+The Video Game Voters Network is claiming 500,000 members? But do those members really matter when their interests clash with the ESA, the parent organization of the VGVN? No they don't.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/EZacharyKnight/20130405/189970/VGVN_Touts_500k_Members_Does_It_Really_Mean_Anything.php") (pubDate nil "Fri, 05 Apr 2013 01:02:00 EDT"))) ("7 Essential Resources for Understanding Motivation - by Travis Ross" "Motivation is an important topic for game designers and social scientists.In the following article I provide a list of seven articles and books that anyone who is interested in motivation should know about." "http://www.gamasutra.com/blogs/TravisRoss/20130405/189950/7_Essential_Resources_for_Understanding_Motivation.php" (20830 38480) new 16 nil nil ((title nil "7 Essential Resources for Understanding Motivation - by Travis Ross
+") (link nil "http://www.gamasutra.com/blogs/TravisRoss/20130405/189950/7_Essential_Resources_for_Understanding_Motivation.php") (category nil "
+Design
+") (description nil "
+Motivation is an important topic for game designers and social scientists.In the following article I provide a list of seven articles and books that anyone who is interested in motivation should know about. 
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/TravisRoss/20130405/189950/7_Essential_Resources_for_Understanding_Motivation.php") (pubDate nil "Fri, 05 Apr 2013 09:16:00 EDT"))) ("In Honor of Roger Ebert... - by Dave Calabrese" "In honor of Roger Ebert, I have dug out an old article I wrote for The Married Gamers regarding his 'games are not art' statements, and re-sharing it. RIP, Ebert." "http://www.gamasutra.com/blogs/DaveCalabrese/20130404/189901/In_Honor_of_Roger_Ebert.php" (20829 6756) new 17 nil nil ((title nil "In Honor of Roger Ebert... - by Dave Calabrese
+") (link nil "http://www.gamasutra.com/blogs/DaveCalabrese/20130404/189901/In_Honor_of_Roger_Ebert.php") (category nil "
+Business/Marketing
+") (description nil "
+In honor of Roger Ebert, I have dug out an old article I wrote for The Married Gamers regarding his 'games are not art' statements, and re-sharing it. RIP, Ebert.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/DaveCalabrese/20130404/189901/In_Honor_of_Roger_Ebert.php") (pubDate nil "Thu, 04 Apr 2013 06:15:00 EDT"))) ("Navigating Android: Device Market Share (March) - by Chris Harris" "An monthly update from Nativex on device market share for Android phones/tablets." "http://www.gamasutra.com/blogs/ChrisHarris/20130404/189876/Navigating_Android_Device_Market_Share_March.php" (20829 22356) new 18 nil nil ((title nil "Navigating Android: Device Market Share (March) - by Chris Harris
+") (link nil "http://www.gamasutra.com/blogs/ChrisHarris/20130404/189876/Navigating_Android_Device_Market_Share_March.php") (category nil "
+Smartphone/Tablet,Programming
+") (description nil "
+An monthly update from Nativex on device market share for Android phones/tablets.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/ChrisHarris/20130404/189876/Navigating_Android_Device_Market_Share_March.php") (pubDate nil "Thu, 04 Apr 2013 10:35:00 EDT"))) ("Does Kickstarter work for the console gamer? - by A W" "Uptick in asking consumers for money on Kickstarter in hopes of a possible console translation has me thinking..." "http://www.gamasutra.com/blogs/AW/20130404/189862/Does_Kickstarter_work_for_the_console_gamer.php" (20829 18756) new 19 nil nil ((title nil "Does Kickstarter work for the console gamer? - by A W
+") (link nil "http://www.gamasutra.com/blogs/AW/20130404/189862/Does_Kickstarter_work_for_the_console_gamer.php") (category nil "
+Business/Marketing,Console/PC
+") (description nil "
+Uptick in asking consumers for money on Kickstarter in hopes of a possible console translation has me thinking...
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/AW/20130404/189862/Does_Kickstarter_work_for_the_console_gamer.php") (pubDate nil "Thu, 04 Apr 2013 09:35:00 EDT"))) ("Escaping Death: Why We Play Games - by Alice Rendell" "A philosophical look at some of the reasons people like to play games." "http://www.gamasutra.com/blogs/AliceRendell/20130404/189861/Escaping_Death_Why_We_Play_Games.php" (20829 17736) new 20 nil nil ((title nil "Escaping Death: Why We Play Games - by Alice Rendell
+") (link nil "http://www.gamasutra.com/blogs/AliceRendell/20130404/189861/Escaping_Death_Why_We_Play_Games.php") (category nil "
+Design
+") (description nil "
+A philosophical look at some of the reasons people like to play games.
+") (guid ((isPermaLink . "true")) "http://www.gamasutra.com/blogs/AliceRendell/20130404/189861/Escaping_Death_Why_We_Play_Games.php") (pubDate nil "Thu, 04 Apr 2013 09:18:00 EDT"))))

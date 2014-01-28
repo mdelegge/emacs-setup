@@ -1,0 +1,454 @@
+;; -*- coding: utf-8 -*-
+(("The Verge -  All Posts" nil nil (20831 21567 377575 0) feed 0 nil nil ((title nil "The Verge -  All Posts") (subtitle nil) (icon nil "http://cdn1.sbnation.com/community_logos/34086/verge-fv.png") (updated nil "2013-04-05T22:19:03Z") (id nil "http://www.theverge.com/rss/index.xml") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/"))) (entry nil (published nil "2013-04-05T22:19:03Z") (updated nil "2013-04-05T22:19:03Z") (title nil "90 Seconds on The Verge: Google Fiber, WebKit vs. Blink, and the always-on Xbox") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Nsv_000_130000\" src=\"http://cdn1.sbnation.com/entry_photo_images/7982453/NSV_000_130000.Still002_large.jpg\" />
+
+
+
+
+
+  <p>Everything was red.</p>
+<p>I opened my eyes slowly, wincing as the world came into focus. The emergency lights were flashing; sparks sputtered from a broken panel to my right. Then I remembered. <i>The impact</i>.</p>
+<p>I pulled myself up. Somewhere in the background the computer was warning about a hull breach, spouting the emergency quarantine protocol. It was a Delta Three priority &mdash; but to be honest I didn't really care at the moment.</p>
+<p><i>Bang</i>. At the door. Whatever had gotten onto the ship was outside, right now. At least the lockdown would buy me some time.</p>
+<p>The computer chimed. \"Override authentication accepted. Have a nice day.\"</p>
+<p>I always hated machines.</p>
+
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv"))) (link ((type . "video/mp4") (rel . "enclosure") (href . "http://www.theverge.com/rss/redirect.mp4?url=http://ak.c.ooyala.com/d1cDByYTp-3Osy5QLGjT2ftTz-ioRNKS/DOcJ-FxaFrRg4gtDEwOjFpaDowODE7jj"))) (id nil "http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv") (author nil (name nil "Bryan Bishop"))) (entry nil (published nil "2013-04-05T22:09:04Z") (updated nil "2013-04-05T22:09:04Z") (title nil "Silicon Valley voices opposition to China cyber-espionage provision") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Dsc_5081_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/7982505/DSC_5081_large.jpg\" />
+
+
+
+
+
+  <p>Last month, Congress signed into law an appropriations bill that requires four federal agencies <a href=\"http://www.theverge.com/2013/3/27/4154442/us-congress-restricts-purchase-of-chinese-computer-equipment-fearing-cyber-espionage\">to conduct an FBI-assisted security assessment</a> when purchasing computers and other IT gear manufactured in China. Predictably, <a href=\"http://www.theverge.com/2013/3/30/4164372/china-opposes-us-law-restricting-government-tech-imports/in/3709433\">China came out in strong opposition</a> to the provision &mdash; meant to shield the Justice Department, Department of Commerce, NASA, and the NSF against cyber espionage &mdash; and now Silicon Valley is taking issue with the restrictions. A number of industry trade associations have banded together and authored <a href=\"http://blog.itic.org/dotAsset/d2bae027-4a43-4d7f-b650-4a5a510ffc49.pdf\" target=\"_blank\">a letter to leaders on Capitol Hill</a> voicing their concern. \"Fundamentally, product security is a function of how a product is made, used, and maintained, not by whom or where it is made,\" the document reads.</p>
+<p>Among those...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision"))) (id nil "http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision") (author nil (name nil "Chris Welch"))) (entry nil (published nil "2013-04-05T21:53:11Z") (updated nil "2013-04-05T21:53:11Z") (title nil "Why the 'Super Mario Bros.' movie was actually ahead of its time") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"N6z4twltfojoi5czfvw-zzeuyqamqch8_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/7982489/N6Z4TWltfoJOi5czfvW-ZZeUYqAmqCH8_large.jpg\" />
+
+
+
+
+
+  <p>Believe it or not, we're coming up on the 20th anniversary of the massive critical and box-office bomb that was the <i>Super Mario Bros.</i> movie adaptation. Released May 28, 1993, the movie had the unfortunate timing to come out just two weeks ahead of another, much better cinematic adaptation involving dinosaurs that you may remember: <i>Jurassic Park</i>. Yet when it comes to evaluating each movie's place in Hollywood history, <i>Super Mario Bros</i>. may have actually been the more prescient of the two. That's the conclusion of Karina Longworth, who performed some cinematic paleontology for <a target=\"_blank\" href=\"http://www.grantland.com/story/_/id/9123782/the-strange-case-super-mario-bros-movieex_cid=grantland33\"><i>Grantland</i></a>, re-reviewing the movie after playing the original NES game. As she puts it: \"<i>Super Mario Bros</i>. was the product of an older generation callously pandering...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland"))) (id nil "http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland") (author nil (name nil "Carl Franzen"))) (entry nil (published nil "2013-04-05T21:23:01Z") (updated nil "2013-04-05T21:23:01Z") (title nil "Google CIO thinks today's lawmakers aren't the best for making tech policy") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Benfried-googlecio3_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982413/benfried-googlecio3_large.jpg\" />
+
+
+
+
+
+  <p>If you're of the opinion that politicians are unqualified to create tech policy, then know that Ben Fried, Google's chief information officer, largely agrees with you.</p>
+<p>\"The current generation of lawmakers are probably not the best informed [about technological issues],\" Fried told an audience at Columbia University today. And for that reason, according to Fried, they're likely not the best people to answer important policy questions about tech. Fried made his comments as a part of a panel discussion on \"big data\" that included executives from Bloomberg, Microsoft, and Facebook.  </p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech"))) (id nil "http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech") (author nil (name nil "Greg Sandoval"))) (entry nil (published nil "2013-04-05T20:59:32Z") (updated nil "2013-04-05T20:59:32Z") (title nil "Microsoft issues statement apologizing for employee's Twitter comments on next-generation Xbox") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Xboxstock1_640_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/7982241/xboxstock1_640_large.jpg\" />
+
+
+
+
+
+  <p>Microsoft has released an official response following <a href=\"http://www.theverge.com/2013/4/5/4185938/adam-orth-speaks-on-required-internet-connection-for-durango-rumors\">a number of tweets from Microsoft Studios creative director Adam Orth yesterday</a> commenting on rumors that the next-generation Xbox will require an always-on internet connection. The employee &mdash; who very likely is familiar with the console codenamed \"Durango\" &mdash; said \"Sorry, I don't get the drama over having an \"always on\" console,\" stating that we live in a world where every device is 'always-on.' It's unusual that Microsoft has seen fit to respond to the tweets, reminding people that \"this person is not a spokesperson for Microsoft\" and it apologized, stating \"we are very sorry if this offended anyone.\" Even more curiously, Microsoft hardly makes a gesture at denying the always-on...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox"))) (id nil "http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox") (author nil (name nil "Dante D'Orazio"))) (entry nil (published nil "2013-04-05T20:33:05Z") (updated nil "2013-04-05T20:33:05Z") (title nil "T-Mobile update expands LTE to unlocked iPhone 5") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Iphone-pin-lock-security_1020_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982127/iphone-pin-lock-security_1020_large.jpg\" />
+
+
+
+
+
+  <p>Aspiring new iPhone 5 customers aren't the only ones T-Mobile is looking to please today. Hours after opening the <a href=\"http://www.theverge.com/2013/4/5/4186152/apple-tmobile-open-iphone-5-preorders\">pre-order period for iPhone 5 plans</a> in the US, T-Mobile also quietly <a target=\"_blank\" href=\"http://support.t-mobile.com/docs/DOC-5737\">released a carrier update</a> to bring LTE to all of its iPhone customers running iOS version 6 and above. The new update also gives customers visual voicemail, promises improved battery life thanks to better optimization with T-Mobile's network, and access to the <a target=\"_blank\" href=\"http://www.fcc.gov/guides/wireless-emergency-alerts-wea\">FCC's commercial mobile alert system</a> for public emergency notifications. Perhaps most importantly, it extends T-Mobile's new LTE network to unlocked iPhone 5s, too. But you may have more difficulty if you have a jailbroken iPhone: the company's update specifically says they aren't allowed, and that...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte"))) (id nil "http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte") (author nil (name nil "Carl Franzen"))) (entry nil (published nil "2013-04-05T20:16:19Z") (updated nil "2013-04-05T20:16:19Z") (title nil "Google asks FTC and Department of Justice to investigate 'patent privateering'") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Google-project-glass_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982097/google-project-glass_large.jpg\" />
+
+
+
+
+
+  <p>In the latest of several swipes against patent trolls, Google has taken aim at the companies who sell off their patents so they can be used in lawsuits. Writing to the FTC and US Department of Justice, Google warned against \"patent privateering\" &mdash; by which it means outsourcing patent warfare by going through firms that don't make anything themselves and therefore can't be countersued. Patent trolls are almost universally reviled for aggressively suing companies on vague, sweeping patent claims. But Google claims the US government should turn its attention to the companies who created those patents in the first place.</p>
+<p>\"PAEs [Patent Assertion Entities, which litigate patents] impose tremendous costs on innovative industries,\" writes...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering"))) (id nil "http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering") (author nil (name nil "Adi Robertson"))) (entry nil (published nil "2013-04-05T19:31:52Z") (updated nil "2013-04-05T19:31:52Z") (title nil "Google Fiber could expand to Austin as city preps for joint announcement next week") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Google_fiber_report_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7981931/Google_Fiber_report_large.jpeg\" />
+
+
+
+
+
+  <p>Google and the City of Austin, Texas have sent out invites for a press conference for \"a very important announcement\" next week, <a href=\"http://venturebeat.com/2013/04/05/google-fiber-coming-to-austin-city-government-google-holding-a-meeting-next-week-to-announce-something/\" target=\"_blank\">according to <i>VentureBeat</i></a>, and it is expected that the two will reveal that the city will be the next to receive Google Fiber. <i>VentureBeat</i> cites \"multiple sources\" that tell the website that the announcement will revolve around Google's gigabit internet service, but it's possible that the event will reveal some other partnership, like a new Google campus.</p>
+<p>The evidence, however, suggests otherwise. Beyond the rumors, Austin is a logical place for Google to expand its highly sought-after gigabit internet service. Not only did the city <a href=\"http://www.biggigaustin.org/\" target=\"_blank\">wage a campaign</a> to be Google's test city for the service (Kansas City...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement"))) (id nil "http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement") (author nil (name nil "Dante D'Orazio"))) (entry nil (published nil "2013-04-05T19:13:05Z") (updated nil "2013-04-05T19:13:05Z") (title nil "3D printer produces synthetic tissue capable of transmitting signals like nerves") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"_hnsfj017ws-_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/7981561/_hnsfj017ws-_large.png\" />
+
+
+
+
+
+  <p>Scientists have used a custom-made 3D printer to make a synthetic tissue that could have a variety of applications &mdash; including the ability to transmit long-distance electric signals much like nerves. The process, <a href=\"http://www.sciencemag.org/content/340/6128/48.abstract\" target=\"_blank\">published in <i>Science</i></a> by an Oxford University team led by Hagan Bayley, prints a network of droplets made out of aqueous solutions &mdash; a liquid mixture &mdash; instead of the solids that standard 3D printers produce.</p>
+<p>The printer, made specifically for this experiment since already-existent models weren't up to the task, places tiny drops of liquid into an oil solution. The drops, instead of adhering to one another, are naturally separated by a lipid layer. When networks of these drops are printed in the tens of thousands &mdash; the...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves"))) (id nil "http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves") (author nil (name nil "Dante D'Orazio"))) (entry nil (published nil "2013-04-05T19:06:06Z") (updated nil "2013-04-05T19:06:06Z") (title nil "EA's Peter Moore concedes 'we can do better' as 'worst company' crown approaches") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Screen_shot_2013-04-05_at_3\" src=\"http://cdn0.sbnation.com/entry_photo_images/7981721/Screen_Shot_2013-04-05_at_3.04.34_PM_large.png\" />
+
+
+
+
+
+  <p>No business wants to labeled the worst company in America, especially for two years running, yet that's the position EA finds itself in as <a target=\"_blank\" href=\"http://consumerist.com/2013/04/05/worst-company-in-america-semifinals-ea-vs-ticketmaster/\">voting continues on <i>Consumerist's</i> annual poll</a>. In response to the expected (and embarrassing) \"victory,\" COO Peter Moore has taken to the company's blog today with a simple message: EA can and will do better. \"I&rsquo;ll be the first to admit that we&rsquo;ve made plenty of mistakes,\" he writes. \"These include server shut downs too early, games that didn&rsquo;t meet expectations, missteps on new pricing models and most recently, severely <a href=\"http://www.theverge.com/2013/3/14/4103140/simcity-launch-and-server-problems\">fumbling the launch of <i>SimCity</i>.</a>\" That last example has been a particularly troublesome one for the gaming publisher; <a href=\"http://www.theverge.com/2013/3/18/4120332/ea-ceo-john-riccitiello-stepping-down-on-march-30th\">John Riccitiello last week stepped down as EA's CEO...</a></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better"))) (id nil "http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better") (author nil (name nil "Chris Welch"))))) ("90 Seconds on The Verge: Google Fiber, WebKit vs. Blink, and the always-on Xbox" "<img alt=\"Nsv_000_130000\" src=\"http://cdn1.sbnation.com/entry_photo_images/7982453/NSV_000_130000.Still002_large.jpg\" />
+<p>Everything was red.</p>
+<p>I opened my eyes slowly, wincing as the world came into focus. The emergency lights were flashing; sparks sputtered from a broken panel to my right. Then I remembered. <i>The impact</i>.</p>
+<p>I pulled myself up. Somewhere in the background the computer was warning about a hull breach, spouting the emergency quarantine protocol. It was a Delta Three priority &mdash; but to be honest I didn't really care at the moment.</p>
+<p><i>Bang</i>. At the door. Whatever had gotten onto the ship was outside, right now. At least the lockdown would buy me some time.</p>
+<p>The computer chimed. \"Override authentication accepted. Have a nice day.\"</p>
+<p>I always hated machines.</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv" (20831 19927) new 1 nil nil ((published nil "2013-04-05T22:19:03Z") (updated nil "2013-04-05T22:19:03Z") (title nil "90 Seconds on The Verge: Google Fiber, WebKit vs. Blink, and the always-on Xbox") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Nsv_000_130000\" src=\"http://cdn1.sbnation.com/entry_photo_images/7982453/NSV_000_130000.Still002_large.jpg\" />
+
+
+
+
+
+  <p>Everything was red.</p>
+<p>I opened my eyes slowly, wincing as the world came into focus. The emergency lights were flashing; sparks sputtered from a broken panel to my right. Then I remembered. <i>The impact</i>.</p>
+<p>I pulled myself up. Somewhere in the background the computer was warning about a hull breach, spouting the emergency quarantine protocol. It was a Delta Three priority &mdash; but to be honest I didn't really care at the moment.</p>
+<p><i>Bang</i>. At the door. Whatever had gotten onto the ship was outside, right now. At least the lockdown would buy me some time.</p>
+<p>The computer chimed. \"Override authentication accepted. Have a nice day.\"</p>
+<p>I always hated machines.</p>
+
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv"))) (link ((type . "video/mp4") (rel . "enclosure") (href . "http://www.theverge.com/rss/redirect.mp4?url=http://ak.c.ooyala.com/d1cDByYTp-3Osy5QLGjT2ftTz-ioRNKS/DOcJ-FxaFrRg4gtDEwOjFpaDowODE7jj"))) (id nil "http://www.theverge.com/2013/4/5/4188496/google-fiber-webkit-vs-blink-microsoft-always-on-xbox-90sotv") (author nil (name nil "Bryan Bishop")))) ("Silicon Valley voices opposition to China cyber-espionage provision" "<img alt=\"Dsc_5081_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/7982505/DSC_5081_large.jpg\" />
+<p>Last month, Congress signed into law an appropriations bill that requires four federal agencies <a href=\"http://www.theverge.com/2013/3/27/4154442/us-congress-restricts-purchase-of-chinese-computer-equipment-fearing-cyber-espionage\">to conduct an FBI-assisted security assessment</a> when purchasing computers and other IT gear manufactured in China. Predictably, <a href=\"http://www.theverge.com/2013/3/30/4164372/china-opposes-us-law-restricting-government-tech-imports/in/3709433\">China came out in strong opposition</a> to the provision &mdash; meant to shield the Justice Department, Department of Commerce, NASA, and the NSF against cyber espionage &mdash; and now Silicon Valley is taking issue with the restrictions. A number of industry trade associations have banded together and authored <a href=\"http://blog.itic.org/dotAsset/d2bae027-4a43-4d7f-b650-4a5a510ffc49.pdf\" target=\"_blank\">a letter to leaders on Capitol Hill</a> voicing their concern. \"Fundamentally, product security is a function of how a product is made, used, and maintained, not by whom or where it is made,\" the document reads.</p>
+<p>Among those...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision" (20831 19328) new 2 nil nil ((published nil "2013-04-05T22:09:04Z") (updated nil "2013-04-05T22:09:04Z") (title nil "Silicon Valley voices opposition to China cyber-espionage provision") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Dsc_5081_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/7982505/DSC_5081_large.jpg\" />
+
+
+
+
+
+  <p>Last month, Congress signed into law an appropriations bill that requires four federal agencies <a href=\"http://www.theverge.com/2013/3/27/4154442/us-congress-restricts-purchase-of-chinese-computer-equipment-fearing-cyber-espionage\">to conduct an FBI-assisted security assessment</a> when purchasing computers and other IT gear manufactured in China. Predictably, <a href=\"http://www.theverge.com/2013/3/30/4164372/china-opposes-us-law-restricting-government-tech-imports/in/3709433\">China came out in strong opposition</a> to the provision &mdash; meant to shield the Justice Department, Department of Commerce, NASA, and the NSF against cyber espionage &mdash; and now Silicon Valley is taking issue with the restrictions. A number of industry trade associations have banded together and authored <a href=\"http://blog.itic.org/dotAsset/d2bae027-4a43-4d7f-b650-4a5a510ffc49.pdf\" target=\"_blank\">a letter to leaders on Capitol Hill</a> voicing their concern. \"Fundamentally, product security is a function of how a product is made, used, and maintained, not by whom or where it is made,\" the document reads.</p>
+<p>Among those...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision"))) (id nil "http://www.theverge.com/2013/4/5/4188396/tech-companies-voice-opposition-china-cyber-espionage-provision") (author nil (name nil "Chris Welch")))) ("Why the 'Super Mario Bros.' movie was actually ahead of its time" "<img alt=\"N6z4twltfojoi5czfvw-zzeuyqamqch8_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/7982489/N6Z4TWltfoJOi5czfvW-ZZeUYqAmqCH8_large.jpg\" />
+<p>Believe it or not, we're coming up on the 20th anniversary of the massive critical and box-office bomb that was the <i>Super Mario Bros.</i> movie adaptation. Released May 28, 1993, the movie had the unfortunate timing to come out just two weeks ahead of another, much better cinematic adaptation involving dinosaurs that you may remember: <i>Jurassic Park</i>. Yet when it comes to evaluating each movie's place in Hollywood history, <i>Super Mario Bros</i>. may have actually been the more prescient of the two. That's the conclusion of Karina Longworth, who performed some cinematic paleontology for <a target=\"_blank\" href=\"http://www.grantland.com/story/_/id/9123782/the-strange-case-super-mario-bros-movieex_cid=grantland33\"><i>Grantland</i></a>, re-reviewing the movie after playing the original NES game. As she puts it: \"<i>Super Mario Bros</i>. was the product of an older generation callously pandering...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland" (20831 18375) new 3 nil nil ((published nil "2013-04-05T21:53:11Z") (updated nil "2013-04-05T21:53:11Z") (title nil "Why the 'Super Mario Bros.' movie was actually ahead of its time") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"N6z4twltfojoi5czfvw-zzeuyqamqch8_large\" src=\"http://cdn2.sbnation.com/entry_photo_images/7982489/N6Z4TWltfoJOi5czfvW-ZZeUYqAmqCH8_large.jpg\" />
+
+
+
+
+
+  <p>Believe it or not, we're coming up on the 20th anniversary of the massive critical and box-office bomb that was the <i>Super Mario Bros.</i> movie adaptation. Released May 28, 1993, the movie had the unfortunate timing to come out just two weeks ahead of another, much better cinematic adaptation involving dinosaurs that you may remember: <i>Jurassic Park</i>. Yet when it comes to evaluating each movie's place in Hollywood history, <i>Super Mario Bros</i>. may have actually been the more prescient of the two. That's the conclusion of Karina Longworth, who performed some cinematic paleontology for <a target=\"_blank\" href=\"http://www.grantland.com/story/_/id/9123782/the-strange-case-super-mario-bros-movieex_cid=grantland33\"><i>Grantland</i></a>, re-reviewing the movie after playing the original NES game. As she puts it: \"<i>Super Mario Bros</i>. was the product of an older generation callously pandering...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland"))) (id nil "http://www.theverge.com/2013/4/5/4188460/super-mario-bros-movie-re-review-grantland") (author nil (name nil "Carl Franzen")))) ("Google CIO thinks today's lawmakers aren't the best for making tech policy" "<img alt=\"Benfried-googlecio3_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982413/benfried-googlecio3_large.jpg\" />
+<p>If you're of the opinion that politicians are unqualified to create tech policy, then know that Ben Fried, Google's chief information officer, largely agrees with you.</p>
+<p>\"The current generation of lawmakers are probably not the best informed [about technological issues],\" Fried told an audience at Columbia University today. And for that reason, according to Fried, they're likely not the best people to answer important policy questions about tech. Fried made his comments as a part of a panel discussion on \"big data\" that included executives from Bloomberg, Microsoft, and Facebook.  </p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech" (20831 16565) new 4 nil nil ((published nil "2013-04-05T21:23:01Z") (updated nil "2013-04-05T21:23:01Z") (title nil "Google CIO thinks today's lawmakers aren't the best for making tech policy") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Benfried-googlecio3_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982413/benfried-googlecio3_large.jpg\" />
+
+
+
+
+
+  <p>If you're of the opinion that politicians are unqualified to create tech policy, then know that Ben Fried, Google's chief information officer, largely agrees with you.</p>
+<p>\"The current generation of lawmakers are probably not the best informed [about technological issues],\" Fried told an audience at Columbia University today. And for that reason, according to Fried, they're likely not the best people to answer important policy questions about tech. Fried made his comments as a part of a panel discussion on \"big data\" that included executives from Bloomberg, Microsoft, and Facebook.  </p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech"))) (id nil "http://www.theverge.com/2013/4/5/4188102/google-cio-thinks-todays-lawmakers-arent-the-best-for-making-tech") (author nil (name nil "Greg Sandoval")))) ("Microsoft issues statement apologizing for employee's Twitter comments on next-generation Xbox" "<img alt=\"Xboxstock1_640_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/7982241/xboxstock1_640_large.jpg\" />
+<p>Microsoft has released an official response following <a href=\"http://www.theverge.com/2013/4/5/4185938/adam-orth-speaks-on-required-internet-connection-for-durango-rumors\">a number of tweets from Microsoft Studios creative director Adam Orth yesterday</a> commenting on rumors that the next-generation Xbox will require an always-on internet connection. The employee &mdash; who very likely is familiar with the console codenamed \"Durango\" &mdash; said \"Sorry, I don't get the drama over having an \"always on\" console,\" stating that we live in a world where every device is 'always-on.' It's unusual that Microsoft has seen fit to respond to the tweets, reminding people that \"this person is not a spokesperson for Microsoft\" and it apologized, stating \"we are very sorry if this offended anyone.\" Even more curiously, Microsoft hardly makes a gesture at denying the always-on...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox" (20831 15156) new 5 nil nil ((published nil "2013-04-05T20:59:32Z") (updated nil "2013-04-05T20:59:32Z") (title nil "Microsoft issues statement apologizing for employee's Twitter comments on next-generation Xbox") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Xboxstock1_640_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/7982241/xboxstock1_640_large.jpg\" />
+
+
+
+
+
+  <p>Microsoft has released an official response following <a href=\"http://www.theverge.com/2013/4/5/4185938/adam-orth-speaks-on-required-internet-connection-for-durango-rumors\">a number of tweets from Microsoft Studios creative director Adam Orth yesterday</a> commenting on rumors that the next-generation Xbox will require an always-on internet connection. The employee &mdash; who very likely is familiar with the console codenamed \"Durango\" &mdash; said \"Sorry, I don't get the drama over having an \"always on\" console,\" stating that we live in a world where every device is 'always-on.' It's unusual that Microsoft has seen fit to respond to the tweets, reminding people that \"this person is not a spokesperson for Microsoft\" and it apologized, stating \"we are very sorry if this offended anyone.\" Even more curiously, Microsoft hardly makes a gesture at denying the always-on...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox"))) (id nil "http://www.theverge.com/2013/4/5/4188316/microsoft-statement-on-employee-rant-on-next-generation-xbox") (author nil (name nil "Dante D'Orazio")))) ("T-Mobile update expands LTE to unlocked iPhone 5" "<img alt=\"Iphone-pin-lock-security_1020_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982127/iphone-pin-lock-security_1020_large.jpg\" />
+<p>Aspiring new iPhone 5 customers aren't the only ones T-Mobile is looking to please today. Hours after opening the <a href=\"http://www.theverge.com/2013/4/5/4186152/apple-tmobile-open-iphone-5-preorders\">pre-order period for iPhone 5 plans</a> in the US, T-Mobile also quietly <a target=\"_blank\" href=\"http://support.t-mobile.com/docs/DOC-5737\">released a carrier update</a> to bring LTE to all of its iPhone customers running iOS version 6 and above. The new update also gives customers visual voicemail, promises improved battery life thanks to better optimization with T-Mobile's network, and access to the <a target=\"_blank\" href=\"http://www.fcc.gov/guides/wireless-emergency-alerts-wea\">FCC's commercial mobile alert system</a> for public emergency notifications. Perhaps most importantly, it extends T-Mobile's new LTE network to unlocked iPhone 5s, too. But you may have more difficulty if you have a jailbroken iPhone: the company's update specifically says they aren't allowed, and that...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte" (20831 13569) new 6 nil nil ((published nil "2013-04-05T20:33:05Z") (updated nil "2013-04-05T20:33:05Z") (title nil "T-Mobile update expands LTE to unlocked iPhone 5") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Iphone-pin-lock-security_1020_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982127/iphone-pin-lock-security_1020_large.jpg\" />
+
+
+
+
+
+  <p>Aspiring new iPhone 5 customers aren't the only ones T-Mobile is looking to please today. Hours after opening the <a href=\"http://www.theverge.com/2013/4/5/4186152/apple-tmobile-open-iphone-5-preorders\">pre-order period for iPhone 5 plans</a> in the US, T-Mobile also quietly <a target=\"_blank\" href=\"http://support.t-mobile.com/docs/DOC-5737\">released a carrier update</a> to bring LTE to all of its iPhone customers running iOS version 6 and above. The new update also gives customers visual voicemail, promises improved battery life thanks to better optimization with T-Mobile's network, and access to the <a target=\"_blank\" href=\"http://www.fcc.gov/guides/wireless-emergency-alerts-wea\">FCC's commercial mobile alert system</a> for public emergency notifications. Perhaps most importantly, it extends T-Mobile's new LTE network to unlocked iPhone 5s, too. But you may have more difficulty if you have a jailbroken iPhone: the company's update specifically says they aren't allowed, and that...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte"))) (id nil "http://www.theverge.com/2013/4/5/4188044/t-mobile-iphone5-update-enable-lte") (author nil (name nil "Carl Franzen")))) ("Google asks FTC and Department of Justice to investigate 'patent privateering'" "<img alt=\"Google-project-glass_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982097/google-project-glass_large.jpg\" />
+<p>In the latest of several swipes against patent trolls, Google has taken aim at the companies who sell off their patents so they can be used in lawsuits. Writing to the FTC and US Department of Justice, Google warned against \"patent privateering\" &mdash; by which it means outsourcing patent warfare by going through firms that don't make anything themselves and therefore can't be countersued. Patent trolls are almost universally reviled for aggressively suing companies on vague, sweeping patent claims. But Google claims the US government should turn its attention to the companies who created those patents in the first place.</p>
+<p>\"PAEs [Patent Assertion Entities, which litigate patents] impose tremendous costs on innovative industries,\" writes...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering" (20831 12563) new 7 nil nil ((published nil "2013-04-05T20:16:19Z") (updated nil "2013-04-05T20:16:19Z") (title nil "Google asks FTC and Department of Justice to investigate 'patent privateering'") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Google-project-glass_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7982097/google-project-glass_large.jpg\" />
+
+
+
+
+
+  <p>In the latest of several swipes against patent trolls, Google has taken aim at the companies who sell off their patents so they can be used in lawsuits. Writing to the FTC and US Department of Justice, Google warned against \"patent privateering\" &mdash; by which it means outsourcing patent warfare by going through firms that don't make anything themselves and therefore can't be countersued. Patent trolls are almost universally reviled for aggressively suing companies on vague, sweeping patent claims. But Google claims the US government should turn its attention to the companies who created those patents in the first place.</p>
+<p>\"PAEs [Patent Assertion Entities, which litigate patents] impose tremendous costs on innovative industries,\" writes...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering"))) (id nil "http://www.theverge.com/2013/4/5/4187914/google-asks-ftc-and-doj-to-investigate-patent-privateering") (author nil (name nil "Adi Robertson")))) ("Google Fiber could expand to Austin as city preps for joint announcement next week" "<img alt=\"Google_fiber_report_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7981931/Google_Fiber_report_large.jpeg\" />
+<p>Google and the City of Austin, Texas have sent out invites for a press conference for \"a very important announcement\" next week, <a href=\"http://venturebeat.com/2013/04/05/google-fiber-coming-to-austin-city-government-google-holding-a-meeting-next-week-to-announce-something/\" target=\"_blank\">according to <i>VentureBeat</i></a>, and it is expected that the two will reveal that the city will be the next to receive Google Fiber. <i>VentureBeat</i> cites \"multiple sources\" that tell the website that the announcement will revolve around Google's gigabit internet service, but it's possible that the event will reveal some other partnership, like a new Google campus.</p>
+<p>The evidence, however, suggests otherwise. Beyond the rumors, Austin is a logical place for Google to expand its highly sought-after gigabit internet service. Not only did the city <a href=\"http://www.biggigaustin.org/\" target=\"_blank\">wage a campaign</a> to be Google's test city for the service (Kansas City...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement" (20831 9896) new 8 nil nil ((published nil "2013-04-05T19:31:52Z") (updated nil "2013-04-05T19:31:52Z") (title nil "Google Fiber could expand to Austin as city preps for joint announcement next week") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Google_fiber_report_large\" src=\"http://cdn0.sbnation.com/entry_photo_images/7981931/Google_Fiber_report_large.jpeg\" />
+
+
+
+
+
+  <p>Google and the City of Austin, Texas have sent out invites for a press conference for \"a very important announcement\" next week, <a href=\"http://venturebeat.com/2013/04/05/google-fiber-coming-to-austin-city-government-google-holding-a-meeting-next-week-to-announce-something/\" target=\"_blank\">according to <i>VentureBeat</i></a>, and it is expected that the two will reveal that the city will be the next to receive Google Fiber. <i>VentureBeat</i> cites \"multiple sources\" that tell the website that the announcement will revolve around Google's gigabit internet service, but it's possible that the event will reveal some other partnership, like a new Google campus.</p>
+<p>The evidence, however, suggests otherwise. Beyond the rumors, Austin is a logical place for Google to expand its highly sought-after gigabit internet service. Not only did the city <a href=\"http://www.biggigaustin.org/\" target=\"_blank\">wage a campaign</a> to be Google's test city for the service (Kansas City...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement"))) (id nil "http://www.theverge.com/2013/4/5/4187994/google-fiber-could-expand-to-austin-as-city-preps-for-joint-announcement") (author nil (name nil "Dante D'Orazio")))) ("3D printer produces synthetic tissue capable of transmitting signals like nerves" "<img alt=\"_hnsfj017ws-_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/7981561/_hnsfj017ws-_large.png\" />
+<p>Scientists have used a custom-made 3D printer to make a synthetic tissue that could have a variety of applications &mdash; including the ability to transmit long-distance electric signals much like nerves. The process, <a href=\"http://www.sciencemag.org/content/340/6128/48.abstract\" target=\"_blank\">published in <i>Science</i></a> by an Oxford University team led by Hagan Bayley, prints a network of droplets made out of aqueous solutions &mdash; a liquid mixture &mdash; instead of the solids that standard 3D printers produce.</p>
+<p>The printer, made specifically for this experiment since already-existent models weren't up to the task, places tiny drops of liquid into an oil solution. The drops, instead of adhering to one another, are naturally separated by a lipid layer. When networks of these drops are printed in the tens of thousands &mdash; the...</p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves" (20831 8769) new 9 nil nil ((published nil "2013-04-05T19:13:05Z") (updated nil "2013-04-05T19:13:05Z") (title nil "3D printer produces synthetic tissue capable of transmitting signals like nerves") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"_hnsfj017ws-_large\" src=\"http://cdn3.sbnation.com/entry_photo_images/7981561/_hnsfj017ws-_large.png\" />
+
+
+
+
+
+  <p>Scientists have used a custom-made 3D printer to make a synthetic tissue that could have a variety of applications &mdash; including the ability to transmit long-distance electric signals much like nerves. The process, <a href=\"http://www.sciencemag.org/content/340/6128/48.abstract\" target=\"_blank\">published in <i>Science</i></a> by an Oxford University team led by Hagan Bayley, prints a network of droplets made out of aqueous solutions &mdash; a liquid mixture &mdash; instead of the solids that standard 3D printers produce.</p>
+<p>The printer, made specifically for this experiment since already-existent models weren't up to the task, places tiny drops of liquid into an oil solution. The drops, instead of adhering to one another, are naturally separated by a lipid layer. When networks of these drops are printed in the tens of thousands &mdash; the...</p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves"))) (id nil "http://www.theverge.com/2013/4/5/4187568/scientists-produce-synthetic-tissue-capable-of-transmitting-signals-like-nerves") (author nil (name nil "Dante D'Orazio")))) ("EA's Peter Moore concedes 'we can do better' as 'worst company' crown approaches" "<img alt=\"Screen_shot_2013-04-05_at_3\" src=\"http://cdn0.sbnation.com/entry_photo_images/7981721/Screen_Shot_2013-04-05_at_3.04.34_PM_large.png\" />
+<p>No business wants to labeled the worst company in America, especially for two years running, yet that's the position EA finds itself in as <a target=\"_blank\" href=\"http://consumerist.com/2013/04/05/worst-company-in-america-semifinals-ea-vs-ticketmaster/\">voting continues on <i>Consumerist's</i> annual poll</a>. In response to the expected (and embarrassing) \"victory,\" COO Peter Moore has taken to the company's blog today with a simple message: EA can and will do better. \"I&rsquo;ll be the first to admit that we&rsquo;ve made plenty of mistakes,\" he writes. \"These include server shut downs too early, games that didn&rsquo;t meet expectations, missteps on new pricing models and most recently, severely <a href=\"http://www.theverge.com/2013/3/14/4103140/simcity-launch-and-server-problems\">fumbling the launch of <i>SimCity</i>.</a>\" That last example has been a particularly troublesome one for the gaming publisher; <a href=\"http://www.theverge.com/2013/3/18/4120332/ea-ceo-john-riccitiello-stepping-down-on-march-30th\">John Riccitiello last week stepped down as EA's CEO...</a></p>
+<p>
+<a href=\"http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better\">Continue reading&hellip;</a>
+</p>" "http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better" (20831 8350) new 10 nil nil ((published nil "2013-04-05T19:06:06Z") (updated nil "2013-04-05T19:06:06Z") (title nil "EA's Peter Moore concedes 'we can do better' as 'worst company' crown approaches") (content ((type . "html")) "
+  
+
+
+
+
+  <img alt=\"Screen_shot_2013-04-05_at_3\" src=\"http://cdn0.sbnation.com/entry_photo_images/7981721/Screen_Shot_2013-04-05_at_3.04.34_PM_large.png\" />
+
+
+
+
+
+  <p>No business wants to labeled the worst company in America, especially for two years running, yet that's the position EA finds itself in as <a target=\"_blank\" href=\"http://consumerist.com/2013/04/05/worst-company-in-america-semifinals-ea-vs-ticketmaster/\">voting continues on <i>Consumerist's</i> annual poll</a>. In response to the expected (and embarrassing) \"victory,\" COO Peter Moore has taken to the company's blog today with a simple message: EA can and will do better. \"I&rsquo;ll be the first to admit that we&rsquo;ve made plenty of mistakes,\" he writes. \"These include server shut downs too early, games that didn&rsquo;t meet expectations, missteps on new pricing models and most recently, severely <a href=\"http://www.theverge.com/2013/3/14/4103140/simcity-launch-and-server-problems\">fumbling the launch of <i>SimCity</i>.</a>\" That last example has been a particularly troublesome one for the gaming publisher; <a href=\"http://www.theverge.com/2013/3/18/4120332/ea-ceo-john-riccitiello-stepping-down-on-march-30th\">John Riccitiello last week stepped down as EA's CEO...</a></p>
+  <p>
+    <a href=\"http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better\">Continue reading&hellip;</a>
+  </p>
+
+
+
+") (link ((type . "text/html") (rel . "alternate") (href . "http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better"))) (id nil "http://www.theverge.com/2013/4/5/4187786/electronic-arts-coo-peter-moore-says-we-can-do-better") (author nil (name nil "Chris Welch")))))
