@@ -119,7 +119,8 @@
 
 ;; --------------------------------------------------------------------
 (tool-bar-mode -1)
-(menu-bar-mode -1)
+;;(menu-bar-mode -1)
+
 (scroll-bar-mode -1)
 (global-auto-revert-mode t)
 ;;(global-linum-mode 1)
@@ -130,6 +131,9 @@
 (setq shell-file-name "bash")
 (setq explicit-shell-file-name shell-file-name)
 
+;; make text-mode the default for new buffers
+(setq-default major-mode 'text-mode)
+(add-hook 'text-mode-hook 'visual-line-mode)
 
 ;; --------------------------------------------------------------------
 ;; no splash screen
@@ -145,7 +149,6 @@
 ;; Highlight regions and add special behaviors to regions.
 ;; "C-h d transient" for more information
 (setq transient-mark-mode t)
-
 
 
 ;; --------------------------------------------------------------------
@@ -165,7 +168,10 @@
 ;;    (load-theme 'wheatgrass t))
 
 ;;(load-theme 'wheatgrass t)
-(load-theme 'solarized-dark t)
+(load-theme 'deeper-blue t)
+
+;; resize the window to a decent size laptop
+(when window-system (set-frame-size (selected-frame) 100 55))
 
 
 ;; --------------------------------------------------------------------
@@ -243,12 +249,12 @@
 ;;(global-set-key "\C-cc" 'org-capture)
 ;;(global-set-key "\C-ca" 'org-agenda)
 ;;(global-set-key "\C-cb" 'org-iswitchb)
+(add-hook 'org-mode-hook 'visual-line-mode)
 
 
 ;; --------------------------------------------------------------------
-;; Buffer Switching Ease
+;; Better Buffer Switching
 (ido-mode t)
-
 
 
 ;; ====================================================================
@@ -261,6 +267,7 @@
 (setq ag-highlight-search t)
 ;; (global-set-key (kbd "<f5>") 'ag-project)
 ;; (global-set-key (kbd "<f6>") 'ag-regexp-project-at-point)
+
 
 ;; --------------------------------------------------------------------
 ;; Support for Ruby Coding
@@ -424,6 +431,7 @@
     (server-start))
 
 
+(set-frame-parameter nil 'fullscreen nil)
 
 ;; ====================================================================
 ;; Built-In Customization

@@ -1,4 +1,3 @@
-
 ;; Toggle Fullscreen support
 (defun toggle-fullscreen ()
   "Toggle full screen on Mac"
@@ -183,6 +182,26 @@ This may not do the correct thing in presence of links. If it does not find FILE
             (local-set-key (kbd "C-c k") 'rspec-compile-file)
             ))
 
+
+;;; C/C++ modes
+
+(add-hook 'c-mode-hook
+          (lambda ()
+            (linum-on 1)
+            ))
+
+(add-hook 'cc-mode-hook
+          (lambda ()
+            (linum-on 1)
+            ))
+
+(add-hook 'c++-mode-hook
+          (lambda ()
+            (linum-on 1)
+            ))
+
+;; Objective C
+(load "objc")
 
 
 ;;; END
